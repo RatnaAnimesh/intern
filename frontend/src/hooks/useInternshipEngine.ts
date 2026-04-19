@@ -12,6 +12,8 @@ export interface Internship {
   branch?: string;
   modality?: string;
   is_first_year?: string;
+  skills?: string;
+  viability_score?: number;
   score?: number;
 }
 
