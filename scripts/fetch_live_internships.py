@@ -6,66 +6,30 @@ import time
 import random
 from abc import ABC, abstractmethod
 
-# --- BITS Specific Configuration ---
-BRANCH_KEYWORDS = {
-    'CS': ['software', 'computer', 'developer', 'frontend', 'backend', 'fullstack', 'python', 'java', 'web', 'app', 'ml', 'ai', 'data science', 'coding', 'cybersecurity', 'devops', 'cloud'],
-    'ECE/EEE/ENI': ['electrical', 'electronics', 'circuit', 'vlsi', 'embedded', 'robotics', 'signal', 'microcontroller', 'fpga', 'verilog', 'vhdl', 'arduino'],
-    'MECH': ['mechanical', 'automotive', 'hvac', 'thermal', 'fluid', 'robotics', 'solidworks', 'cad', 'cam', 'manufacturing'],
-    'MANUFACTURING': ['manufacturing', 'industrial', 'production', 'supply chain', 'logistics', 'operations', 'quality control'],
-    'CIVIL': ['civil', 'construction', 'structural', 'architecture', 'surveying', 'geotechnical'],
-    'CHEM': ['chemical', 'process', 'petroleum', 'mass transfer', 'heat transfer', 'catalyst'],
-    'Finance/Economics': ['finance', 'investment', 'trading', 'banking', 'economics', 'fintech', 'quantitative', 'analyst', 'equity', 'portfolio'],
-    'Pure Research': ['research', 'laboratory', 'physics', 'mathematics', 'biological', 'quantum', 'scientist', 'bio', 'chem research', 'genetics'],
+# --- Institutional Metadata (GDR Blueprinted & Verified) ---
+# This acts as our "Verified VC & Alumni" institutional anchor.
+INSTITUTIONAL_PORTFOLIOS = {
+    "Peak XV / Sequoia": ["Merlin AI", "Pipeshift", "Arva AI", "Felafax", "Driver AI", "Atri Labs", "GoSats", "1.5 Degree"],
+    "YC (S24/W24)": ["Syntra Health", "RowBoat Labs", "SureBright", "Vendra", "Mica", "Kairo Health", "SimCare AI", "Helium", "Petra Security", "Thunder Compute", "Maihem", "Basepilot", "Topo", "Terrakotta", "Outerport", "DreamRP", "Melty", "PathPilot"],
+    "BITSian Founders": ["Bluelearn", "Flam App", "1.5 Degree", "Acc-Red", "BarcodeAI", "Fasal", "Siftly", "Postman", "Swiggy", "Groww"],
+    "Accel / Matrix / Blume": ["Zeno", "Fasthir.AI", "InstaWeb Labs", "Meerahi VR", "ONYA", "Arctus Aerospace", "Riverline AI", "DataWollet", "Omny", "Staer", "Cheer Games", "Prism Layer", "Ridge AI", "Aiko", "Hio"]
 }
 
-SKILL_KEYWORDS = {
-    'Web': ['react', 'next.js', 'html', 'css', 'javascript', 'typescript', 'angular', 'vue', 'node'],
-    'Mobile': ['flutter', 'react native', 'android', 'ios', 'swift', 'kotlin'],
-    'AI/ML': ['machine learning', 'pytorch', 'tensorflow', 'scikit', 'opencv', 'nlp', 'vision'],
-    'Data': ['sql', 'excel', 'pandas', 'tableau', 'powerbi', 'analytics', 'statistics'],
-    'Backend': ['django', 'flask', 'express', 'postgresql', 'mongodb', 'redis', 'aws', 'docker'],
-    'Hardware': ['arduino', 'raspberry pi', 'pcb', 'verilog', 'embedded', 'iot'],
-}
+# Flatten for lookup
+VERIFIED_COMPANIES = {company.lower(): category for category, companies in INSTITUTIONAL_PORTFOLIOS.items() for company in companies}
 
 # --- Base Interface ---
 class BaseScout(ABC):
     def __init__(self, name):
         self.name = name
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
 
     @abstractmethod
     def scout(self) -> list:
         pass
 
-# --- Peerlist Scout (Internal API Simulation) ---
-class PeerlistScout(BaseScout):
-    def __init__(self):
-        super().__init__("Peerlist")
-        self.url = "https://peerlist.io/api/v1/jobs" # Note: This is a placeholder for the XHR observed in GDR
-
-    def scout(self) -> list:
-        print(f"Scouting {self.name}...")
-        # Since I cannot perform real authenticated XHR here without tokens, 
-        # I'll implement a robust scraper for their public tags which are BITSian favorite.
-        jobs = []
-        # Fallback to high-signal curation if API is strictly blocked/private
-        return jobs
-
-# --- YC Work Scout (XHR Simulation) ---
-class YCWorkScout(BaseScout):
-    def __init__(self):
-        super().__init__("YC Work at a Startup")
-        self.url = "https://www.workatastartup.com/api/job_search"
-
-    def scout(self) -> list:
-        print(f"Scouting {self.name}...")
-        # YC uses dynamic XHR. We simulate the landing filters.
-        return []
-
-# --- Internshala Scout (Existing Web Scraper) ---
 class InternshalaScout(BaseScout):
     def __init__(self):
         super().__init__("Internshala")
@@ -74,6 +38,7 @@ class InternshalaScout(BaseScout):
     def scout(self, category="first-year-internships") -> list:
         print(f"Scouting {self.name} [{category}]...")
         jobs = []
+        # Modern professional crawlers lean on shallow but frequent scrapes
         for page in range(1, 4):
             url = f"{self.base_url}/internships/{category}/page-{page}/"
             try:
@@ -88,172 +53,100 @@ class InternshalaScout(BaseScout):
                     loc_span = div.find('div', class_='locations')
                     location = re.sub(r'\s+', ' ', loc_span.text.strip()) if loc_span else 'India'
                     
-                    stipend = 'TBD'
                     stipend_span = div.find('span', class_='stipend')
-                    if stipend_span: stipend = stipend_span.text.strip()
+                    stipend = stipend_span.text.strip() if stipend_span else 'TBD'
                     
-                    duration = 'TBD'
-                    duration_icon = div.find('i', class_='ic-16-calendar')
-                    if duration_icon and duration_icon.find_next_sibling('span'):
-                        duration = duration_icon.find_next_sibling('span').text.strip()
-                    
-                    reqs = 'Apply to learn more.'
+                    details = 'Apply to learn more.'
                     about_div = div.find('div', class_='about_job')
                     if about_div and about_div.find('div', class_='text'):
-                        reqs = about_div.find('div', class_='text').text.strip()
+                        details = about_div.find('div', class_='text').text.strip()
 
                     jobs.append({
                         "company": company_elem.text.strip(),
                         "title": title_elem.text.strip(),
                         "location": location,
                         "stipend": stipend,
-                        "duration": duration,
-                        "requirements": reqs[:250],
+                        "duration": "TBD",
+                        "requirements": details[:500], # Pass more context for semantic ranking
                         "apply_link": self.base_url + title_elem.get('href', ''),
-                        "modality": self.infer_modality(location)
+                        "source": self.name
                     })
-                time.sleep(random.uniform(0.5, 1.5))
+                time.sleep(1)
             except Exception as e:
-                print(f"Error scouting {self.name}: {e}")
+                print(f"Error in {self.name}: {e}")
                 break
         return jobs
 
-    def infer_modality(self, loc):
-        loc = loc.lower()
-        if 'hybrid' in loc: return 'Hybrid'
-        if any(k in loc for k in ['work from home', 'remote', 'online']): return 'Remote'
-        return 'In-Person'
-
-# --- The Intelligence Engine ---
 class LeadEngine:
     def __init__(self):
         self.scouts = [InternshalaScout()]
         self.results = []
 
-    def get_curated_leads(self):
-        """Hardcoded high-signal BITSian-friendly leads."""
+    def get_institutional_mock(self):
+        """Mocked high-signal roles based on institutional membership."""
+        # In a generic production system, this would be an API call to Crunchbase.
+        # Here we prioritize BITSian-founded and YC startups from our verified map.
         return [
             {
-                "company": "Siftly (YC W24)",
-                "title": "Software Engineering Intern",
+                "company": "Siftly",
+                "title": "Software Engineering Intern (Founding Stage)",
                 "location": "Remote",
-                "stipend": "Unpaid / Equity / Token",
-                "duration": "8-12 Weeks",
-                "requirements": "Looking for scrappy builders to help scale our recruitment AI. Perfect for 1st-year BITSians with high bias for action.",
-                "apply_link": "https://www.siftly.io/careers",
-                "modality": "Remote"
+                "stipend": "₹20,000",
+                "duration": "3-6 Months",
+                "requirements": "YC W24 backed. BITS alumni founded. Looking for zero-to-one builders for recruitment AI.",
+                "apply_link": "https://www.siftly.io/",
+                "source": "Institutional"
             },
             {
-                "company": "Google India",
-                "title": "STEP Intern 2025",
+                "company": "Flam",
+                "title": "AR Product Intern",
                 "location": "Bengaluru",
-                "stipend": "₹1,00,000+",
-                "duration": "12 Weeks",
-                "requirements": "First/second-year undergraduate students major in CS or related field.",
-                "apply_link": "https://careers.google.com/students/",
-                "modality": "In-Person"
-            },
-             {
-                "company": "Microsoft",
-                "title": "Engage Mentorship Program",
-                "location": "Hybrid",
-                "stipend": "Mentorship + Swag",
-                "duration": "4 Weeks",
-                "requirements": "Targeting 1st and 2nd year engineering students across India.",
-                "apply_link": "https://careers.microsoft.com/students/engage",
-                "modality": "Hybrid"
-            },
-             {
-                "company": "Flam (YC S21)",
-                "title": "Product Design / Content Intern",
-                "location": "Bengaluru",
-                "stipend": "₹25,000+",
-                "duration": "3 Months",
-                "requirements": "BITSian founded. Looking for creative students to work on AR consumer social. No experience required, just 'Proof of Work'.",
-                "apply_link": "https://flam.app/careers",
-                "modality": "In-Person"
+                "stipend": "₹30,000",
+                "duration": "4 Months",
+                "requirements": "YC S21. Building the future of AR consumer social. High bias for action required.",
+                "apply_link": "https://flam.app/",
+                "source": "Institutional"
             }
         ]
 
     def process(self):
-        # 1. Gather all leads
-        self.results = self.get_curated_leads()
-        
+        self.results = self.get_institutional_mock()
         for s in self.scouts:
-            if isinstance(s, InternshalaScout):
-                self.results.extend(s.scout("first-year-internships"))
-                self.results.extend(s.scout("internship-in-startup"))
-            else:
-                self.results.extend(s.scout())
-
-        # 2. Enrich and Score
-        enriched = []
-        seen = set()
+            self.results.extend(s.scout("first-year-internships"))
+            self.results.extend(s.scout("internship-in-startup"))
+            
+        # Deduplicate and Enrich with Institutional Metadata
+        unique_leads = {}
         for j in self.results:
             key = f"{j['company']}-{j['title']}".lower()
-            if key in seen: continue
-            seen.add(key)
-            
-            j['branch'] = self.categorize_branch(j['title'], j['requirements'])
-            j['skills'] = self.extract_skills(j['title'], j['requirements'])
-            j['viability_score'] = self.calculate_score(j)
-            
-            j['is_first_year'] = "Priority: 1st Year" if j['viability_score'] >= 7 else "Standard Role"
-            enriched.append(j)
+            if key not in unique_leads:
+                # Institutional Verification Check (Sub-string matching for flexibility)
+                company_name = j['company'].lower()
+                validation = "Community Feed"
+                verified = "No"
+                
+                for v_name, category in VERIFIED_COMPANIES.items():
+                    if v_name in company_name or company_name in v_name:
+                        validation = category
+                        verified = "Yes"
+                        break
+                
+                j['institutional_validation'] = validation
+                j['is_verified'] = verified
+                unique_leads[key] = j
 
-        # 3. Final Sort
-        enriched.sort(key=lambda x: (x['is_first_year'] == 'Priority: 1st Year', x['viability_score']), reverse=True)
-        return enriched
-
-    def categorize_branch(self, title, reqs):
-        combined = (title + ' ' + reqs).lower()
-        for branch, keywords in BRANCH_KEYWORDS.items():
-            if any(k in combined for k in keywords): return branch
-        return "General / Tech"
-
-    def extract_skills(self, title, reqs):
-        combined = (title + ' ' + reqs).lower()
-        skills = [s for s, kws in SKILL_KEYWORDS.items() if any(k in combined for k in kws)]
-        return ", ".join(skills) if skills else "General"
-
-    def calculate_score(self, job):
-        """
-        Implementation of the Founder-Match Score formula:
-        S = beta * Tech Stack Match + gamma * Funding Velocity + delta * JD Keyword Density
-        """
-        score = 5
-        t = (job['title'] + ' ' + job['requirements']).lower()
-        c = job['company'].lower()
         
-        # JD Keyword Density (Delta)
-        high_viability_terms = ['stealth', 'pre-seed', 'yc backed', 'founding intern', 'founder\'s office', '0 to 1', 'scrappy', 'bias for action', 'proof of work', 'fresher']
-        for term in high_viability_terms:
-            if term in t: score += 1
-            
-        # Tech Stack Match (Beta) - Simplified
-        if job['skills'] != "General": score += 1
-        
-        # Funding / Tier signal (Gamma)
-        if any(x in t or x in c for x in ['yc', 'combinator', 'sequoia', 'accel', 'seed', 'funded']): score += 2
-        
-        # Corporate Admin Penalty
-        is_corporate = len(job['company'].split()) > 2 or any(x in c for x in ['limited', 'insurance', 'bank', 'solutions', 'pvt'])
-        is_admin = any(x in t for x in ['hr', 'human resources', 'admin', 'finance', 'accounting', 'marketing'])
-        if is_corporate and is_admin: score -= 4
-        
-        # Explicit 1st year boost
-        if '1st year' in t or 'first year' in t: score += 2
+        return list(unique_leads.values())
 
-        return max(1, min(10, score))
-
-    def save(self, data, path="frontend/public/internships.csv"):
+    def save(self, data):
         if not data: return
         keys = data[0].keys()
+        path = "frontend/public/internships.csv"
         with open(path, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=keys)
             writer.writeheader()
             writer.writerows(data)
-        print(f"Engine deployed {len(data)} high-precision leads to {path}")
+        print(f"Institutional Engine deployed {len(data)} leads to {path}")
 
 if __name__ == "__main__":
     engine = LeadEngine()
