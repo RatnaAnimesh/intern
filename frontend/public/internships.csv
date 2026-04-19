@@ -1,320 +1,426 @@
-company,title,location,stipend,duration,requirements,apply_link,branch,modality,is_first_year,skills,viability_score
-Microsoft,Microsoft Engage,Remote / Bengaluru,Mentorship + Swags,4 Weeks,Engineering students from all branches entering their 2nd year (target 1st years).,https://careers.microsoft.com/students/,General / Tech,Hybrid,Priority: 1st Year,"Web, AI/ML, Mobile",10
-Google India,STEP Internship (Software Engineering),Bengaluru/Hyderabad,"₹1,00,000+",12 Weeks,1st/2nd Year B.Tech students from marginalized backgrounds or women in tech.,https://careers.google.com/students/,CS,In-Person,Priority: 1st Year,"Web, Backend",9
-Amazon,Amazon Future Engineer Scholarship + Intern,Remote,"₹40,000+",8 Weeks,Woman students in 1st year of B.Tech/BE in CS and related branches.,https://www.amazonfutureengineer.in/,CS,Remote,Priority: 1st Year,"Data, Web",9
-Fasal (Agri-Tech Startup),Frontend Development Intern,Bengaluru,"₹20,000",3-6 Months,Strong fundamentals in HTML/CSS/JS. Open to first-year enthusiasts with a portfolio.,https://fasal.co/careers.html,CS,In-Person,Priority: 1st Year,Web,8
-Bharti Axa Life Insurance Company Limited,Human Resources (HR),Mumbai,"₹ 15,000 - 20,000 /month",3 Months,"We are looking for a proactive and detail-oriented HR Intern to support our HR and Compliance team. This internship is ideal for freshers or students who want hands-on experience in HR operations, com...",https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-bharti-axa-life-insurance-company-limited1775113759,CS,In-Person,Priority: 1st Year,Backend,8
-Pawzz Foundation,Volunteering,Work from home,"₹ 1,500 - 15,000 /month",1 Month,"Volunteering at Pawzz is more than a contribution of time- it’s an immersion into the craft of creating impact through connection. Over 15,000 interns have walked this path, leaving not just with rich...",https://internshala.com/internship/detail/work-from-home-part-time-volunteering-internship-at-pawzz-foundation1776313825,CS,Remote,Standard Role,General,6
-Edify Equity,Finance Equity Analyst,Work from home,"₹ 1,000 - 1,100 /month",1 Month,"1. Conduct fundamental analysis of companies, industries, and sectors.
-2. Track market trends, economic indicators, and news that impact equity markets.
-3. Assist in preparing equity research report...",https://internshala.com/internship/detail/work-from-home-part-time-finance-equity-analyst-internship-at-edify-equity1776335830,Finance/Economics,Remote,Standard Role,Finance,6
-Edify Equity,Finance Research Analyst,Work from home,"₹ 1,000 - 1,100 /month",1 Month,"1. Assist in creating detailed reports for buy/hold/sell recommendations.
-2. Help in tracking portfolio performance.
-3. Collect, analyze, and interpret financial data from companies, sectors, and in...",https://internshala.com/internship/detail/work-from-home-finance-research-analyst-internship-at-edify-equity1776430378,CS,Remote,Standard Role,Finance,6
+company,title,location,stipend,duration,requirements,apply_link,modality,branch,skills,viability_score,is_first_year
+Siftly (YC W24),Software Engineering Intern,Remote,Unpaid / Equity / Token,8-12 Weeks,Looking for scrappy builders to help scale our recruitment AI. Perfect for 1st-year BITSians with high bias for action.,https://www.siftly.io/careers,Remote,CS,General,9,Priority: 1st Year
+Flam (YC S21),Product Design / Content Intern,Bengaluru,"₹25,000+",3 Months,"BITSian founded. Looking for creative students to work on AR consumer social. No experience required, just 'Proof of Work'.",https://flam.app/careers,In-Person,General / Tech,General,8,Priority: 1st Year
+Seeds Fincap Private Limited,Graphic Design,Gurgaon,"₹ 2,000 - 10,000 /month",3 Months,"As a Graphic Design intern at Seeds Fincap Private Limited, you will have the opportunity to showcase your creativity and skills in Adobe Photoshop, video editing, and Adobe Creative Suite. Join our dynamic team and gain valuable real-world experienc",https://internshala.com/internship/detail/graphic-design-internship-in-gurgaon-at-seeds-fincap-private-limited1775821117,In-Person,CS,General,7,Priority: 1st Year
+Conversely,UI /UX Development,Delhi (Hybrid),"₹ 5,000 - 10,000 /month",6 Months,"Conversely is seeking a passionate and driven UI/UX Development Intern to contribute to our product development lifecycle. This remote internship offers a hands-on opportunity to apply your foundational UI/UX knowledge to real-world challenges, worki",https://internshala.com/internship/detail/ui-ux-development-internship-in-delhi-at-conversely1773223283,Hybrid,CS,General,7,Priority: 1st Year
+VIZON,Business Strategy,"Dehradun, Delhi, Bangalore","₹ 8,000 - 16,000 /month",4 Months,"VIZON is seeking a Business Strategy intern with English proficiency, strong research and analytics skills, knowledge of Microsoft tools, Google Docs, Finance, Human Resource Management and basic Design skills, with the ability to communicate effecti",https://internshala.com/internship/detail/business-strategy-internship-in-multiple-locations-at-vizon1775788136,In-Person,Finance/Economics,Data,6,Standard Role
+Kanha Creation,Content & E-Commerce Management,Delhi (Hybrid),"₹ 4,100 - 7,000 /month",3 Months,"1.Creating and managing product catalogs including images, descriptions, specifications, and pricing details
+2.Preparing and maintaining Excel sheets for SKUs, product data, and inventory tracking
+3.Uploading and managing product listings on e-comm",https://internshala.com/internship/detail/content-e-commerce-management-internship-in-delhi-at-kanha-creation1775631968,Hybrid,CS,Data,6,Standard Role
+VIZON,Embedded Systems,Work from home,"₹ 14,000 - 22,000 /month",4 Months,"The selected intern would work on brainstorming, prototyping & programming Microcontrollers & Microprocessors for consumer electronic products.
+
+You can visit our website https://vizon.tech",https://internshala.com/internship/detail/work-from-home-embedded-systems-internship-at-vizon1775608275,Remote,CS,Hardware,6,Standard Role
+VIZON,Software Development,Work from home,"₹ 11,000 - 17,000 /month",3 Months,"As a Software Development Intern at VIZON, you will have the opportunity to immerse yourself in the dynamic world of technology and contribute to cutting-edge projects. With your expertise in C++ Programming, Java, Python, and JavaScript, you will pl",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-vizon1775608161,Remote,CS,Web,6,Standard Role
+VIZON,Front End Development,Work from home,"₹ 12,000 - 20,000 /month",3 Months,"VIZON is seeking a dynamic and talented Front End Development intern to join our innovative team. If you have a passion for JavaScript, CSS, HTML, and UI/UX design, this is the perfect opportunity for you! 
+
+ 
+
+1. Collaborate with our creative te",https://internshala.com/internship/detail/work-from-home-front-end-development-internship-at-vizon1775608135,Remote,CS,Web,6,Standard Role
+VIZON,Artificial Intelligence (AI),Work from home,"₹ 13,000 - 21,000 /month",3 Months,"Selected intern's day-to-day responsibilities include utilizing Python & C++ with multiple Libraries to build AI algorithms, computer vision detection programs, and machine learning models.",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-vizon1775607953,Remote,CS,AI/ML,6,Standard Role
+VIZON,Web Development,"Dehradun, Bangalore","₹ 12,000 - 20,000 /month",4 Months,"We are looking for a talented Full Stack Development intern to join our team at VIZON. If you are passionate about creating innovative solutions and have a strong foundation in HTML, CSS, JavaScript, Three.js, AWS, DynamoDB, UI & UX Design, then this",https://internshala.com/internship/detail/web-development-internship-in-multiple-locations-at-vizon1775221357,In-Person,CS,"Web, Backend",6,Standard Role
+Shunya Digital,Search Engine Optimization (SEO),Work from home,"₹ 3,500 - 5,001 /month",6 Months,"Are you a digital marketing whiz with a passion for SEO and social media? Shunya Digital is seeking a talented SEO intern to join our dynamic team! If you have experience with Google Analytics, SEM, AdWords, and content writing, this is the perfect o",https://internshala.com/internship/detail/work-from-home-search-engine-optimization-seo-internship-at-shunya-digital1775116911,Remote,General / Tech,Data,6,Standard Role
+VIZON,Data Analytics,Work from home,"₹ 10,000 - 17,000 /month",3 Months,"1. Assist in collecting, cleaning, and analyzing large datasets to extract valuable insights for decision-making purposes
+2. Collaborate with cross-functional teams to identify business challenges and provide data-driven solutions
+3. Develop and ma",https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-vizon1775052817,Remote,General / Tech,Data,6,Standard Role
+VIZON,Linux Engineer,Dehradun,"₹ 12,000 - 23,000 /month",4 Months,"As a software development intern at VIZON, you will have the exciting opportunity to work with cutting-edge technologies like XR, AI, and cloud computing. Your role requires knowledge of AWS, Bash, Linux, and C++/Python.
+
+
+
+1. Customizing Linux u",https://internshala.com/internship/detail/linux-engineer-internship-in-dehradun-at-vizon1774931353,In-Person,CS,Backend,6,Standard Role
+VIZON,Full Stack Development,Dehradun,"₹ 12,000 - 20,000 /month",3 Months,"We are looking for a talented Full Stack Development intern to join our team at VIZON. If you are passionate about creating innovative solutions and have a strong foundation in HTML, CSS, JavaScript, Three.js, AWS, DynamoDB, UI & UX Design, then this",https://internshala.com/internship/detail/full-stack-development-internship-in-dehradun-at-vizon1774398659,In-Person,CS,"Web, Backend",6,Standard Role
+VIZON,Electronics Engineering,Dehradun,"₹ 12,000 - 28,000 /month",4 Months,"1. Designing and developing hardware systems.
+2. Creating and analyzing circuit designs, PCBs, and working with MCUs, ICs, SoCs, sensors, and power electronics.
+3. Prototyping and collaborating with the team to ensure efficient hardware solutions.",https://internshala.com/internship/detail/electronics-engineering-internship-in-dehradun-at-vizon1773347568,In-Person,ECE/EEE/ENI,Hardware,6,Standard Role
+Digital Guruji,Full Stack Development,Delhi,"₹ 15,000 /month",6 Months,"1. Developing tools and automations with external API integrations
+2. Collaborating with the team to manage, optimize, and customize web applications
+3. Building and maintaining both front-end interfaces (HTML, CSS, JavaScript) and back-end service",https://internshala.com/internship/detail/full-stack-development-internship-in-delhi-at-digital-guruji1776610602,In-Person,CS,Web,6,Standard Role
+Conversely,Podcast Production,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,Conversely is seeking a proactive and skilled podcast production intern to contribute to our dynamic production team. This internship offers an excellent opportunity for individuals with some foundational experience in audio or media production to re,https://internshala.com/internship/detail/podcast-production-internship-in-delhi-at-conversely1773488855,Hybrid,MANUFACTURING,Data,6,Standard Role
+Conversely,Curriculum Development,Delhi (Hybrid),"₹ 7,000 - 10,000 /month",6 Months,"We are seeking a proactive and detail-oriented curriculum development intern to join our growing team. This hybrid role, based at our modern office in Nehru Place, Delhi, offers an excellent opportunity to actively contribute to the design and refine",https://internshala.com/internship/detail/curriculum-development-internship-in-delhi-at-conversely1773491638,Hybrid,CS,Data,6,Standard Role
+Conversely,Sales Performance Sales Analytics,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"We are looking for a motivated sales performance analytics Intern to contribute to our data-driven sales strategy. This role offers the opportunity to apply your analytical skills to real-world business challenges, assisting in the generation of acti",https://internshala.com/internship/detail/sales-performance-sales-analytics-internship-in-delhi-at-conversely1773489940,Hybrid,CS,Data,6,Standard Role
+Google India,STEP Intern 2025,Bengaluru,"₹1,00,000+",12 Weeks,First/second-year undergraduate students major in CS or related field.,https://careers.google.com/students/,In-Person,General / Tech,General,5,Standard Role
+Microsoft,Engage Mentorship Program,Hybrid,Mentorship + Swag,4 Weeks,Targeting 1st and 2nd year engineering students across India.,https://careers.microsoft.com/students/engage,Hybrid,General / Tech,General,5,Standard Role
 ConsultBae,AI Dogri Trainer,Work from home,"₹ 5,000 - 8,000 /month",6 Months,"We are hiring an AI Dogri trainer intern to support internal processes focused on improving the performance and accuracy of AI systems used within the organization.
 
 
 
-1. Review AI-generated outpu...",https://internshala.com/internship/detail/work-from-home-ai-dogri-trainer-internship-at-consultbae1776312169,CS,Remote,Standard Role,General,6
-ConsultBae,AI Sanskrit Trainer,Work from home,"₹ 5,000 - 8,000 /month",6 Months,We are looking for an AI Sanskrit trainer intern who will work on improving AI systems by enhancing their understanding of regional languages. This role is directly with our organization and involves ...,https://internshala.com/internship/detail/work-from-home-ai-sanskrit-trainer-internship-at-consultbae1776256552,CS,Remote,Standard Role,General,6
-ConsultBae,AI Konkani Trainer,Work from home,"₹ 5,000 - 8,000 /month",6 Months,We are looking for an AI language trainer intern to work on improving the quality and accuracy of AI-generated content across multiple regional languages. This internship is directly with our organiza...,https://internshala.com/internship/detail/work-from-home-ai-konkani-trainer-internship-at-consultbae1776312387,CS,Remote,Standard Role,General,6
+1. Review AI-generated outputs and evaluate them for quality and accuracy
+2. ",https://internshala.com/internship/detail/work-from-home-ai-dogri-trainer-internship-at-consultbae1776312169,Remote,CS,General,5,Standard Role
+Pawzz Foundation,Volunteering,Work from home,"₹ 1,500 - 15,000 /month",1 Month,"Volunteering at Pawzz is more than a contribution of time- it’s an immersion into the craft of creating impact through connection. Over 15,000 interns have walked this path, leaving not just with richer resumes but with sharpened instincts, persuasiv",https://internshala.com/internship/detail/work-from-home-part-time-volunteering-internship-at-pawzz-foundation1776313825,Remote,General / Tech,General,5,Standard Role
+Edify Equity,Finance Research Analyst,Work from home,"₹ 1,000 - 1,100 /month",1 Month,"1. Assist in creating detailed reports for buy/hold/sell recommendations.
+2. Help in tracking portfolio performance.
+3. Collect, analyze, and interpret financial data from companies, sectors, and industries.
+4. Track stock markets, economic indica",https://internshala.com/internship/detail/work-from-home-finance-research-analyst-internship-at-edify-equity1776430378,Remote,CS,General,5,Standard Role
+ConsultBae,AI Trainer - Dogri And Kashmiri,Work from home,"₹ 5,000 - 8,000 /month",6 Months,"We are looking for AI trainer - Dogri and Kashmiri Intern who will work closely with our internal teams to support execution, coordination, and process improvement initiatives.
+
+
+
+1. Support daily operational activities and ensure smooth workflow",https://internshala.com/internship/detail/work-from-home-ai-trainer-dogri-and-kashmiri-internship-at-consultbae1776256122,Remote,CS,General,5,Standard Role
+ConsultBae,AI Trainer - Sanskrit,Work from home,"₹ 5,000 - 8,000 /month",6 Months,"We are hiring an AI trainer intern to support internal project execution and coordination. This role is directly with our organization and involves working on live projects across different business functions.
+
+
+
+1. Assist in planning and organiz",https://internshala.com/internship/detail/work-from-home-ai-trainer-sanskrit-internship-at-consultbae1776256367,Remote,CS,General,5,Standard Role
+ConsultBae,AI Konkani Trainer,Work from home,"₹ 5,000 - 8,000 /month",6 Months,We are looking for an AI language trainer intern to work on improving the quality and accuracy of AI-generated content across multiple regional languages. This internship is directly with our organization and focuses on enhancing internal AI-driven s,https://internshala.com/internship/detail/work-from-home-ai-konkani-trainer-internship-at-consultbae1776312387,Remote,CS,General,5,Standard Role
+Sentriscope Data Intelligence Private Limited,Operations Management,Lucknow,"₹ 8,000 - 10,000 /month",3 Months,"1. Manage their workload and collaborate with executives and operating partners across multiple channels.
+ 2. Work with the project manager to establish priorities, schedules, and deadlines for tasks.
+ 3. Focus on clear communication with the clien",https://internshala.com/internship/detail/operations-management-internship-in-lucknow-at-sentriscope-data-intelligence-private-limited1776317344,In-Person,MANUFACTURING,General,5,Standard Role
+4C Consulting Private Limited,Business Research,Ahmedabad,"₹ 6,000 - 8,000 /month",6 Months,"Woodlink Interiors is a design-focused firm specializing in creating functional and aesthetically appealing interior spaces. The company works on both residential and commercial projects, combining creativity with practical execution to deliver effec",https://internshala.com/internship/detail/business-research-internship-in-ahmedabad-at-4c-consulting-private-limited1776426565,In-Person,CS,General,5,Standard Role
+ConsultBae,AI Trainer - Konkani,Work from home,"₹ 5,000 - 8,000 /month",6 Months,"We are onboarding an AI & process coordination intern to support internal operations and contribute to improving AI-driven workflows within the organization.
+
+
+
+1. Assist in managing and coordinating internal projects and tasks
+2. Ensure proper ",https://internshala.com/internship/detail/work-from-home-ai-trainer-konkani-internship-at-consultbae1776256008,Remote,CS,General,5,Standard Role
+ConsultBae,AI Sanskrit Trainer,Work from home,"₹ 5,000 - 8,000 /month",6 Months,"We are looking for an AI Sanskrit trainer intern who will work on improving AI systems by enhancing their understanding of regional languages. This role is directly with our organization and involves working on internal AI-driven projects.
+
+
+
+1. ",https://internshala.com/internship/detail/work-from-home-ai-sanskrit-trainer-internship-at-consultbae1776256552,Remote,CS,General,5,Standard Role
 Job Mantra,Human Resources (HR),Patna,"₹ 7,500 - 30,000 /month",3 Months,"1. Call candidates & explain job opportunities
 2. Screen & shortlist candidates
 3. Schedule interviews
 4. Guide candidates for banking programs
-5. Maintain & update data in CRM...",https://internshala.com/internship/detail/human-resources-hr-internship-in-patna-at-job-mantra1776581827,CS,In-Person,Standard Role,General,6
+5. Maintain & update data in CRM",https://internshala.com/internship/detail/human-resources-hr-internship-in-patna-at-job-mantra1776581827,In-Person,CS,General,5,Standard Role
 Europ Assistance,Graphic Design,Mumbai,"₹ 5,000 - 10,000 /month",3 Months,"Job Description 
 Graphic Designer Intern
 Role Overview
-We are seeking a creative and detail-oriented Graphic Designer Intern for a 3-month internship to join our design team. The intern will assist...",https://internshala.com/internship/detail/graphic-design-internship-in-mumbai-at-europ-assistance1776420719,CS,In-Person,Standard Role,General,6
+We are seeking a creative and detail-oriented Graphic Designer Intern for a 3-month internship to join our design team. The intern will assist in various design projects, prepare digital and p",https://internshala.com/internship/detail/graphic-design-internship-in-mumbai-at-europ-assistance1776420719,In-Person,CS,General,5,Standard Role
+Indifi Technologies Private Limited,Company Secretary (CS),Gurgaon,"₹ 10,000 - 15,000 /month",6 Months,"1. Work on legal research and legal document preparation
+2. Assist with legal consulting, and provide support to the legal department with daily tasks
+3. Collaborate closely with other members of the team and gain valuable experience in the legal i",https://internshala.com/internship/detail/company-secretary-cs-internship-in-gurgaon-at-indifi-technologies-private-limited1776251021,In-Person,CS,General,5,Standard Role
+Pallonji’s,Business Development (Sales),Mumbai,"₹ 9,500 - 20,000 /month",4 Months,"1. Drive market and sales expansion across retail and HORECA channels
+2. Manage sales pipeline and oversee lead generation and tracking
+3. Conduct consumer and trend research to identify market opportunities
+4. Prepare daily reports and derive act",https://internshala.com/internship/detail/business-development-sales-internship-in-mumbai-at-pallonjis1776411006,In-Person,CS,General,5,Standard Role
+Shunya Digital,Business Development (Sales),Work from home,"₹ 3,099 - 5,000 /month",6 Months,"Are you passionate about sales and digital marketing? Are you looking to kickstart your career in Business Development? Shunya Digital is looking for a dynamic Business Development (Sales) intern who is well-versed in Social Media Marketing, Email Ma",https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-shunya-digital1776256619,Remote,CS,General,5,Standard Role
 WWF-India,Cold Calling & Secondary Research,Delhi (Hybrid),Unpaid,2 Months,"1. Cold calling: Outreach calling.
 2. Database management: Organizing contact records with detailing.
-3. Secondary research: Reviewing public sources for researching information....",https://internshala.com/internship/detail/cold-calling-secondary-research-internship-in-delhi-at-wwf-india1776243844,CS,Hybrid,Standard Role,General,6
+3. Secondary research: Reviewing public sources for researching information.",https://internshala.com/internship/detail/cold-calling-secondary-research-internship-in-delhi-at-wwf-india1776243844,Hybrid,CS,General,5,Standard Role
+Paracoat Products Limited,Sales,Gurgaon,"₹ 15,000 - 15,001 /month",3 Months,"Paramat is a fast-growing Indian brand in the automotive aftermarket industry, specializing in soundproofing solutions. With a strong presence in lakhs of cars annually and exports to over 20 countries, the company has established itself as a trusted",https://internshala.com/internship/detail/sales-internship-in-gurgaon-at-paracoat-products-limited1776167058,In-Person,MECH,General,5,Standard Role
+Rebel Foods Private Limited,Purchase Order Operations,Mumbai,"₹ 15,000 - 25,000 /month",6 Months,"1. Purchase order punching
+2. Preparing dashboards related to the punched PO orders",https://internshala.com/internship/detail/purchase-order-operations-internship-in-mumbai-at-rebel-foods-private-limited1776164249,In-Person,MANUFACTURING,General,5,Standard Role
+Haldiram Foods International Private Limited,Hotel Management (Operations),Bangalore,"₹ 5,500 - 8,000 /month",3 Months,"1.guest handling 
+2.customer service & billing 
+3.operations",https://internshala.com/internship/detail/part-time-hotel-management-operations-internship-in-bangalore-at-haldiram-foods-international-private-limited1776147107,In-Person,MANUFACTURING,General,5,Standard Role
 V5 Global,Recruitment Consultant,Delhi (Hybrid),"₹ 4,000 - 7,000 /month",3 Months,"1. Screening
 2. Data management 
-3. Interview coordination...",https://internshala.com/internship/detail/recruitment-consultant-internship-in-delhi-at-v5-global1776147001,General / Tech,Hybrid,Standard Role,General,6
+3. Interview coordination",https://internshala.com/internship/detail/recruitment-consultant-internship-in-delhi-at-v5-global1776147001,Hybrid,General / Tech,General,5,Standard Role
+Etikara,Content and Social Media Marketing,Lucknow (Hybrid),"₹ 10,000 - 12,000 /month",3 Months,"Etikara is an emerging premium D2C ethnic fashion label based in Lucknow. We design premium Indian wear, bringing accessible luxury to elegant and joyful celebrations. We are seeking a creative, disciplined Visual Content Lead to join our founding te",https://internshala.com/internship/detail/part-time-content-and-social-media-marketing-internship-in-lucknow-at-etikara1776146633,Hybrid,General / Tech,General,5,Standard Role
 T.I.M.E.,Telecaller Cum Admin Executive,Nagpur,"₹ 8,000 - 10,000 /month",2 Months,"1. Maintaining records of materials, students, and attendance.
 2. Following up on enquiries and balance fees.
 3. Coordinating with faculties.
-4. Telecalling and counseling students and parents....",https://internshala.com/internship/detail/part-time-telecaller-cum-admin-executive-internship-in-nagpur-at-time1776146131,CS,In-Person,Standard Role,General,6
+4. Telecalling and counseling students and parents.",https://internshala.com/internship/detail/part-time-telecaller-cum-admin-executive-internship-in-nagpur-at-time1776146131,In-Person,CS,General,5,Standard Role
 Fitelo,Customer Service/Customer Support,Mohali (Hybrid),"₹ 13,000 - 15,000 /month",3 Months,"1.Handle customer calls, chats & messages
 2.Collect & manage customer feedback
-3.Mantain records & follow-ups...",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-mohali-at-fitelo1776065874,CS,Hybrid,Standard Role,General,6
+3.Mantain records & follow-ups",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-mohali-at-fitelo1776065874,Hybrid,CS,General,5,Standard Role
+Greater Than Educational Technologies,Graphic Designer,Hyderabad,"₹ 10,000 - 15,000 /month",3 Months,"Are you a talented graphic designer looking to gain real-world experience in the education technology industry? Join Greater Than Educational Technologies as our Graphic Designer intern and showcase your skills in Canva, Adobe Illustrator, and Adobe ",https://internshala.com/internship/detail/graphic-designer-internship-in-hyderabad-at-greater-than-educational-technologies1776071354,In-Person,CS,General,5,Standard Role
 P&M,Social Media & Content,Gurgaon,"₹ 8,000 - 10,000 /month",6 Months,"1. Shoot and create engaging video content for digital platforms
 2. Edit videos using tools such as CapCut, InShot, or Adobe Premiere Pro
-3. Add subtitles, transitions, background music, and jump cu...",https://internshala.com/internship/detail/social-media-content-internship-in-gurgaon-at-p-m1776054396,CS,In-Person,Standard Role,General,6
-VIZON,Business Strategy,"Dehradun, Delhi, Bangalore","₹ 8,000 - 16,000 /month",4 Months,"VIZON is seeking a Business Strategy intern with English proficiency, strong research and analytics skills, knowledge of Microsoft tools, Google Docs, Finance, Human Resource Management and basic Desi...",https://internshala.com/internship/detail/business-strategy-internship-in-multiple-locations-at-vizon1775788136,CS,In-Person,Standard Role,Data,6
-Style Fashions,Cinematography,Delhi,"₹ 7,000 - 10,000 /month",5 Months,Are you a creative and passionate individual with a keen eye for style and fashion? We are seeking a talented cinematography intern to join our dynamic team at Style Fashions. This is a unique opportu...,https://internshala.com/internship/detail/cinematography-internship-in-delhi-at-style-fashions1775651340,CS,In-Person,Standard Role,General,6
-Kanha Creation,Content & E-Commerce Management,Delhi (Hybrid),"₹ 4,100 - 7,000 /month",3 Months,"1.Creating and managing product catalogs including images, descriptions, specifications, and pricing details
-2.Preparing and maintaining Excel sheets for SKUs, product data, and inventory tracking
-3...",https://internshala.com/internship/detail/content-e-commerce-management-internship-in-delhi-at-kanha-creation1775631968,CS,Hybrid,Standard Role,"Data, Finance",6
+3. Add subtitles, transitions, background music, and jump cuts to enhance video quality
+4. Write compelling c",https://internshala.com/internship/detail/social-media-content-internship-in-gurgaon-at-p-m1776054396,In-Person,General / Tech,General,5,Standard Role
+PurpleTalk India Private Limited,Inside Sales,Hyderabad,"₹ 10,000 /month",6 Months,"1. Get trained on tools most people only hear about in LinkedIn posts. We'll put you on LinkedIn Sales Navigator, Apollo.io, Lusha, and Smartlead in your first two weeks. Full training, zero guesswork. You'll know how to use these better than people ",https://internshala.com/internship/detail/inside-sales-internship-in-hyderabad-at-purpletalk-india-private-limited1775818716,In-Person,CS,General,5,Standard Role
+Sanspreils Greenlands Private Limited,Retail,Gurgaon,"₹ 8,000 - 15,000 /month",3 Months,"1. Assist in range planning, assortment building, and allocation planning.
+2. Track inventory, sales performance, and replenishment.
+3. Coordinate with sourcing, design, warehouse, and retail outlets.
+4. Prepare reports, trackers, and sales analys",https://internshala.com/internship/detail/retail-internship-in-gurgaon-at-sanspreils-greenlands-pvt-ltd1775749072,In-Person,CS,General,5,Standard Role
+Style Fashions,Cinematography,Delhi,"₹ 7,000 - 10,000 /month",5 Months,Are you a creative and passionate individual with a keen eye for style and fashion? We are seeking a talented cinematography intern to join our dynamic team at Style Fashions. This is a unique opportunity to gain hands-on experience in the world of f,https://internshala.com/internship/detail/cinematography-internship-in-delhi-at-style-fashions1775651340,In-Person,CS,General,5,Standard Role
+Angel One (AP),Client Acquisition,Work from home,"₹ 1,000 - 20,000 /month",1 Month,"1. Participating in webinars to gain knowledge about the stock market, including equities, futures, and options.
+2. Identifying and reaching out to individuals interested in stock market investments.
+3. Persuading potential investors and guiding th",https://internshala.com/internship/detail/work-from-home-part-time-client-acquisition-internship-at-angel-one-ap1775638520,Remote,CS,General,5,Standard Role
+Novo Learning Private Limited,Telecalling,Bangalore,"₹ 25,000 - 40,000 /month",1 Month,"Are you a skilled communicator with a passion for education? Join Novo Learning Private Limited as a Telecalling Intern and help us connect with our students! Your role will involve making outbound calls to prospective and existing clients, providing",https://internshala.com/internship/detail/telecalling-internship-in-bangalore-at-novo-learning-private-limited1775623522,In-Person,General / Tech,General,5,Standard Role
 VIZON,UX/UI Design,Work from home,"₹ 13,000 - 22,000 /month",3 Months,"1. Designing aesthetically pleasing user interfaces and user experiences
 2. Collaborating with the design and engineering teams to create solutions
-3. Providing feedback on designs and design option...",https://internshala.com/internship/detail/work-from-home-ux-ui-design-internship-at-vizon1775623178,General / Tech,Remote,Standard Role,General,6
-VIZON,Embedded Systems,Work from home,"₹ 14,000 - 22,000 /month",4 Months,"The selected intern would work on brainstorming, prototyping & programming Microcontrollers & Microprocessors for consumer electronic products.
-
-You can visit our website https://vizon.tech...",https://internshala.com/internship/detail/work-from-home-embedded-systems-internship-at-vizon1775608275,CS,Remote,Standard Role,Hardware,6
+3. Providing feedback on designs and design options
+4. Creating interactive prototypes using Figma,",https://internshala.com/internship/detail/work-from-home-ux-ui-design-internship-at-vizon1775623178,Remote,General / Tech,General,5,Standard Role
 VIZON,Backend Development,Work from home,"₹ 11,000 - 17,000 /month",3 Months,"1. Collaborating with the development team to design and implement backend solutions for web applications
 2. Writing clean and efficient code while adhering to best practices and coding standards
-3....",https://internshala.com/internship/detail/work-from-home-backend-development-internship-at-vizon1775608222,CS,Remote,Standard Role,General,6
-VIZON,Front End Development,Work from home,"₹ 12,000 - 20,000 /month",3 Months,"VIZON is seeking a dynamic and talented Front End Development intern to join our innovative team. If you have a passion for JavaScript, CSS, HTML, and UI/UX design, this is the perfect opportunity for...",https://internshala.com/internship/detail/work-from-home-front-end-development-internship-at-vizon1775608135,CS,Remote,Standard Role,Web,6
-VIZON,Business Development (Sales),Work from home,"₹ 11,000 - 21,000 /month",3 Months,Are you a dynamic and driven individual with a passion for sales and business development? We are thrilled to offer an exciting opportunity for a Business Development (Sales) intern at VIZON! Join our...,https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-vizon1775608093,CS,Remote,Standard Role,"Data, Finance",6
+3. Developing and maintaining APIs and integrating t",https://internshala.com/internship/detail/work-from-home-backend-development-internship-at-vizon1775608222,Remote,CS,General,5,Standard Role
+VIZON,Business Development (Sales),Work from home,"₹ 11,000 - 21,000 /month",3 Months,Are you a dynamic and driven individual with a passion for sales and business development? We are thrilled to offer an exciting opportunity for a Business Development (Sales) intern at VIZON! Join our innovative team and gain invaluable experience in,https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-vizon1775608093,Remote,CS,General,5,Standard Role
 VIZON,Finance,Work from home,"₹ 11,900 - 21,000 /month",3 Months,"1. Assist in preparing financial reports, budgets, and forecasts, ensuring accuracy and adherence to company standards
-2. Conduct in-depth financial analysis to identify trends, risks, and opportunit...",https://internshala.com/internship/detail/work-from-home-finance-internship-at-vizon1775608058,CS,Remote,Standard Role,General,6
+2. Conduct in-depth financial analysis to identify trends, risks, and opportunities, providing valuable insights to support decisi",https://internshala.com/internship/detail/work-from-home-finance-internship-at-vizon1775608058,Remote,Finance/Economics,General,5,Standard Role
 VIZON,Creative Writing,Work from home,"₹ 11,000 - 21,000 /month",3 Months,"1. Collaborate with the content team to develop engaging and imaginative written content
-2. Assist in brainstorming and creating original concepts for various mediums, including articles, blog posts,...",https://internshala.com/internship/detail/work-from-home-creative-writing-internship-at-vizon1775608000,CS,Remote,Standard Role,General,6
-VIZON,Artificial Intelligence (AI),Work from home,"₹ 13,000 - 21,000 /month",3 Months,"Selected intern's day-to-day responsibilities include utilizing Python & C++ with multiple Libraries to build AI algorithms, computer vision detection programs, and machine learning models....",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-vizon1775607953,CS,Remote,Standard Role,AI/ML,6
-Arihant Publications,Customer Service/Customer Support,Noida,"₹ 12,000 - 15,000 /month",3 Months,"Join Arihant Publications as a Human Resource and Client Management Intern. You will support recruitment efforts, maintain client relationships, and provide exceptional customer support to our partner...",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-noida-at-arihant-publications1775553927,CS,In-Person,Standard Role,General,6
-Shunya Digital,Digital Marketing,Work from home,"₹ 3,100 - 7,000 /month",6 Months,"Are you passionate about digital marketing and looking to gain hands-on experience in the field? Shunya Digital is seeking a dynamic Digital Marketing intern to join our fast-paced team. As an intern,...",https://internshala.com/internship/detail/work-from-home-digital-marketing-internship-at-shunya-digital1775505588,CS,Remote,Standard Role,General,6
-Shunya Digital,Graphic Design,Work from home,"₹ 4,100 - 12,000 /month",6 Months,"We are looking for a talented Graphic Design intern to join our team at Shunya Digital. If you are a creative individual with a passion for design and a strong skill set in Adobe Photoshop, CorelDRAW,...",https://internshala.com/internship/detail/work-from-home-graphic-design-internship-at-shunya-digital1775505173,CS,Remote,Standard Role,General,6
+2. Assist in brainstorming and creating original concepts for various mediums, including articles, blog posts, social media content, and more
+3. Conduct thorou",https://internshala.com/internship/detail/work-from-home-creative-writing-internship-at-vizon1775608000,Remote,CS,General,5,Standard Role
+VIZON,Social Media Marketing,Work from home,"₹ 12,000 - 20,000 /month",3 Months,"1. Collaborate with our dynamic marketing team to develop and implement cutting-edge social media marketing strategies that drive brand awareness and engagement
+2. Utilize your expert knowledge of Adobe Creative Suite, Canva, and other design tools ",https://internshala.com/internship/detail/work-from-home-social-media-marketing-internship-at-vizon1775607904,Remote,General / Tech,General,5,Standard Role
+Arihant Publications,Customer Service/Customer Support,Noida,"₹ 12,000 - 15,000 /month",3 Months,"Join Arihant Publications as a Human Resource and Client Management Intern. You will support recruitment efforts, maintain client relationships, and provide exceptional customer support to our partner schools. 
+
+Key Responsibilities:
+1. Assist wit",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-noida-at-arihant-publications1775553927,In-Person,CS,General,5,Standard Role
+Shunya Digital,Digital Marketing,Work from home,"₹ 3,100 - 7,000 /month",6 Months,"Are you passionate about digital marketing and looking to gain hands-on experience in the field? Shunya Digital is seeking a dynamic Digital Marketing intern to join our fast-paced team. As an intern, you will have the opportunity to work on various ",https://internshala.com/internship/detail/work-from-home-digital-marketing-internship-at-shunya-digital1775505588,Remote,CS,General,5,Standard Role
+Shunya Digital,Graphic Design,Work from home,"₹ 4,100 - 12,000 /month",6 Months,"We are looking for a talented Graphic Design intern to join our team at Shunya Digital. If you are a creative individual with a passion for design and a strong skill set in Adobe Photoshop, CorelDRAW, Adobe Illustrator, Adobe InDesign, Adobe Creative",https://internshala.com/internship/detail/work-from-home-graphic-design-internship-at-shunya-digital1775505173,Remote,General / Tech,General,5,Standard Role
+NoBroker Technologies Solutions Private Limited,Business Development,Bangalore,"₹ 24,000 /month",2 Months,"1. Generate leads via online and offline channels
+2. Conduct cold calls to reach potential vendors
+3. Manage walk-in vendor inquiries efficiently
+4. Understand vendor needs and pitch solutions
+5. Maintain and update lead/vendor data
+6. Follow up",https://internshala.com/internship/detail/business-development-internship-in-bangalore-at-nobroker-technologies-solutions-private-limited1775493992,In-Person,CS,General,5,Standard Role
 Tanya Uttrani,Videographer & Video Editor,Bangalore (Hybrid),"₹ 20,000 - 25,000 /month",6 Months,"1. Shooting and editing high-quality video content
 2. Working across social media, ads & internal projects
 3. Collaborating with teams to turn ideas into visuals
-4. Managing quick turnarounds in a ...",https://internshala.com/internship/detail/part-time-videographer-video-editor-internship-in-bangalore-at-tanya-uttrani1775472228,General / Tech,Hybrid,Standard Role,General,6
-VIZON,Web Development,"Dehradun, Bangalore","₹ 12,000 - 20,000 /month",4 Months,"We are looking for a talented Full Stack Development intern to join our team at VIZON. If you are passionate about creating innovative solutions and have a strong foundation in HTML, CSS, JavaScript, ...",https://internshala.com/internship/detail/web-development-internship-in-multiple-locations-at-vizon1775221357,CS,In-Person,Standard Role,"Web, Backend",6
+4. Managing quick turnarounds in a fast-paced setup",https://internshala.com/internship/detail/part-time-videographer-video-editor-internship-in-bangalore-at-tanya-uttrani1775472228,Hybrid,General / Tech,General,5,Standard Role
+Shunya Digital,AI Agent Development,Work from home,"₹ 3,100 - 5,001 /month",6 Months,"1. Build and maintain the lead intelligence engine when a prospect fills our home loan calculator, an automated workflow generates a personalised savings report using the Claude API and delivers it to their WhatsApp within minutes, without any human ",https://internshala.com/internship/detail/work-from-home-ai-agent-development-internship-at-shunya-digital1775468274,Remote,CS,General,5,Standard Role
 VIZON,Game Development,Work from home,"₹ 15,000 - 20,000 /month",3 Months,"1. Working on an XR (AR/VR) interface in Unity.
 2. Developing multiple interactive apps.
 3. Creating widgets.
-4. Designing AR/VR games....",https://internshala.com/internship/detail/work-from-home-game-development-internship-at-vizon1775220935,CS,Remote,Standard Role,General,6
+4. Designing AR/VR games.",https://internshala.com/internship/detail/work-from-home-game-development-internship-at-vizon1775220935,Remote,CS,General,5,Standard Role
 VIZON,CAD Design,"Dehradun, Bangalore","₹ 11,000 - 20,000 /month",3 Months,"1. Brainstorming & designing CAD for futuristic consumer electronic products
 2. Designing & slicing the models for 3D printing
-3. Optimizing & enhancing existing 3D mechanical designs for production...",https://internshala.com/internship/detail/cad-design-internship-in-multiple-locations-at-vizon1775220493,CS,In-Person,Standard Role,General,6
+3. Optimizing & enhancing existing 3D mechanical designs for production",https://internshala.com/internship/detail/cad-design-internship-in-multiple-locations-at-vizon1775220493,In-Person,CS,General,5,Standard Role
 VIZON,Graphic Design,Work from home,"₹ 10,500 - 20,000 /month",3 Months,"1. Collaborate with our design team to create engaging and visually appealing graphics for various platforms
-2. Assist in developing UI & UX designs that align with our brand identity and enhance use...",https://internshala.com/internship/detail/work-from-home-graphic-design-internship-at-vizon1775220347,CS,Remote,Standard Role,General,6
-Scaler Academy,Video Editing/Making,Bangalore (Hybrid),"₹ 20,000 - 25,000 /month",4 Months,"Key Responsibility Areas (KRAs): 
-Plan, shoot, and edit high-quality video content aligned with brand guidelines and campaign objectives. 
-Collaborate with internal teams to understand content requi...",https://internshala.com/internship/detail/video-editing-making-internship-in-bangalore-at-scaler-academy1775135988,CS,Hybrid,Standard Role,AI/ML,6
-Shunya Digital,Search Engine Optimization (SEO),Work from home,"₹ 3,500 - 5,001 /month",6 Months,"Are you a digital marketing whiz with a passion for SEO and social media? Shunya Digital is seeking a talented SEO intern to join our dynamic team! If you have experience with Google Analytics, SEM, A...",https://internshala.com/internship/detail/work-from-home-search-engine-optimization-seo-internship-at-shunya-digital1775116911,CS,Remote,Standard Role,Data,6
-VIZON,3D Designer,Dehradun,"₹ 12,000 - 21,000 /month",4 Months,"Are you a talented 3D Designer looking to kickstart your career in the world of virtual reality? Join our team at VIZON, where innovation and creativity collide to create immersive experiences like ne...",https://internshala.com/internship/detail/3d-designer-internship-in-dehradun-at-vizon1775102608,CS,In-Person,Standard Role,AI/ML,6
-VIZON,Data Analytics,Work from home,"₹ 10,000 - 17,000 /month",3 Months,"1. Assist in collecting, cleaning, and analyzing large datasets to extract valuable insights for decision-making purposes
-2. Collaborate with cross-functional teams to identify business challenges an...",https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-vizon1775052817,CS,Remote,Standard Role,"AI/ML, Data",6
-Shunya Digital,Video Editing/Making,Work from home,"₹ 5,500 - 7,001 /month",6 Months,"Are you passionate about video editing and creating captivating visual content? Do you have experience with Adobe Photoshop, Premiere Pro, After Effects, DaVinci Resolve, Final Cut Pro, and video maki...",https://internshala.com/internship/detail/work-from-home-video-editing-making-internship-at-shunya-digital1775039261,CS,Remote,Standard Role,General,6
-VIZON,Linux Engineer,Dehradun,"₹ 12,000 - 23,000 /month",4 Months,"As a software development intern at VIZON, you will have the exciting opportunity to work with cutting-edge technologies like XR, AI, and cloud computing. Your role requires knowledge of AWS, Bash, Li...",https://internshala.com/internship/detail/linux-engineer-internship-in-dehradun-at-vizon1774931353,CS,In-Person,Standard Role,"AI/ML, Backend",6
-VIZON,Animation,Dehradun,"₹ 14,000 - 26,000 /month",4 Months,"As an Animation Intern at VIZON, you will have the opportunity to work on exciting projects and gain hands-on experience in the world of animation. If you have a passion for Adobe After Effects, Adobe...",https://internshala.com/internship/detail/animation-internship-in-dehradun-at-vizon1774908772,CS,In-Person,Standard Role,General,6
-Pulse Pharmaceuticals,B. Pharmacy,Hyderabad,"₹ 15,000 - 20,000 /month",6 Months,"Selected intern's day-to-day responsibilites include:
-
-1. Research & Content: Utilize Internet/Media platforms to gather information on pharmaceutical trends, drug data, and medical updates.
-2. Dat...",https://internshala.com/internship/detail/b-pharmacy-internship-in-hyderabad-at-pulse-pharmaceuticals1774870658,CS,In-Person,Standard Role,"Data, Finance",6
-Moe Puppy,Sales,Gurgaon (Hybrid),"₹ 10,100 - 25,000 /month",4 Months,"1. Sell our products to customers by explaining.
-2. Willing to explore new things.
-3. Provide new ideas to improve sales....",https://internshala.com/internship/detail/sales-internship-in-gurgaon-at-moe-puppy1775466586,CS,Hybrid,Standard Role,General,6
-Sanrish Technologies,General Management,Noida,"₹ 5,000 - 5,001 /month",4 Months,"1. Itinerary Preparation
-2. Research on Google 
-3. Maintaining Data...",https://internshala.com/internship/detail/general-management-internship-in-noida-at-sanrish-technologies1776251882,CS,In-Person,Standard Role,General,6
-THEFINANSOL,Front End Development,Delhi,"₹ 9,000 - 11,000 /month",6 Months,"1. Read existing codes from on-going projects - understand, make notes
-2. Make changes, additions to the current projects
-3. Work on new projects
-4. Development will include - frontend development ...",https://internshala.com/internship/detail/front-end-development-internship-in-delhi-at-thefinansol1776249548,CS,In-Person,Standard Role,Web,6
-Reelax,Influencer Marketing,Noida,"₹ 7,000 - 10,000 /month",3 Months,"Are you a social media savvy individual with a passion for Influencer Marketing? Do you have excellent communication and interpersonal skills? If so, Reelax is looking for you to join our team as an I...",https://internshala.com/internship/detail/influencer-marketing-internship-in-noida-at-reelax1776164163,CS,In-Person,Standard Role,"Data, Finance",6
-Santa India,Human Resources (HR),Delhi,"₹ 18,000 - 25,000 /month",6 Months,"1. Sourcing candidates according to the job description.
-2. Implementing social media marketing strategies on platforms such as LinkedIn to attract potential candidates.
-3. Coordinating recruitment ...",https://internshala.com/internship/detail/human-resources-hr-internship-in-delhi-at-santa-india1776317891,General / Tech,In-Person,Standard Role,General,6
-Tishva,Business Development,Delhi (Hybrid),"₹ 10,000 - 15,000 /month",3 Months,"1. Coordinate with factories and follow up on completion of assigned tasks
-2. Communicate with the social media team to ensure smooth execution of content and campaign-related work
-3. Coordinate wit...",https://internshala.com/internship/detail/business-development-internship-in-delhi-at-tishva1776341708,CS,Hybrid,Standard Role,General,6
-Bloom Hotels,Human Resources (HR),Delhi,"₹ 8,000 - 12,000 /month",6 Months,"1. Assist in scheduling and coordinating L&D programs (virtual/in-person), including calendar invites, room bookings, and trainer communication.
-2. Update and maintain training records, attendance lo...",https://internshala.com/internship/detail/human-resources-hr-internship-in-delhi-at-bloom-hotels1776328092,CS,In-Person,Standard Role,General,6
-Creatorshala,Videography,"Faridabad, Delhi, Ghaziabad, Gurgaon, Noida (Hybrid)","₹ 15,000 - 18,000 /month",6 Months,"• Shoot, edit, and produce high-quality videos for YouTube videos, reels, and other social media content.
-• Collaborate with the marketing and design teams to visualize and execute creative video con...",https://internshala.com/internship/detail/videography-internship-in-multiple-locations-at-creatorshala1776270963,CS,Hybrid,Standard Role,General,6
-MS Realtors,Search Engine Optimization (SEO),Gurgaon (Hybrid),"₹ 5,000 - 6,000 /month",3 Months,"1. Conduct keyword research using tools like Google Keyword Planner, Ahrefs, or SEMrush
-2. Optimize website content, blogs, and landing pages for search engines
-3. Assist in on-page SEO (meta tags, ...",https://internshala.com/internship/detail/search-engine-optimization-seo-internship-in-gurgaon-at-mohamed-sarfaraz1776307995,CS,Hybrid,Standard Role,Data,6
-Bauer Bodoni,Human Resources (HR),Faridabad,"₹ 3,000 - 7,500 /month",6 Months,"Are you a student looking to gain hands-on experience in the field of Human Resources? Look no further! Bauer Bodoni is seeking a motivated HR intern who is proficient in MS-Office, MS-Word, and MS-Ex...",https://internshala.com/internship/detail/human-resources-hr-internship-in-faridabad-at-bauer-bodoni1776251893,CS,In-Person,Standard Role,"Data, Finance",6
-Movio Technologies,Business Operations,Delhi,"₹ 10,000 - 12,000 /month",3 Months,"1. Source and onboard vendors for supply chain and operational needs
-2. Build and manage partnerships with dealerships and ecosystem players
-3. Handle client onboarding and coordinate with internal ...",https://internshala.com/internship/detail/business-operations-internship-in-delhi-at-movio-technologies1776419510,CS,In-Person,Standard Role,General,6
-Argmac,Performance Marketing,"Delhi, Gurgaon","₹ 10,000 - 15,000 /month",6 Months,"1. Assist in running and monitoring Meta (Instagram/Facebook) and Google ad campaigns
-2. Research target audience, who buys luxury pool tables and home bars, and where they are
-3. Help create ad cop...",https://internshala.com/internship/detail/performance-marketing-internship-in-multiple-locations-at-argmac1776163323,CS,In-Person,Standard Role,General,6
-StoryMirror Infotech Private Limited,Graphic Design,Mumbai,"₹ 8,000 - 12,000 /month",3 Months,"1. Performing graphic design-related work.
-2. Supporting the design head with images and video editing.
-3. Designing physical book covers, AI videos, and audio modulation....",https://internshala.com/internship/detail/graphic-design-internship-in-mumbai-at-storymirror-infotech-private-limited1776256296,CS,In-Person,Standard Role,General,5
-Katalyst Software Services Limited,Human Resources (HR),Pune,"₹ 5,000 - 8,000 /month",6 Months,"HR intern will be responsible for administrative tasks in the HR department, including updating records, documentation, and employee engagement activities. They will assist in maintaining employee dat...",https://internshala.com/internship/detail/human-resources-hr-internship-in-pune-at-katalyst-software-services-limited1776258461,CS,In-Person,Standard Role,"Data, Finance",5
-Indifi Technologies Private Limited,Company Secretary (CS),Gurgaon,"₹ 10,000 - 15,000 /month",6 Months,"1. Work on legal research and legal document preparation
-2. Assist with legal consulting, and provide support to the legal department with daily tasks
-3. Collaborate closely with other members of th...",https://internshala.com/internship/detail/company-secretary-cs-internship-in-gurgaon-at-indifi-technologies-private-limited1776251021,CS,In-Person,Standard Role,General,5
-CavinKare Private Limited,Digital Marketing,Chennai,"₹ 5,000 - 10,000 /month",3 Months,"Video Editing & Content Creation
-
-Edit short-form videos for Instagram Reels, YouTube Shorts, and WhatsApp for pet care tips, hospital services, and client testimonials Add subtitles, transitions, m...",https://internshala.com/internship/detail/digital-marketing-internship-in-chennai-at-cavinkare-private-limited1776421879,CS,In-Person,Standard Role,General,5
-Paracoat Products Limited,AI Operations,Gurgaon,"₹ 20,000 - 30,000 /month",3 Months,Paracoat Products Ltd. is a manufacturing organization focused on improving business operations through the practical application of AI. The company aims to redefine how teams work by identifying inef...,https://internshala.com/internship/detail/ai-operations-internship-in-gurgaon-at-paracoat-products-limited1776313810,CS,In-Person,Standard Role,Mobile,5
-Polar Lifestyle Pvt Ltd,Social Media Marketing,Mumbai,"₹ 17,000 - 27,500 /month",1 Month,"1. Shooting video content for the brand
-2. Editing and posting content
-3. Collaborating with influencers...",https://internshala.com/internship/detail/social-media-marketing-internship-in-mumbai-at-polar-lifestyle-pvt-ltd1776167924,General / Tech,In-Person,Standard Role,General,5
-Paracoat Products Limited,Sales,Gurgaon,"₹ 15,000 - 15,001 /month",3 Months,"Paramat is a fast-growing Indian brand in the automotive aftermarket industry, specializing in soundproofing solutions. With a strong presence in lakhs of cars annually and exports to over 20 countrie...",https://internshala.com/internship/detail/sales-internship-in-gurgaon-at-paracoat-products-limited1776167058,CS,In-Person,Standard Role,General,5
-Rebel Foods Private Limited,Purchase Order Operations,Mumbai,"₹ 15,000 - 25,000 /month",6 Months,"1. Purchase order punching
-2. Preparing dashboards related to the punched PO orders...",https://internshala.com/internship/detail/purchase-order-operations-internship-in-mumbai-at-rebel-foods-private-limited1776164249,MANUFACTURING,In-Person,Standard Role,General,5
-Haldiram Foods International Private Limited,Hotel Management (Operations),Bangalore,"₹ 5,500 - 8,000 /month",3 Months,"1.guest handling 
-2.customer service & billing 
-3.operations...",https://internshala.com/internship/detail/part-time-hotel-management-operations-internship-in-bangalore-at-haldiram-foods-international-private-limited1776147107,MANUFACTURING,In-Person,Standard Role,General,5
-Greater Than Educational Technologies,Graphic Designer,Hyderabad,"₹ 10,000 - 15,000 /month",3 Months,Are you a talented graphic designer looking to gain real-world experience in the education technology industry? Join Greater Than Educational Technologies as our Graphic Designer intern and showcase y...,https://internshala.com/internship/detail/graphic-designer-internship-in-hyderabad-at-greater-than-educational-technologies1776071354,CS,In-Person,Standard Role,Finance,5
-Seeds Fincap Private Limited,Graphic Design,Gurgaon,"₹ 2,000 - 10,000 /month",3 Months,"As a Graphic Design intern at Seeds Fincap Private Limited, you will have the opportunity to showcase your creativity and skills in Adobe Photoshop, video editing, and Adobe Creative Suite. Join our d...",https://internshala.com/internship/detail/graphic-design-internship-in-gurgaon-at-seeds-fincap-private-limited1775821117,CS,In-Person,Standard Role,General,5
-Sanspreils Greenlands Private Limited,Retail,Gurgaon,"₹ 8,000 - 15,000 /month",3 Months,"1. Assist in range planning, assortment building, and allocation planning.
-2. Track inventory, sales performance, and replenishment.
-3. Coordinate with sourcing, design, warehouse, and retail outlet...",https://internshala.com/internship/detail/retail-internship-in-gurgaon-at-sanspreils-greenlands-pvt-ltd1775749072,CS,In-Person,Standard Role,General,5
-Angel One (AP),Client Acquisition,Work from home,"₹ 1,000 - 20,000 /month",1 Month,"1. Participating in webinars to gain knowledge about the stock market, including equities, futures, and options.
-2. Identifying and reaching out to individuals interested in stock market investments....",https://internshala.com/internship/detail/work-from-home-part-time-client-acquisition-internship-at-angel-one-ap1775638520,CS,Remote,Standard Role,Finance,5
-Novo Learning Private Limited,Telecalling,Bangalore,"₹ 25,000 - 40,000 /month",1 Month,Are you a skilled communicator with a passion for education? Join Novo Learning Private Limited as a Telecalling Intern and help us connect with our students! Your role will involve making outbound ca...,https://internshala.com/internship/detail/telecalling-internship-in-bangalore-at-novo-learning-private-limited1775623522,CS,In-Person,Standard Role,"Data, Finance",5
-CareerNet Technologies Private Limited,Community Marketing,Bangalore (Hybrid),"₹ 15,000 - 20,000 /month",3 Months,"1. Supporting engagement on our Discord community and other digital channels
-2. Drafting posts, announcements, and community messages
-3. Assisting with social media content and campaign execution
-4...",https://internshala.com/internship/detail/community-marketing-internship-in-bangalore-at-careernet-technologies-private-limited1775544132,CS,Hybrid,Standard Role,General,5
-SysTools Software Private Limited,Digital Marketing,Delhi,"₹ 10,000 - 15,000 /month",6 Months,"1. Write blogs, website content, and social media posts.
-2. Assist in creating basic graphics using tools like Canva.
-3. Perform keyword research using tools like Google Keyword Planner.
-4. Optimiz...",https://internshala.com/internship/detail/digital-marketing-internship-in-delhi-at-systools-software-private-limited1775539775,CS,In-Person,Standard Role,Data,5
-Web Glaze Services,Search Engine Optimization (SEO),Mohali,"₹ 4,000 - 5,000 /month",6 Months,"As a Search Engine Optimization (SEO) intern at Web Glaze Services, you will have the opportunity to work closely with our digital marketing team to enhance our online presence. Your knowledge of SEO,...",https://internshala.com/internship/detail/search-engine-optimization-seo-internship-in-mohali-at-shikha-sharma1775455271,CS,In-Person,Standard Role,Data,5
-PATEL ENGINEERING COMPANY,Digital Marketing,"Pune, Pimpri-Chinchwad","₹ 5,000 - 10,000 /month",6 Months,"1. Manage social media marketing activities across platforms.
-2. Execute search engine optimisation strategies to improve online visibility.
-3. Design marketing collateral aligned with brand guideli...",https://internshala.com/internship/detail/digital-marketing-internship-in-multiple-locations-at-patel-engineering-company1775448891,General / Tech,In-Person,Standard Role,General,5
+2. Assist in developing UI & UX designs that align with our brand identity and enhance user experiences
+3. Utilize Adobe Premiere Pro and V",https://internshala.com/internship/detail/work-from-home-graphic-design-internship-at-vizon1775220347,Remote,CS,General,5,Standard Role
+Angel One (AP),Telecaller,Work from home,"₹ 2,000 - 10,000 /month",6 Months,"1. Attending webinar and understanding about the stock market (equity, future, and option)
+2. Working on lead generation & searching for people interested in the stock market.
+3. Convincing them & assisting them in their Demat account opening.
+4. ",https://internshala.com/internship/detail/work-from-home-part-time-telecaller-internship-at-angel-one-ap1775215728,Remote,CS,General,5,Standard Role
 Ampersand Group: Vibgyor Group Of Schools,Curriculum Developer - English/EVS/History/Hindi,Mumbai,"₹ 15,000 - 20,000 /month",6 Months,"Selected intern's day-to-day responsibilites include:
 
 A. Academic Frameworks Development:
-1. Researching and analyzing curriculum mandates and academic requirements of assigned educational boards ...",https://internshala.com/internship/detail/curriculum-developer-english-evs-history-hindi-internship-in-mumbai-at-ampersand-group-vibgyor-group-of-schools1775197663,CS,In-Person,Standard Role,AI/ML,5
-Community Action Through Motivation Program,Human Resources (HR),Bhopal,"₹ 3,000 /month",2 Months,"Are you a proactive, detail-oriented individual with a passion for HR and community service? We are seeking a motivated 'HR Intern' to join our team at Community Action Through Motivation Program! As ...",https://internshala.com/internship/detail/human-resources-hr-internship-in-bhopal-at-community-action-through-motivation-program1775192825,CS,In-Person,Standard Role,General,5
+1. Researching and analyzing curriculum mandates and academic requirements of assigned educational boards (e.g., CBSE, ICSE, IB, IGCSE, State Boards).
+2. S",https://internshala.com/internship/detail/curriculum-developer-english-evs-history-hindi-internship-in-mumbai-at-ampersand-group-vibgyor-group-of-schools1775197663,In-Person,CS,General,5,Standard Role
 Viacom India LLP,Assistance Director (Video Ads & TV Advertising),"Delhi, Gurgaon","₹ 5,000 - 7,000 /month",6 Months,"1. Collaborate closely with a diverse team of creatives, including writers, ad film directors, art directors, video producers, video editors, and designers.
-2. Suggest content properties and ideas fo...",https://internshala.com/internship/detail/assistance-director-video-ads-tv-advertising-internship-in-multiple-locations-at-viacom-india-llp1775192494,CS,In-Person,Standard Role,General,5
-FileSure India Private Limited,Tech Support & Operations,Work from home,"₹ 5,000 - 10,000 /month",6 Months,"You'll be the technical backbone of FileSure's support and operations function — resolving product bugs, fixing stuck orders and invoices, executing custom data processing pipelines, and closing ticke...",https://internshala.com/internship/detail/work-from-home-tech-support-operations-internship-at-filesure-india-private-limited1775120738,CS,Remote,Standard Role,"Web, AI/ML, Backend",5
-Viacom India LLP,Business Development (Sales),Gurgaon,"₹ 7,000 - 10,000 /month",6 Months,"As a Business Development (Sales) intern at Viacom India LLP, you will have the exciting opportunity to work with a dynamic team in the entertainment industry. Your key responsibilities will include:...",https://internshala.com/internship/detail/business-development-sales-internship-in-gurgaon-at-viacom-india-llp1775104580,CS,In-Person,Standard Role,"Data, Finance",5
+2. Suggest content properties and ideas for topical and cultural moments, as well as new soc",https://internshala.com/internship/detail/assistance-director-video-ads-tv-advertising-internship-in-multiple-locations-at-viacom-india-llp1775192494,In-Person,General / Tech,General,5,Standard Role
+Scaler Academy,Video Editing/Making,Bangalore (Hybrid),"₹ 20,000 - 25,000 /month",4 Months,"Key Responsibility Areas (KRAs): 
+Plan, shoot, and edit high-quality video content aligned with brand guidelines and campaign objectives. 
+Collaborate with internal teams to understand content requirements and deliver engaging visual stories. 
+Han",https://internshala.com/internship/detail/video-editing-making-internship-in-bangalore-at-scaler-academy1775135988,Hybrid,CS,General,5,Standard Role
+AIESEC India,Global Volunteering Intern,Top international cities,Unpaid,6 Weeks,"As a Global Volunteer, you will work on social impact projects aligned with one or more Sustainable Development Goals. Volunteers collaborate with local NGOs, educational institutions, and community partners to design and deliver initiatives that rai",https://internshala.com/internship/detail/global-volunteering-intern-internship-in-multiple-locations-at-aiesec-india1775133791,In-Person,CS,General,5,Standard Role
+AIESEC India,Global Talent Intern,Top international cities,Unpaid,6 Months,"As a Global Talent Intern, you will work with an international organization to contribute to business projects while gaining hands-on professional experience in a global workplace.
+
+You will collaborate with multicultural teams, work on real indust",https://internshala.com/internship/detail/global-talent-intern-internship-in-multiple-locations-at-aiesec-india1775133195,In-Person,CS,General,5,Standard Role
+FileSure India Private Limited,Tech Support & Operations,Work from home,"₹ 5,000 - 10,000 /month",6 Months,"You'll be the technical backbone of FileSure's support and operations function — resolving product bugs, fixing stuck orders and invoices, executing custom data processing pipelines, and closing tickets end to end. This role requires a backend-focuse",https://internshala.com/internship/detail/work-from-home-tech-support-operations-internship-at-filesure-india-private-limited1775120738,Remote,CS,General,5,Standard Role
+Viacom India LLP,Business Development (Sales),Gurgaon,"₹ 7,000 - 10,000 /month",6 Months,"As a Business Development (Sales) intern at Viacom India LLP, you will have the exciting opportunity to work with a dynamic team in the entertainment industry. Your key responsibilities will include:
+
+1. Assisting with market research and identifyi",https://internshala.com/internship/detail/business-development-sales-internship-in-gurgaon-at-viacom-india-llp1775104580,In-Person,CS,General,5,Standard Role
+VIZON,3D Designer,Dehradun,"₹ 12,000 - 21,000 /month",4 Months,"Are you a talented 3D Designer looking to kickstart your career in the world of virtual reality? Join our team at VIZON, where innovation and creativity collide to create immersive experiences like never before. As an intern, you will have the opport",https://internshala.com/internship/detail/3d-designer-internship-in-dehradun-at-vizon1775102608,In-Person,General / Tech,General,5,Standard Role
+Shunya Digital,Video Editing/Making,Work from home,"₹ 5,500 - 7,001 /month",6 Months,"Are you passionate about video editing and creating captivating visual content? Do you have experience with Adobe Photoshop, Premiere Pro, After Effects, DaVinci Resolve, Final Cut Pro, and video making? If so, we have the perfect opportunity for you",https://internshala.com/internship/detail/work-from-home-video-editing-making-internship-at-shunya-digital1775039261,Remote,General / Tech,General,5,Standard Role
+Vindhya E Infomedia Private Limited,Recruitment,Bangalore,"₹ 5,000 - 8,000 /month",1 Month,"1. Sourcing candidates on job portals
+2. Calling the candidates and briefing about the JD
+3. Scheduling interviews",https://internshala.com/internship/detail/recruitment-internship-in-bangalore-at-vindhya-e-infomedia-private-limited1774973727,In-Person,General / Tech,General,5,Standard Role
+NoBroker Technologies Solutions Private Limited,Sales,"Faridabad, Delhi, Gurgaon, Noida","₹ 8,000 - 20,000 /month",4 Months,"We’re Hiring Sales Interns – NCR Region | NoBrokerHood
+Looking to kickstart your career in sales with one of India’s fastest-growing proptech platforms? Here’s your chance!
+
+NoBrokerHood is hiring dynamic and driven Sales Interns for the NCR regio",https://internshala.com/internship/detail/sales-internship-in-multiple-locations-at-nobroker-technologies-solutions-private-limited1774972622,In-Person,General / Tech,General,5,Standard Role
+LeapScholar,Campus Ambassador,Jaipur,Performance Based,2 Months,"Are you passionate about studying abroad and helping others make their dreams a reality? Leap Scholar is looking for a dynamic and enthusiastic Student Ambassador to join our team! As a Study Abroad Student Ambassador, you will have the opportunity t",https://internshala.com/internship/detail/campus-ambassador-programme-at-leapscholar1774940937,In-Person,MECH,General,5,Standard Role
+VIZON,Animation,Dehradun,"₹ 14,000 - 26,000 /month",4 Months,"As an Animation Intern at VIZON, you will have the opportunity to work on exciting projects and gain hands-on experience in the world of animation. If you have a passion for Adobe After Effects, Adobe Photoshop, Blender 3D, and video editing, this is",https://internshala.com/internship/detail/animation-internship-in-dehradun-at-vizon1774908772,In-Person,CS,General,5,Standard Role
+Pulse Pharmaceuticals,B. Pharmacy,Hyderabad,"₹ 15,000 - 20,000 /month",6 Months,"Selected intern's day-to-day responsibilites include:
+
+1. Research & Content: Utilize Internet/Media platforms to gather information on pharmaceutical trends, drug data, and medical updates.
+2. Data Management: Accurate entry and maintenance of da",https://internshala.com/internship/detail/b-pharmacy-internship-in-hyderabad-at-pulse-pharmaceuticals1774870658,In-Person,CS,General,5,Standard Role
+Web Glaze Services,Tele Sales Coordinator,Delhi,"₹ 5,000 - 10,000 /month",4 Months,"Selected intern's day-to-day responsibilites include:
+
+A. Tele sales and client handling:
+1. Making outbound calls to potential and existing customers.
+2. Handling inbound inquiries professionally.
+3. Explaining products/services and generating ",https://internshala.com/internship/detail/tele-sales-coordinator-internship-in-delhi-at-web-glaze-services1774700732,In-Person,CS,General,5,Standard Role
+Katalyst Software Services Limited,Content Writing,Pune,"₹ 7,000 - 1,00,001 /month",3 Months,"Are you a creative wordsmith with a passion for all things content writing? Do you have a knack for crafting engaging blog posts and optimizing them for SEO? If so, we have the perfect opportunity for you as a Content Writing intern at Katalyst Softw",https://internshala.com/internship/detail/content-writing-internship-in-pune-at-katalyst-software-services-limited1774606414,In-Person,General / Tech,General,5,Standard Role
+Fashion TV India,Sales Communication,Mumbai,"₹ 10,000 - 15,000 /month",3 Months,"We are looking for a 'Sales Communication Intern' who will assist the sales team in handling client communication, lead verification, and maintaining proper reports. This role is ideal for candidates who want to build a career in sales, business deve",https://internshala.com/internship/detail/sales-communication-internship-in-mumbai-at-fashion-tv-india1774511284,In-Person,CS,General,5,Standard Role
+House Sparrow Films,2D Motion Graphics Artist,Bangalore,"₹ 12,000 - 15,000 /month",4 Months,"We are looking for a talented 2D motion graphics artist intern to join our team. If you have a passion for creating captivating animations and have a strong understanding of Adobe After Effects, motion graphics, and 2D animation, then this is the per",https://internshala.com/internship/detail/2d-motion-graphics-artist-internship-in-bangalore-at-shashank-kumar1774458087,In-Person,General / Tech,General,5,Standard Role
+Prodian Infotech,Customer Service/Customer Support,Chennai,"₹ 10,000 - 1,20,000 /month",3 Months,"1. Respond to customer emails and resolve ticketing/e-commerce related issues
+2. Call customers when required and resolve queries quickly and professionally
+3. Ensure clear, polite, and effective communication at all times
+4. Work closely with the",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-chennai-at-priyadharshini-g1774457893,In-Person,CS,General,5,Standard Role
+Angel One Limited,Graphic Design,"Mumbai, Bangalore (Hybrid)","₹ 10,000 - 15,000 /month",3 Months,"Selected intern's day-to-day responsibilites include:
+
+1. Create eye-catching creatives for internal campaigns & social media
+2. Work on real projects that impact employee experience & brand storytelling
+3. Experiment with tools like Canva, Adobe",https://internshala.com/internship/detail/graphic-design-internship-in-multiple-locations-at-angel-one-limited1774388491,Hybrid,CS,General,5,Standard Role
+LeapScholar,Human Resource Business Partner,Bangalore,"₹ 20,000 /month",6 Months,"1. Collaborate with HR business partners to support various HR projects and initiatives.
+2. Assist in employee engagement activities including organizing events and creating communication materials.
+3. Gain exposure to HR strategies and employee de",https://internshala.com/internship/detail/human-resource-business-partner-internship-in-bangalore-at-leapscholar1774359546,In-Person,CS,General,5,Standard Role
+Paracoat Products Limited,Videography,Bhiwadi,"₹ 10,000 - 14,000 /month",3 Months,"We are looking for a passionate and creative Videographer Intern who is eager to gain hands-on experience in video production. The ideal candidate should be capable of independently planning and executing video shoots, with a strong understanding of ",https://internshala.com/internship/detail/videography-internship-in-bhiwadi-at-paracoat-products-limited1774326641,In-Person,CS,General,5,Standard Role
+Justdial Limited,Customer Service/Customer Support,Pune,"₹ 12,000 - 14,500 /month",3 Months,"Are you passionate about providing exceptional customer service and building strong client relationships? Justdial Limited is seeking a dynamic Customer Service/Customer Support intern to join our team. As an intern, you will have the opportunity to ",https://internshala.com/internship/detail/customer-service-customer-support-internship-in-pune-at-justdial-limited1774273569,In-Person,General / Tech,General,5,Standard Role
+Angel One (AP),Sales,Work from home,"₹ 2,000 - 20,000 /month",1 Month,"1. Attending webinar and understanding the stock market (equity, future, and option)
+2. Working on lead generation & searching for people interested in the stock market
+3. Convincing them & assisting them in their Demat account opening
+4. Achievin",https://internshala.com/internship/detail/work-from-home-part-time-sales-internship-at-angel-one-ap1774257841,Remote,CS,General,5,Standard Role
+Angel One (AP),Inside Sales,Work from home,"₹ 2,000 - 20,000 /month",1 Month,"1. Attending webinars and understanding the stock market (equity, futures, and options)
+2. Working on lead generation and searching for people interested in the stock market
+3. Convincing potential clients and assisting them in opening Demat accoun",https://internshala.com/internship/detail/work-from-home-inside-sales-internship-at-angel-one-ap1774257228,Remote,CS,General,5,Standard Role
+Angel One (AP),Business Development (Sales),Work from home,"₹ 2,000 - 20,000 /month",2 Months,Are you a dynamic and driven individual looking to kickstart your career in sales and business development? Look no further than Suryavanshi Fisnerv company! We are seeking a talented Business Development (Sales) intern to join our team and help us d,https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-angel-one-ap1774250269,Remote,General / Tech,General,5,Standard Role
+Paracoat Products Limited,Merchandising,"Delhi, Gurgaon, Noida","₹ 10,000 /month",3 Months,We are building our own branded merchandise line and are looking for a creative and execution-focused Merchandising Intern to join us. This role is ideal for someone who enjoys blending creativity with operations—helping bring ideas to life from conc,https://internshala.com/internship/detail/merchandising-internship-in-multiple-locations-at-paracoat-products-limited1774159333,In-Person,MANUFACTURING,General,5,Standard Role
+Shunya Digital,Videography,Uttarkashi,"₹ 5,000 - 10,000 /month",6 Months,"1. Shoot daily content at Gangotri Dham, Uttarkashi ashram, and surrounding Himalayan locations
+2. Film and produce Instagram Reels — including Ganga aarti, satsang excerpts, nature visuals, and behind-the-scenes ashram life
+Edit videos using mobil",https://internshala.com/internship/detail/videography-internship-in-uttarkashi-at-shunya-digital1774122300,In-Person,CS,General,5,Standard Role
+Aditya Birla Fashion & Retail Limited (ABFRL),Sales Consultant,"Navi Mumbai, Panvel Sub-District","₹ 15,001 /month",6 Months,"We are looking for enthusiastic and customer-focused individuals to join us as apprentices at Peter England stores. This 6-month apprenticeship offers hands-on experience in retail sales and store operations, providing a strong foundation for a caree",https://internshala.com/internship/detail/sales-consultant-internship-in-multiple-locations-at-aditya-birla-fashion-retail-limited-abfrl1774106118,In-Person,CS,General,5,Standard Role
+Shunya Digital,Financial Research & Content Writing (NBFC Sector),Work from home,"₹ 1,000 - 3,000 /month",6 Months,"1. Research and write in-depth blog articles and analytical pieces on the Indian NBFC sector- covering business model basics, revenue streams, asset quality, and regulatory frameworks
+2. Compare and contrast different NBFC categories (HFCs, MFIs, go",https://internshala.com/internship/detail/work-from-home-financial-research-content-writing-nbfc-sector-internship-at-shunya-digital1774072310,Remote,Pure Research,General,5,Standard Role
+Creative Mediapulse Technologies Private Limited (CMPTL),Business Development (Sales),Work from home,"₹ 5,500 - 10,000 /month",6 Months,"1. Handling the operations of multiple centers of CMPTL
+2. Managing projects & other documentation
+3. Managing any other support required for the teams from multiple centers
+4. Coordinating with consultants
+5. Setting up meetings for consultants",https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-creative-mediapulse-technologies-private-limited-cmptl1772692596,Remote,MANUFACTURING,General,5,Standard Role
+Times Group,Brand Management,Mumbai,"₹ 10,000 - 20,000 /month",6 Months,"As a brand management intern at Economic Times, you will have the opportunity to immerse yourself in the world of marketing and gain hands-on experience in managing and enhancing our brand presence. Your role will involve utilizing your expertise in ",https://internshala.com/internship/detail/brand-management-internship-in-mumbai-at-times-group1771922127,In-Person,CS,General,5,Standard Role
+Shivanjali,Electrical Engineering,Jaipur,Unpaid,6 Months,"Are you an aspiring Electrical Engineering student looking for a hands-on internship experience? Look no further than Shivanjali! We are seeking a dynamic Electrical Engineering intern to join our team and gain valuable industry knowledge. 
+
+Key re",https://internshala.com/internship/detail/electrical-engineering-internship-in-jaipur-at-shivanjali1776603356,In-Person,CS,General,5,Standard Role
+PAN India Group,Creative Designer - Female,Gurgaon,"₹ 8,000 - 14,000 /month",6 Months,"Are you a creative and talented female designer looking to gain valuable experience in a dynamic work environment? We are looking for a Creative Designer intern to join our PAN India Group company. As a key member of our team, you will have the oppor",https://internshala.com/internship/detail/creative-designer-female-internship-in-gurgaon-at-pan-india-group1776619100,In-Person,CS,General,5,Standard Role
+Stirring Minds,Front End Development,"Delhi, Noida","₹ 10,000 - 20,000 /month",6 Months,"We are looking for a talented Front End Developer to join our team! As a Front End Developer, you will be responsible for creating visually appealing and user-friendly interfaces for our websites and applications. You should be proficient in Frontend",https://internshala.com/internship/detail/front-end-development-internship-in-multiple-locations-at-stirring-minds1776455257,In-Person,CS,General,5,Standard Role
+13THIRTY,Fashion Photographer,Delhi,Competitive stipend,6 Months,"Looking for Freelance Product Photographer & Video Editor  Delhi NCR (Part-Time | Launch Edition Shoot)We are preparing for the launch edition of our brand and looking for a creative freelance professional to support us with a focused, short-term sho",https://internshala.com/internship/detail/fashion-photographer-internship-in-delhi-at-13thirty1770716050,In-Person,General / Tech,General,5,Standard Role
+Tesla,Sales Trainee,"Ahmedabad, Delhi, Gurgaon, Pune, Hyderabad, Mumbai, Bangalore",Competitive stipend,4 Months,"1. Engage walk in guests promptly, personally and with the goal of opening the conversation and ensuring they feel welcome.
+2. Help drive business and maximize sales through customer service, product knowledge, merchandise presentation and promotion",https://internshala.com/internship/detail/sales-trainee-internship-in-multiple-locations-at-tesla1770100467,In-Person,CS,General,5,Standard Role
+Paytm,Intern – Talent Acquisition,Gurgaon,Competitive stipend,Not Provided,"1. Source potential candidates using LinkedIn Recruiter, Boolean searches, and job portals
+2. Identify and engage passive candidates for open roles
+3. Review resumes to assess relevant skills and qualifications
+4. Conduct initial phone screenings ",https://internshala.com/internship/detail/intern--talent-acquisition-internship-in-gurgaon-at-paytm1770091893,In-Person,General / Tech,General,5,Standard Role
+MIS,Sales,"Delhi, Pitampura","₹ 5,000 - 10,000 /month",6 Months,"1. Make cold calls and follow up with clients
+2. Maintain and update CRM or sales records with call details and interactions
+3. Prepare basic sales reports
+4. Coordinate with internal teams for pricing and proposals
+5. Follow up with prospects an",https://internshala.com/internship/detail/sales-internship-in-delhi-at-admin-admin1773117469,In-Person,CS,General,5,Standard Role
+Conversely,Influencer Outreach,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Identify, research, and vet potential influencers across various social media platforms (e.g., Instagram, YouTube, TikTok, LinkedIn) based on campaign objectives, audience demographics, and brand synergy.
+2. Assist in developing and maintaining a",https://internshala.com/internship/detail/influencer-outreach-internship-in-delhi-at-conversely1773290802,Hybrid,CS,General,5,Standard Role
+Conversely,SEO Content Writing,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Conduct keyword research to identify high-potential content topics.
+2. Write clear, concise, and engaging content for blogs, articles, and landing pages, optimized for search engines.
+3. Implement on-page SEO best practices, including meta descr",https://internshala.com/internship/detail/seo-content-writing-internship-in-delhi-at-conversely1773290401,Hybrid,Pure Research,General,5,Standard Role
+Unimonks,YouTube Channel Management,Delhi,"₹ 7,000 - 16,000 /month",3 Months,"As a YouTube channel management intern at Unimonks, you will have the exciting opportunity to work with a fast-growing startup in the ed-tech industry. We are looking for someone who is knowledgeable in YouTube ads, search engine optimization (SEO), ",https://internshala.com/internship/detail/youtube-channel-management-internship-in-delhi-at-unimonks1772871729,In-Person,General / Tech,General,5,Standard Role
+Conversely,Instagram & Reels Growth,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Develop, schedule, and publish engaging content (Reels, stories, posts) aligned with our brand voice and marketing objectives.
+2. Implement strategies to increase Instagram followers, engagement rates, and overall brand visibility.
+3. Monitor an",https://internshala.com/internship/detail/instagram-reels-growth-internship-in-delhi-at-conversely1773489624,Hybrid,General / Tech,General,5,Standard Role
+Conversely,University Partnership,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"Conversely is looking for a motivated and detail-oriented university partnership intern to actively support our efforts in cultivating and expanding our network of academic partners. In this role, you will play a key part in executing outreach initia",https://internshala.com/internship/detail/university-partnership-internship-in-delhi-at-conversely1773488973,Hybrid,CS,General,5,Standard Role
+Conversely,Performance Marketing,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Assist in keyword research and audience targeting for search and social media campaigns.
+2. Support the creation and optimization of ad copy and creative assets.
+3. Monitor campaign performance metrics on platforms like Google Ads and social med",https://internshala.com/internship/detail/performance-marketing-internship-in-delhi-at-conversely1773490290,Hybrid,CS,General,5,Standard Role
+Conversely,Subject Matter Expert (STEM) - Social Science,Delhi (Hybrid),"₹ 7,000 - 10,000 /month",6 Months,"We are seeking a proactive and analytically-minded subject-matter expert intern (STEM) with a strong foundation in social science to join our vibrant team at our Nehru Place, Delhi office. This hybrid internship offers a unique opportunity to apply a",https://internshala.com/internship/detail/subject-matter-expert-stem-social-science-internship-in-delhi-at-conversely1773490792,Hybrid,CS,General,5,Standard Role
+Unnity,Performance Marketing,Delhi,"₹ 10,000 - 15,000 /month",6 Months,"1. Manage and optimize Google Ads & Meta Ads campaigns
+2. Handle campaign management across multiple client accounts
+3. Improve ROI through A/B testing, experimentation, and optimization
+4. Work more on strategy and performance insights, not just ",https://internshala.com/internship/detail/performance-marketing-internship-in-delhi-at-unnity1773134073,In-Person,CS,General,5,Standard Role
+Valkyrie People Consulting,Recruitment,Delhi,"₹ 12,000 - 16,001 /month",6 Months,"Are you passionate about recruitment and eager to jumpstart your career in the field? Valkyrie People Consulting is looking for a dynamic Recruitment Intern to join our team. As a Recruitment Intern, you will have the opportunity to work closely with",https://internshala.com/internship/detail/recruitment-internship-in-delhi-at-valkyrie-people-consulting1773134269,In-Person,General / Tech,General,5,Standard Role
+Airnet,Digital Marketing,Delhi,"₹ 12,500 - 13,001 /month",2 Months,"1. Manage social media platforms (YouTube, Instagram, Facebook) for content posting, engagement, and growth.
+2. Generate leads through platforms like Justdial and IndiaMART.
+3. Set up and optimize Google My Business (GMB) profiles.
+4. Support basi",https://internshala.com/internship/detail/digital-marketing-internship-in-delhi-at-cybernaut-business1773053647,In-Person,General / Tech,General,5,Standard Role
+Conversely,Photography,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Operate camera equipment to capture high-quality images for various company needs (e.g., social media, website, internal communications).
+2. Assist with lighting, staging, and prop arrangement during photoshoots.
+3. Perform basic photo editing a",https://internshala.com/internship/detail/photography-internship-in-delhi-at-conversely1773223124,Hybrid,CS,General,5,Standard Role
+Conversely,Webinar Coordination,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Coordinate the scheduling, setup, and promotion of webinars using various platforms.
+2. Manage communication with speakers, including scheduling rehearsals and content collection.
+3. Develop and distribute engaging promotional materials such as ",https://internshala.com/internship/detail/webinar-coordination-internship-in-delhi-at-conversely1773223672,Hybrid,CS,General,5,Standard Role
+Swayourway Tours & Travels,Sales,"Delhi, Ghaziabad, Noida","₹ 10,000 - 12,000 /month",3 Months,"Key Responsibilities
+
+Communicate with clients via calls, WhatsApp & email
+Understand travel requirements and share suitable packages
+Coordinate with hotels, transport vendors & internal teams
+Prepare quotes, itineraries, and follow-up for conve",https://internshala.com/internship/detail/sales-internship-in-multiple-locations-at-swayourway-tours-travels1773140957,In-Person,CS,General,5,Standard Role
+Conversely,Newsletter Writing,Delhi (Hybrid),"₹ 5,000 - 10,000 /month",6 Months,"This internship offers a valuable opportunity to refine your writing skills and contribute directly to Conversely's communication strategy. As a newsletter writing intern, you will play an instrumental role in crafting engaging and informative conten",https://internshala.com/internship/detail/newsletter-writing-internship-in-delhi-at-conversely1773289945,Hybrid,General / Tech,General,5,Standard Role
+Conversely,Operations,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Assist in documenting and streamlining operational procedures and workflows.
+2. Coordinate internal resources for project tasks, ensuring timely completion.
+3. Collect, organize, and conduct basic analysis of operational data to identify trends.",https://internshala.com/internship/detail/operations-internship-in-delhi-at-conversely1773290510,Hybrid,CS,General,5,Standard Role
+Wift Corp,Sales And Growth (Founders Office),Noida,"₹ 10,000 - 30,000 /month",3 Months,"If you’re looking for a comfortable 9-5 or a predictable corporate path, this isn’t for you. We’re looking for people obsessed with how things are built and eager to be where decisions happen. Most jobs ask you to execute. This one asks you to build.",https://internshala.com/internship/detail/sales-and-growth-founders-office-internship-in-noida-at-wift-corp1773633243,In-Person,CS,General,5,Standard Role
+Conversely,PR & Media Outreach,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,Conversely is seeking a dynamic and proactive PR & media outreach intern to contribute to our impactful communication initiatives. This internship offers a significant opportunity for individuals with a foundational understanding of PR to actively pa,https://internshala.com/internship/detail/pr-media-outreach-internship-in-delhi-at-conversely1773488513,Hybrid,General / Tech,General,5,Standard Role
+Conversely,Subject Matter Expert (STEM) - Science,Delhi (Hybrid),"₹ 7,000 - 10,000 /month",6 Months,"We are seeking a motivated subject-matter expert intern (STEM) - Science to contribute to our growing library of high-quality educational content. This hybrid role, based out of our Nehru Place, Delhi office, offers a unique opportunity to apply your",https://internshala.com/internship/detail/subject-matter-expert-stem-science-internship-in-delhi-at-conversely1773490638,Hybrid,CS,General,5,Standard Role
+Conversely,Telesales,Delhi (Hybrid),"₹ 8,000 - 10,000 /month",6 Months,"Edxso is looking for a driven and articulate telesales intern to actively contribute to our sales efforts. This role offers a fantastic opportunity to develop practical sales skills, engage directly with potential customers, and gain valuable experie",https://internshala.com/internship/detail/telesales-internship-in-delhi-at-conversely1773490144,Hybrid,CS,General,5,Standard Role
+Schoolnet India Limited,Studio Trainer – Digital Content Creation,"Delhi, Ghaziabad, Mysuru, Shimla, Kohima, Hyderabad, Mumbai, Nashik, Srinagar, Agartala, Chennai, Ranchi, Jamalpur, Bhubaneswar, Velha Goa, Faridabad, Dehradun, Lucknow, Pune, Secunderabad, Bhopal, Mussoorie, Gautam Buddha Nagar, Jaipur, Nagpur, Bangalore, Goa, Chandigarh, Gurgaon, Naharlagun, Mangalagiri","₹ 10,000 - 12,000 /month",3 Months,"We are looking for enthusiastic and creative interns to join our studio team and gain hands-on experience in end-to-end educational content production. This internship offers practical exposure to a professional studio environment, where you will act",https://internshala.com/internship/detail/studio-trainer--digital-content-creation-internship-in-multiple-locations-at-schoolnet-india-limited1773811341,In-Person,CS,General,5,Standard Role
+Conversely,Social Media Campaign,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"1. Assist in developing and curating engaging content for various social media platforms, aligning with brand guidelines.
+2. Schedule and publish posts, ensuring timely delivery, optimal reach, and consistent brand voice.
+3. Monitor social media tr",https://internshala.com/internship/detail/social-media-campaign-internship-in-delhi-at-conversely1773488190,Hybrid,CS,General,5,Standard Role
+Conversely,Market Research,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",6 Months,"We are seeking a motivated market research intern to contribute significantly to our ongoing projects, helping us uncover key market trends and consumer insights. This role is ideal for individuals looking to apply foundational academic knowledge in ",https://internshala.com/internship/detail/market-research-internship-in-delhi-at-conversely1773489231,Hybrid,CS,General,5,Standard Role
+Conversely,Academic Research,Delhi (Hybrid),"₹ 7,000 - 10,000 /month",6 Months,"We are seeking a proactive and analytical academic research intern to contribute to our ongoing research initiatives in a hybrid capacity, based out of our Nehru Place, Delhi office. This role is ideal for individuals looking to apply their academic ",https://internshala.com/internship/detail/academic-research-internship-in-delhi-at-conversely1773490515,Hybrid,CS,General,5,Standard Role
+AppQuarterz Technologies,Digital Marketing,"Faridabad, Delhi, Gurgaon, Noida (Hybrid)","₹ 5,000 - 10,000 /month",6 Months,"Plan and execute digital marketing campaigns across multiple channels
+Manage and grow social media platforms including Instagram and Facebook
+Create engaging and high-quality content for social media, blogs, and email campaigns
+Implement and optim",https://internshala.com/internship/detail/digital-marketing-internship-in-multiple-locations-at-appquarterz-technologies1773748929,Hybrid,CS,General,5,Standard Role
+Innostax,Marketing,Gurgaon,"₹ 20,000 - 2,50,000 /month",6 Months,"1. Support content creation efforts — writing blog posts, articles, and social media content aligned with our content strategy
+2. Assist with SEO tasks including keyword research, on-page optimisation, and maintaining platform listings
+3. Help mana",https://internshala.com/internship/detail/marketing-internship-in-gurgaon-at-innostax-software-labs1773743099,In-Person,CS,General,5,Standard Role
+Apni Properties,Field Sales,Gurgaon,"₹ 15,000 - 70,000 /month",6 Months,"As a Field Sales intern at Apni Properties, you'll have the opportunity to showcase your Hindi and English proficiency while gaining hands-on experience in the real estate industry. Your role will involve engaging with potential clients, conducting p",https://internshala.com/internship/detail/field-sales-internship-in-gurgaon-at-apni-properties1774592572,In-Person,CS,General,5,Standard Role
+Bharti Axa Life Insurance Company Limited,Human Resources (HR),Mumbai,"₹ 15,000 - 20,000 /month",3 Months,"We are looking for a proactive and detail-oriented HR Intern to support our HR and Compliance team. This internship is ideal for freshers or students who want hands-on experience in HR operations, compliance, and employee lifecycle management.
+
+
+",https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-bharti-axa-life-insurance-company-limited1775113759,In-Person,CS,General,4,Standard Role
+Web Glaze Services,Search Engine Optimization (SEO),Mohali,"₹ 4,000 - 5,000 /month",6 Months,"As a Search Engine Optimization (SEO) intern at Web Glaze Services, you will have the opportunity to work closely with our digital marketing team to enhance our online presence. Your knowledge of SEO, digital marketing, and Google Analytics will be p",https://internshala.com/internship/detail/search-engine-optimization-seo-internship-in-mohali-at-shikha-sharma1775455271,In-Person,CS,Data,2,Standard Role
+Audi Mumbai West,Digital Marketing,Mumbai,"₹ 15,000 /month",6 Months,"1. Independently manage, optimize and scale Google Ads, Meta Ads and LinkedIn Ads campaigns for optimal ROI.
+2. Analyze campaign performance across all group brands and platforms, using tools like Google Analytics for actionable insights.
+3. Monito",https://internshala.com/internship/detail/digital-marketing-internship-in-mumbai-at-audi-mumbai-west1773743673,In-Person,CS,Data,2,Standard Role
+360 Digital Idea,Content and Social Media Marketing,Patna,"₹ 3,000 - 5,000 /month",3 Months,Are you a creative and driven individual looking to gain hands-on experience in the world of Content and Social Media Marketing? Look no further! 360 Digital Idea is seeking a talented intern to join our dynamic team. If you have excellent English pr,https://internshala.com/internship/detail/content-and-social-media-marketing-internship-in-patna-at-360-digital-idea1776593413,In-Person,CS,Data,2,Standard Role
+PAN India Group,Social Media Executive - Female,Gurgaon,"₹ 8,000 - 14,000 /month",6 Months,"We are looking for a dynamic and talented female intern to join our team as a Social Media Executive. If you are passionate about social media marketing and have a strong knowledge of MS-Excel, effective communication, and marketing strategies, then ",https://internshala.com/internship/detail/social-media-executive-female-internship-in-gurgaon-at-pan-india-group1776618662,In-Person,General / Tech,Data,2,Standard Role
+Evolve Back Resorts,Digital Marketing,Bangalore,"₹ 5,999 - 6,000 /month",6 Months,"1.Search Engine Optimization (SEO): Learning the art of ranking. You’ll assist with keyword research, metadata optimization, and content updates to boost our organic visibility. 
+2. Social media: Creating, scheduling, and engaging across our platfor",https://internshala.com/internship/detail/digital-marketing-internship-in-bangalore-at-evolve-back-resorts1776337937,In-Person,Pure Research,General,1,Standard Role
+Katalyst Software Services Limited,Human Resources (HR),Pune,"₹ 5,000 - 8,000 /month",6 Months,"HR intern will be responsible for administrative tasks in the HR department, including updating records, documentation, and employee engagement activities. They will assist in maintaining employee database management, onboarding and off boarding proc",https://internshala.com/internship/detail/human-resources-hr-internship-in-pune-at-katalyst-software-services-limited1776258461,In-Person,CS,General,1,Standard Role
+CavinKare Private Limited,Digital Marketing,Chennai,"₹ 5,000 - 10,000 /month",3 Months,"Video Editing & Content Creation
+
+Edit short-form videos for Instagram Reels, YouTube Shorts, and WhatsApp for pet care tips, hospital services, and client testimonials Add subtitles, transitions, music, and branding elements as per brand guideline",https://internshala.com/internship/detail/digital-marketing-internship-in-chennai-at-cavinkare-private-limited1776421879,In-Person,CS,General,1,Standard Role
+Zebronics India Private Limited,Business Development (Sales),"Ahmedabad, Chandigarh, Delhi, Ghaziabad, Indore, Ludhiana, Lucknow, Patna, Pune, Hyderabad, Bhopal, Mumbai, Noida, Raipur, Nagpur","₹ 7,001 - 7,502 lump sum",6 Weeks,"Key Responsibilities:
+
+1) Promote Zebronics Video Door Phones through on-ground sales activities
+Visit societies, apartments, and commercial spaces for product demos and awareness
+2) Generate leads by connecting with interior designers, builders,",https://internshala.com/internship/detail/business-development-sales-internship-in-multiple-locations-at-zebronics-india-private-limited1776318903,In-Person,General / Tech,General,1,Standard Role
+Paracoat Products Limited,AI Operations,Gurgaon,"₹ 20,000 - 30,000 /month",3 Months,Paracoat Products Ltd. is a manufacturing organization focused on improving business operations through the practical application of AI. The company aims to redefine how teams work by identifying inefficiencies and implementing AI-driven solutions ac,https://internshala.com/internship/detail/ai-operations-internship-in-gurgaon-at-paracoat-products-limited1776313810,In-Person,CS,General,1,Standard Role
+Polar Lifestyle Pvt Ltd,Social Media Marketing,Mumbai,"₹ 17,000 - 27,500 /month",1 Month,"1. Shooting video content for the brand
+2. Editing and posting content
+3. Collaborating with influencers",https://internshala.com/internship/detail/social-media-marketing-internship-in-mumbai-at-polar-lifestyle-pvt-ltd1776167924,In-Person,General / Tech,General,1,Standard Role
+Paracoat Products Limited,Digital Marketing,Gurgaon,"₹ 15,000 /month",3 Months,"Paramat is a fast-growing Indian brand in the automotive aftermarket industry, specializing in soundproofing solutions. With a presence in lakhs of cars annually and exports to over 20 countries, the company has built a strong reputation for quality ",https://internshala.com/internship/detail/digital-marketing-internship-in-gurgaon-at-paracoat-products-limited1776167801,In-Person,MECH,General,1,Standard Role
+Gravita India Limited,Sales and Marketing,Jaipur,"₹ 10,000 /month",6 Months,"As a Sales and Marketing intern at Gravita India Limited, you will have the opportunity to work closely with our experienced sales and marketing team to drive business growth and maximize revenue. You will gain hands-on experience in B2B sales and ma",https://internshala.com/internship/detail/sales-and-marketing-internship-in-jaipur-at-gravita-india-limited1776067309,In-Person,CS,General,1,Standard Role
+Zucol Services Private Limited,Human Resources (HR),Jaipur,"₹ 5,500 - 9,500 /month",3 Months,"Are you passionate about Human Resources and looking for an exciting opportunity to kickstart your career? Look no further! Zucol Services Private Limited is seeking a talented HR intern who is well-versed in Recruitment, Resume screening, and Englis",https://internshala.com/internship/detail/human-resources-hr-internship-in-jaipur-at-zucol-services-private-limited1775542027,In-Person,General / Tech,General,1,Standard Role
+CareerNet Technologies Private Limited,Community Marketing,Bangalore (Hybrid),"₹ 15,000 - 20,000 /month",3 Months,"1. Supporting engagement on our Discord community and other digital channels
+2. Drafting posts, announcements, and community messages
+3. Assisting with social media content and campaign execution
+4. Using AI tools to improve content, workflows, an",https://internshala.com/internship/detail/community-marketing-internship-in-bangalore-at-careernet-technologies-private-limited1775544132,Hybrid,CS,General,1,Standard Role
+SysTools Software Private Limited,Digital Marketing,Delhi,"₹ 10,000 - 15,000 /month",6 Months,"1. Write blogs, website content, and social media posts.
+2. Assist in creating basic graphics using tools like Canva.
+3. Perform keyword research using tools like Google Keyword Planner.
+4. Optimize website and blog content for better ranking.
+5.",https://internshala.com/internship/detail/digital-marketing-internship-in-delhi-at-systools-software-private-limited1775539775,In-Person,CS,General,1,Standard Role
+CK Birla Healthcare Private Limited,Digital Marketing,Gurgaon,"₹ 18,000 - 18,001 /month",6 Months,"As a Digital Marketing intern at CK Birla Healthcare Private Limited, you will have the exciting opportunity to apply your knowledge of SEO, SEM, Digital Marketing, and Facebook Marketing to drive our online presence and engage with our target audien",https://internshala.com/internship/detail/digital-marketing-internship-in-gurgaon-at-ck-birla-healthcare-private-limited1775461085,In-Person,CS,General,1,Standard Role
+PATEL ENGINEERING COMPANY,Digital Marketing,"Pune, Pimpri-Chinchwad","₹ 5,000 - 10,000 /month",6 Months,"1. Manage social media marketing activities across platforms.
+2. Execute search engine optimisation strategies to improve online visibility.
+3. Design marketing collateral aligned with brand guidelines.",https://internshala.com/internship/detail/digital-marketing-internship-in-multiple-locations-at-patel-engineering-company1775448891,In-Person,General / Tech,General,1,Standard Role
+Community Action Through Motivation Program,Human Resources (HR),Bhopal,"₹ 3,000 /month",2 Months,"Are you a proactive, detail-oriented individual with a passion for HR and community service? We are seeking a motivated 'HR Intern' to join our team at Community Action Through Motivation Program! As an intern with us, you will have the opportunity t",https://internshala.com/internship/detail/human-resources-hr-internship-in-bhopal-at-community-action-through-motivation-program1775192825,In-Person,CS,General,1,Standard Role
 Anderson Diagnostics And Lab,Marketing,Chennai,"₹ 10,000 - 12,000 /month",6 Months,"1 .Field Marketing: Drive revenue by building relationships with local GPs, specialists, clinics, and corporate clients to increase referrals.
 
-2.B2B & Corporate Relations: Meet with companies to es...",https://internshala.com/internship/detail/marketing-internship-in-chennai-at-anderson-diagnostics-and-lab1775023965,MECH,In-Person,Standard Role,General,5
+2.B2B & Corporate Relations: Meet with companies to establish health check-up tie-ups, promotional activ",https://internshala.com/internship/detail/marketing-internship-in-chennai-at-anderson-diagnostics-and-lab1775023965,In-Person,General / Tech,General,1,Standard Role
 CK Birla Healthcare Private Limited,Community Management,Gurgaon,"₹ 18,000 - 20,000 /month",6 Months,"Selected intern's day-to-day responsibilites include:
 
 1. Engaging across Reddit, Instagram, and Quora.
 2. Answering comments, threads, and DMs.
 3. Tracking conversations and trends.
-4. Building ...",https://internshala.com/internship/detail/community-management-internship-in-gurgaon-at-ck-birla-healthcare-private-limited1774982350,General / Tech,In-Person,Standard Role,General,5
-Vindhya E Infomedia Private Limited,Recruitment,Bangalore,"₹ 5,000 - 8,000 /month",1 Month,"1. Sourcing candidates on job portals
-2. Calling the candidates and briefing about the JD
-3. Scheduling interviews...",https://internshala.com/internship/detail/recruitment-internship-in-bangalore-at-vindhya-e-infomedia-private-limited1774973727,General / Tech,In-Person,Standard Role,General,5
+4. Building a real community.
+5. Coordinating with SEO teams.",https://internshala.com/internship/detail/community-management-internship-in-gurgaon-at-ck-birla-healthcare-private-limited1774982350,In-Person,General / Tech,General,1,Standard Role
 Vaibhav Global Limited,Video Editing/Making,Jaipur,"₹ 12,000 - 14,000 /month",6 Months,"1. Plan, shoot, and edit video content for social media, marketing campaigns, product launches, and internal communications.
-2. Collaborate with the marketing, product, and design teams to develop co...",https://internshala.com/internship/detail/video-editing-making-internship-in-jaipur-at-vaibhav-global-limited1774935730,CS,In-Person,Standard Role,General,5
-Katalyst Software Services Limited,Content Writing,Pune,"₹ 7,000 - 1,00,001 /month",3 Months,"Are you a creative wordsmith with a passion for all things content writing? Do you have a knack for crafting engaging blog posts and optimizing them for SEO? If so, we have the perfect opportunity for...",https://internshala.com/internship/detail/content-writing-internship-in-pune-at-katalyst-software-services-limited1774606414,CS,In-Person,Standard Role,General,5
-M S SHARMA & CO,Accounting,Faridabad,"₹ 5,000 - 6,000 /month",6 Months,Are you a savvy accounting student looking to kickstart your career in a dynamic and fast-paced environment? Look no further than M S SHARMA & CO! We are seeking a talented Accounting Intern who is we...,https://internshala.com/internship/detail/accounting-internship-in-faridabad-at-m-s-sharma-co1775024537,CS,In-Person,Standard Role,"Data, Backend, Finance",5
-Eyep Techproducts Private Limited,Business Development (Sales),Delhi (Hybrid),"₹ 18,000 - 30,000 /month",3 Months,"1. Plan offline and online campaign for Tija and ekegel 
-2. Meet potential partners ( Doctor / specialists to explain the product  
-3. Plan and execute road shows...",https://internshala.com/internship/detail/business-development-sales-internship-in-delhi-at-eyep-techproducts-private-limited1776152652,CS,Hybrid,Standard Role,General,5
-Feetinch Studio LLP,Architecture,Gurgaon,"₹ 10,000 - 12,000 /month",6 Months,"1. Working on architecture drafting.
-2. Working on 3D rendering.
-3. Working on client representation.
-4. Handling the interior work....",https://internshala.com/internship/detail/architecture-internship-in-gurgaon-at-feetinch-studio-llp1776255261,CIVIL,In-Person,Standard Role,General,5
-Applicate IT Solutions Private Limited,Talent Acquisition,Gurgaon,"₹ 30,000 - 45,000 /month",3 Months,"Selected Intern's day-to-day responsibilities include: 
-
-1. Assist in end-to-end recruitment using the latest AI tools are software available.
-2. Coordinate interviews & feedback collection
-3. Mai...",https://internshala.com/internship/detail/talent-acquisition-internship-in-gurgaon-at-applicate-it-solutions-private-limited1776315897,CS,In-Person,Standard Role,General,5
-Impact Digital Services Private Limited,Sales,Delhi,"₹ 10,000 - 15,000 /month",3 Months,1. Manage the conversion process of prospects and convert them into paying customers for digital and travel services....,https://internshala.com/internship/detail/sales-internship-in-delhi-at-impact-digital-services-private-limited1776161920,CHEM,In-Person,Standard Role,General,5
-On Fleek Living,Interior Design,Delhi (Hybrid),"₹ 9,500 - 12,500 /month",4 Months,"1. Develop creative and functional interior design concepts.
-2. Create 2D drawings, layouts, and technical plans using AutoCAD.
-3. Develop 3D models and detailed visualizations.
-4. Ability to use A...",https://internshala.com/internship/detail/interior-design-internship-in-delhi-at-on-fleek-living1776186957,CS,Hybrid,Standard Role,General,5
-Trifecta Records LLP,Photography,Delhi (Hybrid),"₹ 1,500 - 3,250 /week",2 Weeks,"We are looking for a highly motivated, visually-driven Creative Media Intern to join our studio for a fast-paced, two-week residency. This role is designed for a storyteller who can capture the energy...",https://internshala.com/internship/detail/photography-internship-in-delhi-at-trifecta-records-llp1776158702,CS,Hybrid,Standard Role,Finance,5
-Academy Of Event Planning,Sales and Marketing,Delhi,"₹ 6,000 - 8,000 /month",4 Months,"-Assist in planning and executing social media marketing campaigns
--Manage and grow presence on platforms like Facebook and Instagram
--Run and optimize Instagram Ads and Facebook Marketing campaigns...",https://internshala.com/internship/detail/sales-and-marketing-internship-in-delhi-at-academy-of-event-planning1776578924,CS,In-Person,Standard Role,General,5
-Thinkcloudly Private Limited,Digital Marketing,Noida,"₹ 12,000 - 15,000 /month",3 Months,"* Support Google Ads, Facebook Ads, and email marketing.
-* Assist in digital marketing campaigns & social media management.
-* Perform SEO optimization 
-* Familiarity with Content Marketing & Analyt...",https://internshala.com/internship/detail/digital-marketing-internship-in-noida-at-thinkcloudly-private-limited1776259077,CS,In-Person,Standard Role,Data,5
-NK–PWRC (Psychological Well-being & Resilience Centre),Front Desk Management,Gurgaon,"₹ 8,000 - 16,000 /month",6 Months,"1. Manage appointments, cancellations, and scheduling
-2. Handle client inquiries (calls, WhatsApp, walk-ins)
-3. Maintain confidentiality and client records
-4. Coordinate with therapists/clinicians...",https://internshala.com/internship/detail/front-desk-management-internship-in-gurgaon-at-navneet-kaur1776167391,CS,In-Person,Standard Role,General,5
-Gigde Global Solutions Private Limited,Social Media Marketing,Noida,"₹ 10,000 - 12,000 /month",6 Months,Are you a social media savvy individual with a passion for marketing and creativity? Gigde Global Solutions Private Limited is looking for a dynamic Social Media Marketing intern to join our team! As ...,https://internshala.com/internship/detail/social-media-marketing-internship-in-noida-at-gigde-global-solutions-private-limited1776335784,CS,In-Person,Standard Role,General,5
-Academy Of Pastry And Culinary Arts Mumbai,Accounts,Gurgaon,"₹ 12,000 - 15,000 /month",6 Months,"1.Assist in maintaining financial records, including ledgers, invoices, and receipts
-2.Support accounts payable and accounts receivable processes
-3.Help prepare financial statements and reports
-4.R...",https://internshala.com/internship/detail/accounts-internship-in-gurgaon-at-academy-of-pastry-and-culinary-arts-mumbai1776154755,CS,In-Person,Standard Role,General,5
-JK Insurance Brokers Limited,Accounts,Noida,"₹ 15,000 - 20,000 /month",6 Months,"1. Assist in revenue booking, recognition, and reconciliation 
-2. Support preparation and filing of TDS returns and GST returns 
-3. Help in expense booking and accounting entries 
-4. Perform day-to...",https://internshala.com/internship/detail/accounts-internship-in-noida-at-jk-insurance-brokers-limited1776163061,Finance/Economics,In-Person,Standard Role,General,5
-ONergy Solar,Recruitment,Kolkata,"₹ 3,000 - 5,000 /month",4 Months,"Are you passionate about renewable energy and making a positive impact on the environment? Join ONergy Solar as a Recruitment intern and gain valuable experience in the solar industry! As an intern, y...",https://internshala.com/internship/detail/recruitment-internship-in-kolkata-at-onergy-solar1775546341,CS,In-Person,Standard Role,General,1
-4C Consulting Private Limited,Business Research,Ahmedabad,"₹ 6,000 - 8,000 /month",6 Months,"Woodlink Interiors is a design-focused firm specializing in creating functional and aesthetically appealing interior spaces. The company works on both residential and commercial projects, combining cr...",https://internshala.com/internship/detail/business-research-internship-in-ahmedabad-at-4c-consulting-private-limited1776426565,CS,In-Person,Standard Role,General,1
-Sentriscope Data Intelligence Private Limited,Operations Management,Lucknow,"₹ 8,000 - 10,000 /month",3 Months,"1. Manage their workload and collaborate with executives and operating partners across multiple channels.
- 2. Work with the project manager to establish priorities, schedules, and deadlines for tasks...",https://internshala.com/internship/detail/operations-management-internship-in-lucknow-at-sentriscope-data-intelligence-private-limited1776317344,CS,In-Person,Standard Role,General,1
-Evolve Back Resorts,Digital Marketing,Bangalore,"₹ 5,999 - 6,000 /month",6 Months,"1.Search Engine Optimization (SEO): Learning the art of ranking. You’ll assist with keyword research, metadata optimization, and content updates to boost our organic visibility. 
-2. Social media: Cre...",https://internshala.com/internship/detail/digital-marketing-internship-in-bangalore-at-evolve-back-resorts1776337937,CS,In-Person,Standard Role,General,1
-Pallonji’s,Business Development (Sales),Mumbai,"₹ 9,500 - 20,000 /month",4 Months,"1. Drive market and sales expansion across retail and HORECA channels
-2. Manage sales pipeline and oversee lead generation and tracking
-3. Conduct consumer and trend research to identify market oppo...",https://internshala.com/internship/detail/business-development-sales-internship-in-mumbai-at-pallonjis1776411006,CS,In-Person,Standard Role,General,1
-Zebronics India Private Limited,Business Development (Sales),"Ahmedabad, Chandigarh, Delhi, Ghaziabad, Indore, Ludhiana, Lucknow, Patna, Pune, Hyderabad, Bhopal, Mumbai, Noida, Raipur, Nagpur","₹ 7,001 - 7,502 lump sum",6 Weeks,"Key Responsibilities:
-
-1) Promote Zebronics Video Door Phones through on-ground sales activities
-Visit societies, apartments, and commercial spaces for product demos and awareness
-2) Generate lead...",https://internshala.com/internship/detail/business-development-sales-internship-in-multiple-locations-at-zebronics-india-private-limited1776318903,CS,In-Person,Standard Role,General,1
-Shunya Digital,Business Development (Sales),Work from home,"₹ 3,099 - 5,000 /month",6 Months,Are you passionate about sales and digital marketing? Are you looking to kickstart your career in Business Development? Shunya Digital is looking for a dynamic Business Development (Sales) intern who ...,https://internshala.com/internship/detail/work-from-home-business-development-sales-internship-at-shunya-digital1776256619,CS,Remote,Standard Role,"Data, Finance",1
-Paracoat Products Limited,Digital Marketing,Gurgaon,"₹ 15,000 /month",3 Months,"Paramat is a fast-growing Indian brand in the automotive aftermarket industry, specializing in soundproofing solutions. With a presence in lakhs of cars annually and exports to over 20 countries, the ...",https://internshala.com/internship/detail/digital-marketing-internship-in-gurgaon-at-paracoat-products-limited1776167801,CS,In-Person,Standard Role,General,1
-Etikara,Content and Social Media Marketing,Lucknow (Hybrid),"₹ 10,000 - 12,000 /month",3 Months,"Etikara is an emerging premium D2C ethnic fashion label based in Lucknow. We design premium Indian wear, bringing accessible luxury to elegant and joyful celebrations. We are seeking a creative, disci...",https://internshala.com/internship/detail/part-time-content-and-social-media-marketing-internship-in-lucknow-at-etikara1776146633,CS,Hybrid,Standard Role,Finance,1
-Gravita India Limited,Sales and Marketing,Jaipur,"₹ 10,000 /month",6 Months,"As a Sales and Marketing intern at Gravita India Limited, you will have the opportunity to work closely with our experienced sales and marketing team to drive business growth and maximize revenue. You...",https://internshala.com/internship/detail/sales-and-marketing-internship-in-jaipur-at-gravita-india-limited1776067309,CS,In-Person,Standard Role,General,1
-PurpleTalk India Private Limited,Inside Sales,Hyderabad,"₹ 10,000 /month",6 Months,"1. Get trained on tools most people only hear about in LinkedIn posts. We'll put you on LinkedIn Sales Navigator, Apollo.io, Lusha, and Smartlead in your first two weeks. Full training, zero guesswork...",https://internshala.com/internship/detail/inside-sales-internship-in-hyderabad-at-purpletalk-india-private-limited1775818716,CS,In-Person,Standard Role,General,1
-VIZON,Software Development,Work from home,"₹ 11,000 - 17,000 /month",3 Months,"As a Software Development Intern at VIZON, you will have the opportunity to immerse yourself in the dynamic world of technology and contribute to cutting-edge projects. With your expertise in C++ Prog...",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-vizon1775608161,CS,Remote,Standard Role,Web,1
-VIZON,Social Media Marketing,Work from home,"₹ 12,000 - 20,000 /month",3 Months,"1. Collaborate with our dynamic marketing team to develop and implement cutting-edge social media marketing strategies that drive brand awareness and engagement
-2. Utilize your expert knowledge of Ad...",https://internshala.com/internship/detail/work-from-home-social-media-marketing-internship-at-vizon1775607904,CS,Remote,Standard Role,General,1
-Zucol Services Private Limited,Human Resources (HR),Jaipur,"₹ 5,500 - 9,500 /month",3 Months,Are you passionate about Human Resources and looking for an exciting opportunity to kickstart your career? Look no further! Zucol Services Private Limited is seeking a talented HR intern who is well-v...,https://internshala.com/internship/detail/human-resources-hr-internship-in-jaipur-at-zucol-services-private-limited1775542027,CS,In-Person,Standard Role,General,1
-NoBroker Technologies Solutions Private Limited,Business Development,Bangalore,"₹ 24,000 /month",2 Months,"1. Generate leads via online and offline channels
-2. Conduct cold calls to reach potential vendors
-3. Manage walk-in vendor inquiries efficiently
-4. Understand vendor needs and pitch solutions
-5. ...",https://internshala.com/internship/detail/business-development-internship-in-bangalore-at-nobroker-technologies-solutions-private-limited1775493992,CS,In-Person,Standard Role,General,1
-CK Birla Healthcare Private Limited,Digital Marketing,Gurgaon,"₹ 18,000 - 18,001 /month",6 Months,"As a Digital Marketing intern at CK Birla Healthcare Private Limited, you will have the exciting opportunity to apply your knowledge of SEO, SEM, Digital Marketing, and Facebook Marketing to drive our...",https://internshala.com/internship/detail/digital-marketing-internship-in-gurgaon-at-ck-birla-healthcare-private-limited1775461085,CS,In-Person,Standard Role,General,1
-Shunya Digital,AI Agent Development,Work from home,"₹ 3,100 - 5,001 /month",6 Months,"1. Build and maintain the lead intelligence engine when a prospect fills our home loan calculator, an automated workflow generates a personalised savings report using the Claude API and delivers it to...",https://internshala.com/internship/detail/work-from-home-ai-agent-development-internship-at-shunya-digital1775468274,CS,Remote,Standard Role,General,1
-Angel One (AP),Telecaller,Work from home,"₹ 2,000 - 10,000 /month",6 Months,"1. Attending webinar and understanding about the stock market (equity, future, and option)
-2. Working on lead generation & searching for people interested in the stock market.
-3. Convincing them & a...",https://internshala.com/internship/detail/work-from-home-part-time-telecaller-internship-at-angel-one-ap1775215728,CS,Remote,Standard Role,Finance,1
-AIESEC India,Global Volunteering Intern,Top international cities,Unpaid,6 Weeks,"As a Global Volunteer, you will work on social impact projects aligned with one or more Sustainable Development Goals. Volunteers collaborate with local NGOs, educational institutions, and community p...",https://internshala.com/internship/detail/global-volunteering-intern-internship-in-multiple-locations-at-aiesec-india1775133791,CS,In-Person,Standard Role,General,1
-AIESEC India,Global Talent Intern,Top international cities,Unpaid,6 Months,"As a Global Talent Intern, you will work with an international organization to contribute to business projects while gaining hands-on professional experience in a global workplace.
-
-You will collabo...",https://internshala.com/internship/detail/global-talent-intern-internship-in-multiple-locations-at-aiesec-india1775133195,CS,In-Person,Standard Role,Data,1
-NoBroker Technologies Solutions Private Limited,Sales,"Faridabad, Delhi, Gurgaon, Noida","₹ 8,000 - 20,000 /month",4 Months,"We’re Hiring Sales Interns – NCR Region | NoBrokerHood
-Looking to kickstart your career in sales with one of India’s fastest-growing proptech platforms? Here’s your chance!
-
-NoBrokerHood is hiring ...",https://internshala.com/internship/detail/sales-internship-in-multiple-locations-at-nobroker-technologies-solutions-private-limited1774972622,CS,In-Person,Standard Role,General,1
-LeapScholar,Campus Ambassador,Jaipur,Performance Based,2 Months,Are you passionate about studying abroad and helping others make their dreams a reality? Leap Scholar is looking for a dynamic and enthusiastic Student Ambassador to join our team! As a Study Abroad S...,https://internshala.com/internship/detail/campus-ambassador-programme-at-leapscholar1774940937,CS,In-Person,Standard Role,General,1
+2. Collaborate with the marketing, product, and design teams to develop content ideas and scripts.
+3. Ensure all content al",https://internshala.com/internship/detail/video-editing-making-internship-in-jaipur-at-vaibhav-global-limited1774935730,In-Person,CS,General,1,Standard Role
 Susa Nuts Private Limited,Digital Marketing,Ludhiana,"₹ 8,000 - 14,000 /month",6 Months,"A. Social media management
 1. Handle daily posting on platforms like Instagram, Facebook, and WhatsApp Business
 2. Create engaging content (captions, reels ideas, stories)
-3. Respond to comments, m...",https://internshala.com/internship/detail/digital-marketing-internship-in-ludhiana-at-susa-nuts-private-limited1774869298,CS,In-Person,Standard Role,General,1
+3. Respond to comments, messages, and customer queries
+
+B. Customer inter",https://internshala.com/internship/detail/digital-marketing-internship-in-ludhiana-at-susa-nuts-private-limited1774869298,In-Person,CS,General,1,Standard Role
 Visual Eyes Films,Social Media Marketing,Hyderabad,"₹ 5,000 - 15,000 /month",6 Months,"1.Content planning
 2.Content execution
 3.Growth and engagement
-4.Lead support from social media...",https://internshala.com/internship/detail/social-media-marketing-internship-in-hyderabad-at-visual-eyes-films1774699845,General / Tech,In-Person,Standard Role,General,1
-Web Glaze Services,Tele Sales Coordinator,Delhi,"₹ 5,000 - 10,000 /month",4 Months,"Selected intern's day-to-day responsibilites include:
-
-A. Tele sales and client handling:
-1. Making outbound calls to potential and existing customers.
-2. Handling inbound inquiries professionally...",https://internshala.com/internship/detail/tele-sales-coordinator-internship-in-delhi-at-web-glaze-services1774700732,CS,In-Person,Standard Role,"Data, Finance",1
+4.Lead support from social media",https://internshala.com/internship/detail/social-media-marketing-internship-in-hyderabad-at-visual-eyes-films1774699845,In-Person,General / Tech,General,1,Standard Role
 Visual Eyes Films,Sales and Marketing,Hyderabad,"₹ 5,000 - 15,000 /month",6 Months,"1.Lead Response & Conversion
 2.Follow-Up Engine
 3.Outbound Lead Generation Support
 4.Appointment Booking
 5.CRM & Pipeline Management
-6.Sales Support During Closures...",https://internshala.com/internship/detail/sales-and-marketing-internship-in-hyderabad-at-visual-eyes-films1774695141,CS,In-Person,Standard Role,General,1
-Plunes Healthcare,Human Resources (HR),Gurgaon,"₹ 15,000 /month",6 Months,"Key Responsibilities
-
-1. Talent Acquisition (Recruitment)
-- Sourcing: Identify potential candidates using platforms like LinkedIn, Naukri, and -other job portals.
-- Screening: Conduct initial tele...",https://internshala.com/internship/detail/human-resources-hr-internship-in-gurgaon-at-plunes-healthcare1776151175,CS,In-Person,Standard Role,General,1
-U-Turn4Nature,Co-Founder,Noida,Competitive stipend,6 Months,Co-Founder(With Investment or Without Investment) Location: Greater Noida/NoidaReporting: SelfAbout Us. U-Turn4Nature is a commendable homemade natural food company that takes pride in producing high-...,https://internshala.com/internship/detail/co-founder-internship-in-noida-at-u-turn4nature1776242951,CS,In-Person,Standard Role,"AI/ML, Data, Finance",1
-Radiant Synergy,Web Development,Delhi (Hybrid),"₹ 5,000 - 7,000 /month",2 Months,"We are looking for a talented web development intern to join our team! If you have a strong grasp of HTML, CSS, JavaScript, Bootstrap, and jQuery, this is the perfect opportunity for you to gain real-...",https://internshala.com/internship/detail/web-development-internship-in-delhi-at-pratibha-rajput1776243597,CS,Hybrid,Standard Role,Web,1
-NiYO Solutions Incorporation,Business Development (Sales),"Ahmedabad, Chennai, Delhi, Gurgaon, Hyderabad, Mumbai","₹ 15,000 - 20,000 /month",6 Months,"This is a field-based sales and business development internship. You will identify, pitch, onboard and manage B2B channel partners such as student counsellors, travel agents and tour operators, who wi...",https://internshala.com/internship/detail/business-development-sales-internship-in-multiple-locations-at-niyo-solutions-incorporation1776227548,CS,In-Person,Standard Role,General,1
-EChargeup Solutions Private Limited,Inside Sales,Delhi,"₹ 10,000 - 12,000 /month",3 Months,"• Lead calling & follow-ups
-• Convert prospects into customers
-• Support B2C & B2B sales
-• Sales operations & customer support
-• Maintain lead data...",https://internshala.com/internship/detail/inside-sales-internship-in-delhi-at-echargeup-solutions-private-limited1776332968,CS,In-Person,Standard Role,General,1
-Godani Bansal & Co.,CA Articleship,Noida,"₹ 8,500 - 10,000 /month",24 Months,"We are looking for a dynamic CA Articleship intern to join our team at Godani Bansal & Co. As an intern, you will have the opportunity to work on various projects related to MS-Office, statutory compl...",https://internshala.com/internship/detail/ca-articleship-internship-in-noida-at-godani-bansal-co1776334811,CS,In-Person,Standard Role,Backend,1
-Times Internet,Sales and Presales,Noida,"₹ 15,000 - 30,000 /month",3 Months,"1. Vet leads.
-2. Create and deliver presentations.
-3. Attend and manage client meetings....",https://internshala.com/internship/detail/sales-and-presales-internship-in-noida-at-times-internet1776170460,General / Tech,In-Person,Standard Role,General,1
-S. RAJWANSHI AND CO.,Company Secretary (CS),Delhi,"₹ 5,000 - 7,000 /month",6 Months,"A. Draft legal documents.
-1. Assist in drafting minutes of meetings, board resolutions, and other legal documents as required by the company.
-2. Ensure the accuracy and legal soundness of drafted ma...",https://internshala.com/internship/detail/company-secretary-cs-internship-in-delhi-at-s-rajwanshi-and-co1776401731,Pure Research,In-Person,Standard Role,General,1
-Abhimanyu  Singhal,Content and Social Media Marketing,Faridabad,"₹ 7,000 - 25,000 /month",2 Months,"As a Content and Social Media Marketing intern at Abhimanyu Singhal company, you will have the opportunity to showcase your creative skills and knowledge of Canva and Artificial Intelligence. Your res...",https://internshala.com/internship/detail/content-and-social-media-marketing-internship-in-faridabad-at-abhimanyu-singhal1776174871,CS,In-Person,Standard Role,General,1
-Suraasa,Talent Acquisition,Noida (Hybrid),"₹ 13,000 - 15,000 /month",3 Months,"• Source candidates from job portals (Naukri, LinkedIn, Internshala, etc.) using keywords, filters and Boolean search.
-• Screen resumes to shortlist relevant candidates based on hiring requirements....",https://internshala.com/internship/detail/talent-acquisition-internship-in-noida-at-suraasa1776318087,CS,Hybrid,Standard Role,General,1
-HBG Medical Assistance Private Limited,Content Writing,Gurgaon,"₹ 10,000 - 15,000 /month",3 Months,"As a Content Writing intern at HBG Medical Assistance Private Limited, you will have the exciting opportunity to showcase your skills in SEO, blogging, creative writing, and English proficiency while ...",https://internshala.com/internship/detail/content-writing-internship-in-gurgaon-at-hbg-medical-assistance-private-limited1776264408,CS,In-Person,Standard Role,Data,1
-Karakbit,Business Development (Sales),"Dehradun, Delhi (Hybrid)","₹ 6,000 /month",3 Months,"We are hiring self-driven Independent Business Development Interns to drive student onboarding and subscription revenue for Karakbit, a platform built for K12 students.
-This role involves working on-...",https://internshala.com/internship/detail/business-development-sales-internship-in-multiple-locations-at-karakbit1776413559,CS,Hybrid,Standard Role,General,1
-SHRI Sohang IT Solutions,Telecalling,Delhi,"₹ 8,000 - 17,000 /month",6 Months,"As a Telecalling intern at SHRI Sohang IT Solutions, you will have the exciting opportunity to gain hands-on experience in lead generation, sales, and effective communication. Your role will involve r...",https://internshala.com/internship/detail/telecalling-internship-in-delhi-at-shri-sohang-it-solutions1776418698,CS,In-Person,Standard Role,"Data, Finance",1
-Offbeat Trip,Digital Marketing,Delhi,"₹ 7,000 - 10,000 /month",6 Months,"Join our dynamic team as a digital marketing intern at Offbeat Trip Company! We are seeking a motivated individual with knowledge in SEM, social media marketing, SEO, creative writing, Instagram and F...",https://internshala.com/internship/detail/digital-marketing-internship-in-delhi-at-offbeat-trip1776426336,CS,In-Person,Standard Role,General,1
+6.Sales Support During Closures",https://internshala.com/internship/detail/sales-and-marketing-internship-in-hyderabad-at-visual-eyes-films1774695141,In-Person,CS,General,1,Standard Role
+Team Management Services,HR (Recruitment),"Thane, Navi Mumbai, Dombivli, Kalyan, Mumbai, Vashi, Vashi Navi Mumbai","₹ 8,000 - 10,000 /month",6 Months,"1. Handling end-to-end recruitment from entry-level to senior level positions. 
+2. Source candidates through job portals, referrals, social media, and databases.  
+3. Screen resumes and shortlist candidates based on job requirements.  
+4. Coordina",https://internshala.com/internship/detail/hr-recruitment-internship-in-multiple-locations-at-team-management-services1774520398,In-Person,General / Tech,General,1,Standard Role
+Web Glaze Services,Graphic Design,Mohali,"₹ 4,000 - 5,000 /month",6 Months,"Are you a creative and talented Graphic Design intern with skills in Video Editing, UI & UX Design, and Adobe Creative Suite? Join our team at Web Glaze Services, a fast-growing digital marketing agency! As an intern, you will have the opportunity to",https://internshala.com/internship/detail/graphic-design-internship-in-mohali-at-web-glaze-services1774264902,In-Person,CS,General,1,Standard Role
+Web Glaze Services,Social Media Marketing,Mohali,"₹ 4,000 - 5,000 /month",2 Weeks,"Key responsibilities:
+1. Develop and implement social media strategies to increase brand awareness and drive engagement across all platforms.
+2. Utilize SEO best practices to optimize content and improve search engine rankings.
+3. Create and manag",https://internshala.com/internship/detail/social-media-marketing-internship-in-mohali-at-web-glaze-services1774263163,In-Person,General / Tech,General,1,Standard Role
+Hungama Digital Media Entertainment Private Limited,Human Resources (HR),Mumbai,"₹ 8,000 - 10,000 /month",6 Months,"A. Recruitment & Calling:
+1. Source candidates through job portals, referrals, and social media platforms
+2. Screen resumes as per job requirements
+3. Conduct initial HR telephonic interviews and candidate calling
+4. Schedule interviews and coord",https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-hungama-digital-media-entertainment-private-limited1774257061,In-Person,General / Tech,General,1,Standard Role
+FPT Industrial ( CNH Industrial),Marketing,"Chennai, Pune, Greater Noida, Delhi, Noida (Hybrid)","₹ 4,000 - 7,000 /month",3 Months,"1. Brand & content execution- Brochures, leaflets, branded materials, product storytelling (photos/videos), and video production support
+2. Social media & digital presence- LinkedIn content creation, drafting social media posts & visual briefs
+3. E",https://internshala.com/internship/detail/marketing-internship-in-multiple-locations-at-fpt-industrial--cnh-industrial1774239812,Hybrid,MANUFACTURING,General,1,Standard Role
+PAN India Group,Event Executives - Female,Gurgaon,"₹ 8,000 - 12,000 /month",6 Months,Are you a dynamic and ambitious female looking to kickstart your career in event management and marketing? We are a leading PAN India Group company seeking a talented Event Executive intern to join our team. If you have a passion for organizing and e,https://internshala.com/internship/detail/event-executives-female-internship-in-gurgaon-at-pan-india-group1776619296,In-Person,General / Tech,General,1,Standard Role
+Bedi And Associates,Accounting & Taxation,Delhi,"₹ 3,500 - 6,500 /month",6 Months,"Bedi and Associates deal in auditing, taxation, and advisory services, situated in New Delhi. The firm consists of various experienced associates and professionals, including CAs, CS's, CWA's, and lawyers who make a powerful team to effectively and e",https://internshala.com/internship/detail/accounting-taxation-internship-in-delhi-at-bedi-and-associates1773215657,In-Person,General / Tech,General,1,Standard Role
+Premier Wings Private Limited,Content and Social Media Marketing,Delhi (Hybrid),"₹ 6,000 /month",3 Months,"As a content and social media marketing intern at Premier Wings Private Limited, you will have the opportunity to showcase your skills in video editing, social media marketing, Instagram marketing, Facebook ads, Adobe After Effects, content editing, ",https://internshala.com/internship/detail/content-and-social-media-marketing-internship-in-delhi-at-premier-wings-private-limited1773137072,Hybrid,General / Tech,General,1,Standard Role
+Trend Arrest Clothing Pvt Ltd,Fashion Marketing,Gurgaon,"₹ 5,000 - 6,000 /month",2 Months,"1. Handle Instagram presence including content creation, editing, posting and engagement.
+2. Research fashion trends on Instagram, marketplaces and through real-world observation.
+3. Spot emerging styles and identify fast-selling products to guide ",https://internshala.com/internship/detail/fashion-marketing-internship-in-gurgaon-at-trend-arrest-clothing-pvt-ltd1773811701,In-Person,Pure Research,General,1,Standard Role
+JP IT STAFFING LLC,Business Development (Sales),Greater Noida,"₹ 3,000 - 5,000 /month",3 Months,"1.  Identify and generate new business leads through research and outreach.
+2. Assist in developing strategies to expand the company’s client base.
+3. Communicate with potential clients via calls, emails, and meetings.
+4. Maintain and update custo",https://internshala.com/internship/detail/business-development-sales-internship-in-greater-noida-at-jp-it-staffing-llc1773764233,In-Person,CS,General,1,Standard Role
