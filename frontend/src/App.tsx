@@ -1,33 +1,19 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Papa from 'papaparse';
-import * as tf from '@tensorflow/tfjs';
-import * as use from '@tensorflow-models/universal-sentence-encoder';
-import { Search, Filter, Loader2 } from 'lucide-react';
+import { Search, Filter, Loader2, Sparkles } from 'lucide-react';
 
 import Header from './components/Header';
 import JobCard from './components/JobCard';
 import SummaryBento from './components/SummaryBento';
-
-interface InternshipData {
-  company: string;
-  title: string;
-  location: string;
-  stipend: string;
-  duration: string;
-  requirements: string;
-  apply_link: string;
-  branch?: string;
-  modality?: string;
-  is_first_year?: string;
-  embedding?: number[];
-  score?: number;
-}
+import { useInternshipEngine } from './hooks/useInternshipEngine';
 
 const App: React.FC = () => {
-  const [internships, setInternships] = useState<InternshipData[]>([]);
-  const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filterModality, setFilterModality] = useState('all');
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const { filteredInternships, loading, search } = useInternshipEngine();
 
   // --- Theme Management ---
   useEffect(() => {
@@ -35,115 +21,58 @@ const App: React.FC = () => {
     else document.documentElement.classList.remove('dark');
   }, [theme]);
 
-  // --- Data & AI Engine ---
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchEmbedding, setSearchEmbedding] = useState<number[] | null>(null);
-  const [filterModality, setFilterModality] = useState('all');
-  const [useModel, setUseModel] = useState<use.UniversalSentenceEncoder | null>(null);
-
+  // --- Scroll Management (Collapsing Header) ---
   useEffect(() => {
-    const loadModel = async () => {
-      try {
-        await tf.ready();
-        const model = await use.load();
-        setUseModel(model);
-      } catch (err) { console.error("Model failure:", err); }
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 120);
     };
-    loadModel();
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // --- Search Debouncing ---
   useEffect(() => {
-    if (!useModel || internships.length === 0 || internships[0].embedding) return;
-    const generateEmbeddings = async () => {
-      try {
-        const texts = internships.map(job => `${job.title} ${job.company} ${job.requirements}`);
-        const embeddings = await useModel.embed(texts);
-        const embeddingsArray = await embeddings.array() as number[][];
-        setInternships(internships.map((job, i) => ({ ...job, embedding: embeddingsArray[i] })));
-      } catch (err) { console.error("Embed error:", err); }
-    };
-    generateEmbeddings();
-  }, [useModel, internships]);
-
-  useEffect(() => {
-    if (!useModel || !searchTerm.trim()) { setSearchEmbedding(null); return; }
-    const timer = setTimeout(async () => {
-      try {
-        const embedding = await useModel.embed([searchTerm]);
-        const embeddingArray = await embedding.array() as number[][];
-        setSearchEmbedding(embeddingArray[0]);
-      } catch (err) { console.error("Search embed error:", err); }
+    const timer = setTimeout(() => {
+      search(searchTerm, filterModality);
     }, 300);
     return () => clearTimeout(timer);
-  }, [useModel, searchTerm]);
-
-  useEffect(() => {
-    const fetchInternships = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch(`${import.meta.env.BASE_URL}internships.csv`);
-        const csvText = await response.text();
-        Papa.parse(csvText, {
-          header: true,
-          skipEmptyLines: true,
-          complete: (results) => {
-            const parsedData = (results.data as InternshipData[]).filter(j => j.company && j.title);
-            setInternships(parsedData);
-            setLoading(false);
-          }
-        });
-      } catch (err) { setLoading(false); }
-    };
-    fetchInternships();
-  }, []);
-
-  const cosineSimilarity = (vecA: number[], vecB: number[]) => {
-    let dotProduct = 0, normA = 0, normB = 0;
-    for (let i = 0; i < vecA.length; i++) {
-        dotProduct += vecA[i] * vecB[i];
-        normA += vecA[i] * vecA[i];
-        normB += vecB[i] * vecB[i];
-    }
-    return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
-  };
-
-  const filteredInternships = useMemo(() => {
-    let results = internships.map(job => {
-      let score = 0;
-      const kw = job.company.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                 job.title.toLowerCase().includes(searchTerm.toLowerCase());
-      if (kw) score += 0.5;
-      if (job.is_first_year === 'Priority: 1st Year') score += 1.0;
-      if (searchEmbedding && job.embedding) score += cosineSimilarity(searchEmbedding, job.embedding);
-      return { ...job, score };
-    });
-    results = results.filter(job => filterModality === 'all' || job.modality === filterModality);
-    results.sort((a, b) => (b.score || 0) - (a.score || 0));
-    return results;
-  }, [internships, searchTerm, searchEmbedding, filterModality]);
+  }, [searchTerm, filterModality, search]);
 
   return (
-    <div className="min-h-screen bg-[var(--color-apple-bg)] text-[var(--color-apple-text-primary)] transition-colors duration-500">
+    <div className="min-h-screen bg-[var(--color-apple-bg)] text-[var(--color-apple-text-primary)] transition-colors duration-500 font-sans">
       <Header 
         theme={theme} 
         onToggleTheme={() => setTheme(p => p === 'light' ? 'dark' : 'light')} 
+        isScrolled={isScrolled}
       />
 
       <main className="max-w-7xl mx-auto pb-24">
-        {/* iOS-Style Large Title Header */}
-        <header className="px-6 pt-12 pb-8">
-           <h1 className="text-4xl font-extrabold tracking-tight">Internships</h1>
-           <p className="text-apple-text-secondary mt-1 font-medium">Verified roles for BITSians</p>
-        </header>
+        
+        {/* Value Proposition Hero (SummaryBento Relocated) */}
+        <div className="pt-24 pb-8 mb-4">
+           <SummaryBento />
+        </div>
 
-        {/* Integrated Search Bar */}
-        <div className="px-6 mb-10">
-          <div className="flex flex-col md:flex-row gap-3 items-center">
+        {/* Dynamic Title Section */}
+        <div className={`px-6 transition-all duration-500 transform ${isScrolled ? 'opacity-0 -translate-y-4 pointer-events-none' : 'opacity-100 translate-y-0'}`}>
+           <div className="flex items-center gap-3 mb-2">
+             <div className="px-2 py-0.5 rounded-full bg-apple-blue/10 text-apple-blue border border-apple-blue/20 flex items-center gap-1.5">
+                <Sparkles size={12} fill="currentColor" />
+                <span className="text-[10px] font-bold uppercase tracking-widest">Enhanced Discovery</span>
+             </div>
+           </div>
+           <h1 className="text-5xl font-extrabold tracking-tight mb-2">Internships</h1>
+           <p className="text-apple-text-secondary text-lg font-medium opacity-80">Verified early-career opportunities for BITS Pilani.</p>
+        </div>
+
+        {/* Search & Filter Bar (Sticky and Integrated) */}
+        <div className={`sticky top-20 z-40 px-6 my-10 transition-all duration-300 ${isScrolled ? 'max-w-3xl mx-auto translate-y-[-70px]' : ''}`}>
+          <div className={`flex flex-col md:flex-row gap-3 items-center p-2 rounded-2xl transition-all duration-300 ${isScrolled ? 'bg-white/80 dark:bg-black/60 backdrop-blur-xl border border-black/[0.05] dark:border-white/[0.1] shadow-2xl shadow-black/10' : ''}`}>
             <div className="relative flex-grow w-full">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-apple-text-tertiary" size={18} />
               <input 
                 type="text" 
-                className="apple-input w-full pl-11 h-12" 
+                className={`apple-input w-full pl-11 h-12 transition-all ${isScrolled ? 'bg-transparent border-none' : ''}`} 
                 placeholder="Search roles, skills, or companies..." 
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -152,7 +81,7 @@ const App: React.FC = () => {
             <div className="relative w-full md:w-48">
                 <Filter className="absolute left-4 top-1/2 -translate-y-1/2 text-apple-text-tertiary" size={16} />
                 <select 
-                  className="apple-input w-full pl-11 h-12 text-sm font-semibold appearance-none cursor-pointer"
+                  className={`apple-input w-full pl-11 h-12 text-sm font-semibold appearance-none cursor-pointer transition-all ${isScrolled ? 'bg-transparent border-none' : ''}`}
                   value={filterModality}
                   onChange={(e) => setFilterModality(e.target.value)}
                 >
@@ -161,16 +90,27 @@ const App: React.FC = () => {
                   <option value="Remote">Remote</option>
                   <option value="Hybrid">Hybrid</option>
                 </select>
+                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-apple-text-tertiary">
+                   <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                   </svg>
+                </div>
             </div>
           </div>
         </div>
 
         {/* Content Area */}
-        <div className="px-6">
+        <div className="px-6 min-h-[50vh]">
           {loading ? (
-            <div className="flex flex-col items-center justify-center py-32 gap-4">
-              <Loader2 className="animate-spin text-apple-blue" size={32} strokeWidth={2} />
-              <p className="text-apple-text-secondary text-sm font-semibold">Updating Feed</p>
+            <div className="flex flex-col items-center justify-center py-48 gap-4">
+              <div className="relative">
+                 <Loader2 className="animate-spin text-apple-blue" size={40} strokeWidth={2} />
+                 <div className="absolute inset-0 blur-lg bg-apple-blue/20 animate-pulse rounded-full" />
+              </div>
+              <div className="text-center">
+                 <p className="text-apple-text-primary text-sm font-bold tracking-tight">Syncing with Scout...</p>
+                 <p className="text-apple-text-tertiary text-xs mt-1">Calculating semantic relevance scores</p>
+              </div>
             </div>
           ) : (
             <AnimatePresence mode="popLayout">
@@ -182,35 +122,57 @@ const App: React.FC = () => {
                   {filteredInternships.map((job, index) => (
                     <motion.div
                       key={`${job.company}-${job.title}`}
-                      initial={{ opacity: 0, y: 10 }}
+                      layout
+                      initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, scale: 0.98 }}
-                      transition={{ duration: 0.3, delay: index * 0.01 }}
+                      exit={{ opacity: 0, scale: 0.95 }}
+                      transition={{ 
+                         duration: 0.4, 
+                         delay: Math.min(index * 0.05, 0.5),
+                         type: "spring",
+                         stiffness: 100,
+                         damping: 20
+                      }}
                     >
                       <JobCard {...job} />
                     </motion.div>
                   ))}
                 </motion.div>
               ) : (
-                <div className="text-center py-32 bg-apple-secondary-bg/50 rounded-2xl border border-dashed border-black/5 dark:border-white/5">
-                  <h3 className="text-lg font-bold text-apple-text-secondary">No Results Found</h3>
-                  <p className="text-apple-text-tertiary text-sm mt-1">Try broadening your search.</p>
-                </div>
+                <motion.div 
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="text-center py-40 bg-apple-secondary-bg/30 rounded-3xl border border-dashed border-black/10 dark:border-white/10"
+                >
+                  <div className="w-16 h-16 bg-apple-tertiary-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                     <Search className="text-apple-text-tertiary" size={24} />
+                  </div>
+                  <h3 className="text-xl font-bold text-apple-text-primary">No Matching Interships</h3>
+                  <p className="text-apple-text-secondary text-sm mt-2 max-w-xs mx-auto">
+                    Try using broader keywords or removing your filters to see more roles.
+                  </p>
+                </motion.div>
               )}
             </AnimatePresence>
           )}
         </div>
       </main>
 
-      <SummaryBento />
-      
-      <footer className="py-12 px-6 text-center border-t border-black/[0.03] dark:border-white/[0.03]">
-          <p className="text-[10px] font-bold text-apple-text-tertiary uppercase tracking-widest">
-            Handcrafted for BITSians
-          </p>
+      <footer className="py-20 px-6 text-center border-t border-black/[0.05] dark:border-white/[0.05] bg-apple-secondary-bg/20">
+          <div className="max-w-xs mx-auto">
+            <p className="text-[10px] font-black text-apple-text-tertiary uppercase tracking-[0.3em] mb-4">
+              Designed by Ratna
+            </p>
+            <div className="flex items-center justify-center gap-4 opacity-50">
+               <div className="w-1 h-1 rounded-full bg-apple-text-tertiary" />
+               <div className="w-1 h-1 rounded-full bg-apple-text-tertiary" />
+               <div className="w-1 h-1 rounded-full bg-apple-text-tertiary" />
+            </div>
+          </div>
       </footer>
     </div>
   );
 };
 
 export default App;
+
