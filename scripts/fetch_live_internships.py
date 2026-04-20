@@ -374,20 +374,25 @@ def run():
 
     print(f"\nTotal unique leads: {len(unique_leads)}")
 
-    # Save
-    output_path = "site/internships.csv"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    # Save CSV
+    output_path_csv = "site/internships.csv"
+    os.makedirs(os.path.dirname(output_path_csv), exist_ok=True)
 
     fieldnames = ["company", "title", "location", "stipend", "duration", "requirements", "apply_link", "source"]
-    with open(output_path, 'w', newline='', encoding='utf-8') as f:
+    with open(output_path_csv, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for lead in unique_leads:
-            # Only write the fields we need — no garbage columns
             row = {k: lead.get(k, '') for k in fieldnames}
             writer.writerow(row)
 
-    print(f"Deployed {len(unique_leads)} quality leads → {output_path}")
+    # Save JSON
+    output_path_json = "site/internships.json"
+    import json
+    with open(output_path_json, 'w', encoding='utf-8') as f:
+        json.dump(unique_leads, f, indent=2)
+
+    print(f"Deployed {len(unique_leads)} quality leads → CSV & JSON")
     print("=" * 60)
 
 

@@ -78,16 +78,12 @@
     worker.postMessage({ type: 'INIT' });
   }
 
-  // --- Fetch & Parse CSV ---
+  // --- Fetch & Load JSON ---
   function fetchData() {
-    var csvUrl = 'internships.csv';
-
-    Papa.parse(csvUrl, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: function (results) {
-        allInternships = results.data.filter(function (r) {
+    fetch('internships.json')
+      .then(response => response.json())
+      .then(data => {
+        allInternships = data.filter(function (r) {
           return r.company && r.title;
         });
         
@@ -99,11 +95,11 @@
           loadingEl.style.display = 'none';
           renderCards(allInternships);
         }
-      },
-      error: function () {
+      })
+      .catch(err => {
+        console.error('Fetch error:', err);
         loadingEl.innerHTML = '<p class="loader-text">Failed to load data. Please try again later.</p>';
-      }
-    });
+      });
   }
 
   // --- Source helpers ---
