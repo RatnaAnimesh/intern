@@ -89,7 +89,7 @@ CURATED_PROGRAMS = [
         "stipend": "Highly Competitive",
         "duration": "12 Weeks (Summer)",
         "requirements": "For 1st & 2nd year undergrads in CS/related fields. Build real products with Google engineers. Applications typically open Nov-Dec.",
-        "apply_link": "https://buildyourfuture.withgoogle.com/programs/step",
+        "apply_link": "https://careers.google.com/jobs/results/?q=STEP&location=India",
         "source": "Structured Program",
     },
     {
@@ -99,7 +99,7 @@ CURATED_PROGRAMS = [
         "stipend": "Highly Competitive",
         "duration": "8 Weeks (Summer)",
         "requirements": "For 1st & 2nd year undergrads. Rotational exposure: PM, SDE, and Design. Focus on learning, not prior experience.",
-        "apply_link": "https://careers.microsoft.com/students/us/en/usexploremicrosoft",
+        "apply_link": "https://jobs.careers.microsoft.com/global/en/search?q=explore&l=India",
         "source": "Structured Program",
     },
     {
