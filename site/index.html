@@ -61,8 +61,26 @@
 
     <!-- Loading State -->
     <section id="loading-state">
-      <div class="loader-ring"></div>
-      <p class="loader-text">Loading internships...</p>
+      <div class="skeleton-grid">
+        <div class="skeleton-card">
+          <div class="skeleton-line short"></div>
+          <div class="skeleton-line medium"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line medium" style="margin-top: 40px;"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line short"></div>
+          <div class="skeleton-line medium"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line medium" style="margin-top: 40px;"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line short"></div>
+          <div class="skeleton-line medium"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line medium" style="margin-top: 40px;"></div>
+        </div>
+      </div>
     </section>
 
     <!-- Empty State -->
@@ -72,6 +90,7 @@
       </div>
       <h3>No matching internships</h3>
       <p>Try broader keywords or remove filters.</p>
+      <button class="btn-reset" id="reset-filters">Clear all filters</button>
     </section>
   </main>
 
