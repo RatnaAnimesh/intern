@@ -20,6 +20,7 @@
   const themeBtn    = document.getElementById('theme-toggle');
   const iconMoon    = document.getElementById('icon-moon');
   const iconSun     = document.getElementById('icon-sun');
+  const resetBtn    = document.getElementById('reset-filters');
 
   // --- Theme ---
   function initTheme() {
@@ -47,17 +48,24 @@
   // --- Data Loading ---
   async function fetchData() {
     loadingEl.style.display = 'flex';
-    grid.innerHTML = ''; // Clear for fresh start
+    grid.style.display = 'none';
+    emptyEl.style.display = 'none';
     
     try {
       const response = await fetch('internships.json');
       const data = await response.json();
       allInternships = data.filter(r => r.company && r.title);
-      loadingEl.style.display = 'none';
-      applyFilters();
+      
+      // Artificial delay to appreciate the skeletons (optional, but makes it feel "native")
+      setTimeout(() => {
+        loadingEl.style.display = 'none';
+        grid.style.display = 'grid';
+        applyFilters();
+      }, 800);
+      
     } catch (err) {
       console.error('Fetch error:', err);
-      loadingEl.innerHTML = '<p class="loader-text">Failed to load opportunities. Please refresh.</p>';
+      loadingEl.innerHTML = '<p class="loader-text" style="text-align:center; width:100%">Failed to load opportunities. Please refresh.</p>';
     }
   }
 
@@ -171,8 +179,10 @@
     
     if (results.length === 0) {
       emptyEl.style.display = 'block';
+      grid.style.display = 'none';
     } else {
       emptyEl.style.display = 'none';
+      grid.style.display = 'grid';
       renderNextBatch();
     }
   }
@@ -191,6 +201,17 @@
     searchTerm = searchInput.value;
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(applyFilters, 250);
+  });
+
+  resetBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    searchTerm = '';
+    activeSource = 'all';
+    filterBtns.forEach(b => {
+      b.classList.remove('active');
+      if (b.getAttribute('data-source') === 'all') b.classList.add('active');
+    });
+    applyFilters();
   });
 
   // --- Start ---
