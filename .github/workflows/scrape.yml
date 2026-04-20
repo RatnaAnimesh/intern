@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add -f frontend/public/internships.csv
+          git add -f site/internships.csv
           git commit -m "Automated Data Refresh: Feed updated with latest 1st-year roles" || echo "No changes to commit"
           git push

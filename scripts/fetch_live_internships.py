@@ -375,7 +375,7 @@ def run():
     print(f"\nTotal unique leads: {len(unique_leads)}")
 
     # Save
-    output_path = "frontend/public/internships.csv"
+    output_path = "site/internships.csv"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     fieldnames = ["company", "title", "location", "stipend", "duration", "requirements", "apply_link", "source"]
