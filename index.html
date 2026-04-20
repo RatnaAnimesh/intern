@@ -12,7 +12,8 @@
 </head>
 <body>
 
-  <nav id="navbar" style="opacity: 0;">
+  <!-- Navigation -->
+  <nav id="navbar">
     <div class="nav-inner">
       <div class="nav-brand">
         <span class="brand-text">Internships</span>
@@ -24,75 +25,63 @@
     </div>
   </nav>
 
-  <!-- Landing Experience -->
-  <section id="landing">
-    <div class="bg-mesh"></div>
-    <div class="landing-content">
-      <h1 class="landing-title">BITS PILANI<br>INTERNSHIPS</h1>
-      <p class="landing-sub">The high-signal technical directory for first-year students.</p>
-      <div class="scroll-indicator">
-        <span>Scroll to explore</span>
-        <div class="arrow"></div>
+  <main>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          <span>Curated for BITS Pilani</span>
+        </div>
+        <div id="result-count" class="hero-badge secondary">
+          Loading...
+        </div>
       </div>
-    </div>
-  </section>
+      <h1>Internships</h1>
+      <p class="hero-sub">High-signal technical roles for first-year students.</p>
+    </section>
 
-  <div id="content-reveal">
-    <main>
-      <!-- Hero (Condensed) -->
-      <section id="hero">
-        <div class="hero-badges">
-          <div class="hero-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
-            <span>Curated for BITS Pilani</span>
-          </div>
-          <div id="result-count" class="hero-badge secondary">0 OPPORTUNITIES</div>
-        </div>
-      </section>
+    <!-- Filters -->
+    <section id="controls">
+      <div id="source-filters">
+        <button class="filter-btn active" data-source="all">All Roles</button>
+        <button class="filter-btn" data-source="Structured Program">Structured Programs</button>
+        <button class="filter-btn" data-source="Research Program">Research</button>
+        <button class="filter-btn" data-source="Open Source">Open Source</button>
+        <button class="filter-btn" data-source="Startup">Startups</button>
+        <button class="filter-btn" data-source="Remote">Remote</button>
+      </div>
+      <div id="search-wrap">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" placeholder="Search roles, skills, or companies..." autocomplete="off">
+      </div>
+    </section>
 
-      <!-- Filters -->
-      <section id="controls">
-        <div id="source-filters">
-          <button class="filter-btn active" data-source="all">All Roles</button>
-          <button class="filter-btn" data-source="Structured Program">Structured</button>
-          <button class="filter-btn" data-source="Research Program">Research</button>
-          <button class="filter-btn" data-source="Open Source">Open Source</button>
-          <button class="filter-btn" data-source="Startup">Startups</button>
-          <button class="filter-btn" data-source="Remote">Remote</button>
-        </div>
-        <div id="search-wrap">
-          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <input type="text" id="search-input" placeholder="Search roles, skills, or companies..." autocomplete="off">
-        </div>
-      </section>
 
-      <!-- Grid -->
-      <section id="grid"></section>
 
-      <!-- Loading State -->
-      <section id="loading-state">
-        <div class="loader-ring"></div>
-        <p class="loader-text">Loading opportunities...</p>
-      </section>
+    <!-- Grid -->
+    <section id="grid"></section>
 
-      <!-- Empty State -->
-      <section id="empty-state" style="display:none">
-        <div class="empty-icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </div>
-        <h3>No matching internships</h3>
-        <p>Try broader keywords or remove filters.</p>
-      </section>
-    </main>
+    <!-- Loading State -->
+    <section id="loading-state">
+      <div class="loader-ring"></div>
+      <p class="loader-text">Loading internships...</p>
+    </section>
 
-    <footer>
-      <p>MADE WITH ❤️ BY RATNA</p>
-    </footer>
-  </div>
+    <!-- Empty State -->
+    <section id="empty-state" style="display:none">
+      <div class="empty-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </div>
+      <h3>No matching internships</h3>
+      <p>Try broader keywords or remove filters.</p>
+    </section>
+  </main>
 
-  <!-- GSAP & ScrollTrigger -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <footer>
+    <p>MADE WITH ❤️ BY RATNA</p>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
