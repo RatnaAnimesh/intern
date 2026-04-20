@@ -64,7 +64,7 @@ BLOCKED_COMPANY_KEYWORDS = [
 MIN_STIPEND_INR = 5000
 
 # Pages to scrape per category. Keep low to be polite + fast.
-PAGES_PER_CATEGORY = 2
+PAGES_PER_CATEGORY = 5
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
