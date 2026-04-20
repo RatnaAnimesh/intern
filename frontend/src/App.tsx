@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Loader2, Sparkles } from 'lucide-react';
+import { Search, Loader2, Sparkles } from 'lucide-react';
 
 import Header from './components/Header';
 import JobCard from './components/JobCard';
