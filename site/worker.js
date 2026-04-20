@@ -46,7 +46,7 @@ const SOURCE_BOOST = {
   'Structured Program': 0.15,
   'Research Program': 0.12,
   'Open Source': 0.10,
-  'Internshala': 0,
+  'Startup': 0,
 };
 
 self.onmessage = async (e) => {

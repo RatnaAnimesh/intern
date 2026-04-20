@@ -327,7 +327,7 @@ def scrape_internshala():
                         "duration": duration,
                         "requirements": details[:500],
                         "apply_link": base_url + title_elem.get('href', ''),
-                        "source": "Internshala",
+                        "source": "Startup",
                     }
 
                     # QUALITY GATE — reject before adding
