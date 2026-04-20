@@ -177,6 +177,68 @@
     }
   }
 
+  // --- Animations (GSAP) ---
+  function initAnimations() {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Initial load animation
+    const tlLoad = gsap.timeline();
+    tlLoad.from('.landing-title', { y: 40, opacity: 0, duration: 1, ease: 'power4.out' })
+          .from('.landing-sub', { y: 20, opacity: 0, duration: 1, ease: 'power4.out' }, '-=0.6')
+          .from('.scroll-indicator', { opacity: 0, duration: 1 }, '-=0.4');
+
+    // Scroll-triggered transition
+    const tlScroll = gsap.timeline({
+      scrollTrigger: {
+        trigger: '#landing',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1,
+        pin: true,
+        pinSpacing: false
+      }
+    });
+
+    tlScroll.to('.landing-content', { 
+      y: -100, 
+      opacity: 0, 
+      scale: 0.9, 
+      filter: 'blur(20px)',
+      ease: 'none' 
+    });
+
+    tlScroll.to('.bg-mesh', {
+      opacity: 0,
+      ease: 'none'
+    }, 0);
+
+    // Reveal main content
+    gsap.to('#content-reveal', {
+      scrollTrigger: {
+        trigger: '#landing',
+        start: 'center top',
+        end: 'bottom top',
+        scrub: 1,
+      },
+      opacity: 1,
+      y: 0,
+      visibility: 'visible',
+      ease: 'power2.out'
+    });
+
+    // Fade in Navbar
+    gsap.to('#navbar', {
+      scrollTrigger: {
+        trigger: '#landing',
+        start: 'bottom 80%',
+        end: 'bottom 20%',
+        scrub: true,
+      },
+      opacity: 1,
+      ease: 'none'
+    });
+  }
+
   // --- Listeners ---
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -196,5 +258,6 @@
   // --- Start ---
   initTheme();
   fetchData();
+  initAnimations();
 
 })();
