@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Zap, Info, ArrowUpRight, GraduationCap } from 'lucide-react';
+import { ShieldCheck, Zap, ArrowUpRight, GraduationCap } from 'lucide-react';
 
 const SummaryBento: React.FC = () => {
   return (
