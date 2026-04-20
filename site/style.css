@@ -364,6 +364,36 @@ body {
 .tag-opensource  { color: var(--clr-opensource);  background: rgba(16,185,129,0.1);  border-color: rgba(16,185,129,0.2); }
 .tag-startup    { color: var(--clr-startup);     background: rgba(59,130,246,0.1);  border-color: rgba(59,130,246,0.2); }
 
+.card-match-bar {
+  margin-bottom: 20px;
+}
+.match-progress-bg {
+  height: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 100px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+.match-progress-fill {
+  height: 100%;
+  background: var(--text-tertiary);
+  border-radius: 100px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.match-progress-fill.high {
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+.match-label {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--text-tertiary);
+  letter-spacing: 0.05em;
+}
+.card.top-match .match-label {
+  color: var(--accent);
+}
+
 .card-details {
   display: flex;
   flex-direction: column;
