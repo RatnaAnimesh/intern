@@ -21,3 +21,6 @@ Thumbs.db
 # Build
 frontend/dist/
 frontend/node_modules/
+
+# Data
+frontend/public/internships.csv
