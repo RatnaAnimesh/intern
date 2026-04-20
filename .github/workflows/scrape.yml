@@ -2,8 +2,8 @@ name: Daily Internship Scraper
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day
-    - cron: '0 0 * * *'
+    # Runs at 18:30 UTC every day (which is 12:00 AM IST)
+    - cron: '30 18 * * *'
   workflow_dispatch:
 
 permissions:
