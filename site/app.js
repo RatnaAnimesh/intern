@@ -167,7 +167,7 @@
     }
 
     filteredInternships = results;
-    countEl.textContent = `${results.length} role${results.length !== 1 ? 's' : ''} available`;
+    countEl.textContent = `${results.length} OPPORTUNITIES`;
     
     if (results.length === 0) {
       emptyEl.style.display = 'block';
