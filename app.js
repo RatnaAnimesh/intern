@@ -1,7 +1,12 @@
 /* ============================================================
    BITS Internship Portal — Vanilla JS Application
    ============================================================
-   No React. No TypeScript. No build step. Just works.
+   Zero build step. 
+   Features:
+   - CSV Fetching & Parsing
+   - Semantic Scoring via Web Worker (TFJS)
+   - Apple-inspired design
+   - Real-time search & filtering
    ============================================================ */
 
 (function () {
@@ -12,6 +17,7 @@
   let activeSource = 'all';
   let searchTerm = '';
   let debounceTimer = null;
+  let worker = null;
 
   // --- DOM refs ---
   const grid        = document.getElementById('grid');
@@ -26,7 +32,6 @@
 
   // --- Theme ---
   function initTheme() {
-    // Default to dark
     const saved = localStorage.getItem('theme') || 'dark';
     applyTheme(saved);
   }
@@ -48,9 +53,33 @@
     applyTheme(current === 'dark' ? 'light' : 'dark');
   });
 
+  // --- Worker Management ---
+  function initWorker() {
+    worker = new Worker('worker.js');
+    
+    worker.onmessage = function(e) {
+      const { type, payload } = e.data;
+      
+      if (type === 'READY') {
+        fetchData();
+      }
+      
+      if (type === 'SCORES_CALCULATED') {
+        allInternships.forEach((job, i) => {
+          job.match_percentage = payload[i];
+        });
+        // Initial sort by match percentage
+        allInternships.sort((a, b) => (b.match_percentage || 0) - (a.match_percentage || 0));
+        loadingEl.style.display = 'none';
+        applyFilters();
+      }
+    };
+    
+    worker.postMessage({ type: 'INIT' });
+  }
+
   // --- Fetch & Parse CSV ---
   function fetchData() {
-    // Try relative path first (for GitHub Pages with base path)
     var csvUrl = 'internships.csv';
 
     Papa.parse(csvUrl, {
@@ -61,8 +90,15 @@
         allInternships = results.data.filter(function (r) {
           return r.company && r.title;
         });
-        loadingEl.style.display = 'none';
-        renderCards(allInternships);
+        
+        // Ask worker to calculate scores
+        if (worker) {
+          loadingEl.querySelector('.loader-text').textContent = 'Calculating relevance scores...';
+          worker.postMessage({ type: 'GET_SCORES', payload: allInternships });
+        } else {
+          loadingEl.style.display = 'none';
+          renderCards(allInternships);
+        }
       },
       error: function () {
         loadingEl.innerHTML = '<p class="loader-text">Failed to load data. Please try again later.</p>';
@@ -88,7 +124,8 @@
   // --- Card HTML ---
   function cardHTML(job, index) {
     var cls   = sourceClass(job.source);
-    var isTop = (job.source || '').includes('Structured') || (job.source || '').includes('Research');
+    var match = job.match_percentage || 0;
+    var isTop = match >= 85 || (job.source || '').includes('Structured') || (job.source || '').includes('Research');
     var delay = Math.min(index * 0.04, 0.6);
 
     return '<article class="card' + (isTop ? ' top-match' : '') + '" style="animation-delay:' + delay + 's">'
@@ -99,6 +136,12 @@
       +     '<div class="card-title">' + escapeHTML(job.title) + '</div>'
       +     (job.source ? '<span class="card-source-tag tag-' + cls + '">' + escapeHTML(job.source) + '</span>' : '')
       +   '</div>'
+      + '</div>'
+      + '<div class="card-match-bar mb-4">'
+      +   '<div class="match-progress-bg">'
+      +     '<div class="match-progress-fill ' + (match >= 85 ? 'high' : '') + '" style="width: ' + match + '%"></div>'
+      +   '</div>'
+      +   '<div class="match-label">' + match + '% MATCH</div>'
       + '</div>'
       + '<div class="card-details">'
       +   '<div class="card-detail">'
@@ -116,7 +159,7 @@
       + '</div>'
       + (job.requirements ? '<div class="card-req"><p>"' + escapeHTML(job.requirements) + '"</p></div>' : '')
       + '<a href="' + escapeHTML(job.apply_link || '#') + '" target="_blank" rel="noopener noreferrer" class="card-cta ' + (isTop ? 'primary' : 'secondary') + '">'
-      +   '<span>Apply Now</span>'
+      +   '<span>Secure Seat</span>'
       +   '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>'
       + '</a>'
     + '</article>';
@@ -195,6 +238,6 @@
 
   // --- Kick off ---
   initTheme();
-  fetchData();
+  initWorker();
 
 })();
