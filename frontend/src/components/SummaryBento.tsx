@@ -12,9 +12,9 @@ const SummaryBento: React.FC = () => {
             <ShieldCheck className="text-apple-blue" size={24} />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-apple-text-primary tracking-tight">Verified Roles</h3>
+            <h3 className="text-xl font-bold text-apple-text-primary tracking-tight">Tier-1 Verified</h3>
             <p className="text-apple-text-secondary text-sm leading-relaxed mt-2">
-              Every role is manually vetted for 1st-year relevance and academic compatibility.
+              Every role is filtered for Target School relevance (BITS/IIT/NIT) and academic compatibility.
             </p>
           </div>
         </div>
@@ -25,9 +25,9 @@ const SummaryBento: React.FC = () => {
             <Zap className="text-orange-500" size={24} />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-apple-text-primary tracking-tight">Early Advantage</h3>
+            <h3 className="text-xl font-bold text-apple-text-primary tracking-tight">Expertise Levels</h3>
             <p className="text-apple-text-secondary text-sm leading-relaxed mt-2">
-              Gain industrial exposure before the official summer window opens.
+              From exploratory 1st year roles to high-stakes Pre-Placement Offers for final years.
             </p>
           </div>
         </div>
@@ -39,14 +39,14 @@ const SummaryBento: React.FC = () => {
                <GraduationCap className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="text-xl font-bold tracking-tight">First Year Guide</h3>
+              <h3 className="text-xl font-bold tracking-tight">Target School Perks</h3>
               <p className="text-white/80 text-sm leading-relaxed mt-2 font-medium">
-                Learn how to secure top internships without prior experience.
+                Access the "Pilani Mafia" network and dedicated Tier-1 recruitment cycles.
               </p>
             </div>
           </div>
           <div className="flex items-center justify-between mt-6 pt-4 border-t border-white/10">
-             <span className="text-xs font-bold uppercase tracking-widest">Read More</span>
+             <span className="text-xs font-bold uppercase tracking-widest">Explore Paths</span>
              <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" size={20} />
           </div>
         </div>

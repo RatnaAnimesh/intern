@@ -9,11 +9,7 @@ export interface Internship {
   duration: string;
   requirements: string;
   apply_link: string;
-  branch?: string;
-  modality?: string;
-  is_first_year?: string;
-  is_verified?: string;
-  institutional_validation?: string;
+  source?: string;
   match_percentage?: number;
   embedding?: number[];
   score?: number;
@@ -83,11 +79,11 @@ export const useInternshipEngine = () => {
     }
   }, [isReady]);
 
-  // Search Function
-  const search = useCallback((term: string, filterModality: string) => {
+  // Search Function — simplified, no more level filter
+  const search = useCallback((term: string, filterSource: string) => {
     setLoading(true);
     if (workerRef.current) {
-      workerRef.current.postMessage({ type: 'SEARCH', payload: { term, filterModality } });
+      workerRef.current.postMessage({ type: 'SEARCH', payload: { term, filterSource } });
     }
   }, []);
 

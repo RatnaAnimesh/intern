@@ -5,9 +5,11 @@ import {
   Clock, 
   Calendar, 
   ExternalLink, 
-  GraduationCap, 
-  ShieldCheck,
-  Zap
+  Globe2, 
+  Zap,
+  Code2,
+  Cpu,
+  BookOpen
 } from 'lucide-react';
 
 interface JobCardProps {
@@ -18,14 +20,32 @@ interface JobCardProps {
   duration: string;
   requirements: string;
   apply_link: string;
-  is_verified?: string;
-  institutional_validation?: string;
+  source?: string;
   match_percentage?: number;
 }
 
 const JobCard: React.FC<JobCardProps> = (job) => {
-  const isVerified = job.is_verified === 'Yes';
   const match = job.match_percentage || 0;
+  
+  const getSourceIcon = (source?: string) => {
+    switch (source) {
+      case 'Structured Program': return <Building2 size={10} />;
+      case 'Research Program': return <BookOpen size={10} />;
+      case 'Open Source': return <Globe2 size={10} />;
+      case 'Internshala': return <Code2 size={10} />;
+      default: return <Cpu size={10} />;
+    }
+  };
+
+  const getSourceStyle = (source?: string) => {
+    switch (source) {
+      case 'Structured Program': return 'bg-amber-500/10 text-amber-600 border-amber-500/20';
+      case 'Research Program': return 'bg-purple-500/10 text-purple-600 border-purple-500/20';
+      case 'Open Source': return 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20';
+      case 'Internshala': return 'bg-blue-500/10 text-blue-600 border-blue-500/20';
+      default: return 'bg-gray-500/10 text-gray-600 border-gray-500/20';
+    }
+  };
 
   return (
     <article className={`apple-card p-6 flex flex-col h-full hover:bg-white/[0.6] dark:hover:bg-white/[0.04] transition-all group active:scale-[0.99] cursor-default relative overflow-hidden ${match >= 85 ? 'ring-2 ring-apple-blue/5' : ''}`}>
@@ -37,18 +57,17 @@ const JobCard: React.FC<JobCardProps> = (job) => {
 
       <div className="flex justify-between items-start mb-6 relative z-10">
         <div className="flex items-start gap-4">
-          <div className="w-12 h-12 rounded-2xl bg-apple-tertiary-bg dark:bg-apple-tertiary-bg flex items-center justify-center flex-shrink-0 shadow-sm">
-             <Building2 size={24} className="text-apple-text-secondary" />
+          <div className="w-12 h-12 rounded-2xl bg-apple-tertiary-bg dark:bg-apple-tertiary-bg flex items-center justify-center flex-shrink-0 shadow-sm border border-black/5 dark:border-white/5">
+             {getSourceIcon(job.source)}
           </div>
           <div className="space-y-1">
             <div className="flex flex-wrap items-center gap-2">
                <p className="text-apple-blue font-bold text-[11px] uppercase tracking-wider">
                 {job.company}
               </p>
-              {isVerified && (
-                <span className="flex items-center gap-1 text-[9px] font-black text-emerald-600 dark:text-emerald-500 uppercase tracking-tighter bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/10">
-                  <ShieldCheck size={10} fill="currentColor" fillOpacity={0.2} />
-                  {job.institutional_validation}
+              {job.source && (
+                 <span className={`flex items-center gap-1 text-[9px] font-black uppercase tracking-tighter px-2 py-0.5 rounded-full border ${getSourceStyle(job.source)}`}>
+                  {job.source}
                 </span>
               )}
             </div>

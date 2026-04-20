@@ -5,12 +5,13 @@ import { Search, Filter, Loader2, Sparkles } from 'lucide-react';
 import Header from './components/Header';
 import JobCard from './components/JobCard';
 import SummaryBento from './components/SummaryBento';
+import SourceFilter from './components/SourceFilter';
 import { useInternshipEngine } from './hooks/useInternshipEngine';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
   const [searchTerm, setSearchTerm] = useState('');
-  const [filterModality, setFilterModality] = useState('all');
+  const [filterSource, setFilterSource] = useState('all');
   const [isScrolled, setIsScrolled] = useState(false);
 
   const { filteredInternships, loading, search } = useInternshipEngine();
@@ -33,10 +34,10 @@ const App: React.FC = () => {
   // --- Search Debouncing ---
   useEffect(() => {
     const timer = setTimeout(() => {
-      search(searchTerm, filterModality);
+      search(searchTerm, filterSource);
     }, 300);
     return () => clearTimeout(timer);
-  }, [searchTerm, filterModality, search]);
+  }, [searchTerm, filterSource, search]);
 
   return (
     <div className="min-h-screen bg-[var(--color-apple-bg)] text-[var(--color-apple-text-primary)] transition-colors duration-500 font-sans">
@@ -67,6 +68,9 @@ const App: React.FC = () => {
 
         {/* Search & Filter Bar (Sticky and Integrated) */}
         <div className={`sticky top-20 z-40 px-6 my-10 transition-all duration-300 ${isScrolled ? 'max-w-3xl mx-auto translate-y-[-70px]' : ''}`}>
+          <div className="mb-4">
+            {!isScrolled && <SourceFilter selectedSource={filterSource} onSourceChange={setFilterSource} />}
+          </div>
           <div className={`flex flex-col md:flex-row gap-3 items-center p-2 rounded-2xl transition-all duration-300 ${isScrolled ? 'bg-white/80 dark:bg-black/60 backdrop-blur-xl border border-black/[0.05] dark:border-white/[0.1] shadow-2xl shadow-black/10' : ''}`}>
             <div className="relative flex-grow w-full">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-apple-text-tertiary" size={18} />
@@ -78,24 +82,7 @@ const App: React.FC = () => {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
-            <div className="relative w-full md:w-48">
-                <Filter className="absolute left-4 top-1/2 -translate-y-1/2 text-apple-text-tertiary" size={16} />
-                <select 
-                  className={`apple-input w-full pl-11 h-12 text-sm font-semibold appearance-none cursor-pointer transition-all ${isScrolled ? 'bg-transparent border-none' : ''}`}
-                  value={filterModality}
-                  onChange={(e) => setFilterModality(e.target.value)}
-                >
-                  <option value="all">Everywhere</option>
-                  <option value="In-Person">In-Person</option>
-                  <option value="Remote">Remote</option>
-                  <option value="Hybrid">Hybrid</option>
-                </select>
-                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-apple-text-tertiary">
-                   <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                   </svg>
-                </div>
-            </div>
+            {/* Keeping the empty div to preserve flex layout for the sticky search bar */}
           </div>
         </div>
 
