@@ -61,7 +61,7 @@
         loadingEl.style.display = 'none';
         grid.style.display = 'grid';
         applyFilters();
-      }, 1500);
+      }, 800);
       
     } catch (err) {
       console.error('Fetch error:', err);
