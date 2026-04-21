@@ -92,7 +92,8 @@
     const fragment = document.createDocumentFragment();
     batch.forEach((job, index) => {
       let finalLink = job.apply_link || '#';
-      if (finalLink.includes('startup.jobs')) {
+      // Force targeted search for all Startup roles or broken Startup.com links
+      if (sourceClass(job.source) === 'startup' || finalLink.includes('startup.jobs') || finalLink.includes('Startup.com')) {
         finalLink = `https://startup.jobs/?s=${encodeURIComponent(job.company + ' ' + job.title)}`;
       }
 
