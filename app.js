@@ -92,9 +92,10 @@
     const fragment = document.createDocumentFragment();
     batch.forEach((job, index) => {
       let finalLink = job.apply_link || '#';
-      // Force targeted search for all Startup roles or broken Startup.com links
-      if (sourceClass(job.source) === 'startup' || finalLink.includes('startup.jobs') || finalLink.includes('Startup.com')) {
-        finalLink = `https://startup.jobs/?s=${encodeURIComponent(job.company + ' ' + job.title)}`;
+      // Force targeted Google search for Startup roles to find the actual application page
+      if (sourceClass(job.source) === 'startup' || finalLink.includes('Startup.com')) {
+        const query = `${job.company} ${job.title} internship apply`;
+        finalLink = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
       }
 
       const card = document.createElement('article');
