@@ -88,9 +88,9 @@ body {
   justify-content: space-between;
 }
 .brand-text {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 #theme-toggle {
   background: none;
