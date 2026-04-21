@@ -91,6 +91,11 @@
 
     const fragment = document.createDocumentFragment();
     batch.forEach((job, index) => {
+      let finalLink = job.apply_link || '#';
+      if (finalLink.includes('startup.jobs')) {
+        finalLink = `https://startup.jobs/?s=${encodeURIComponent(job.company + ' ' + job.title)}`;
+      }
+
       const card = document.createElement('article');
       card.className = 'card';
       const delay = (index * 0.03);
@@ -121,7 +126,7 @@
           ${job.requirements ? `<p class="card-desc">"${escapeHTML(job.requirements)}"</p>` : ''}
         </div>
         <div class="card-footer">
-          <a href="${escapeHTML(job.apply_link || '#')}" target="_blank" rel="noopener noreferrer" class="cta-link">
+          <a href="${finalLink}" target="_blank" rel="noopener noreferrer" class="cta-link">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
           </a>
