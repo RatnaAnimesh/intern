@@ -221,60 +221,8 @@
     applyFilters();
   });
 
-  // --- Animations ---
-  function initAnimations() {
-    gsap.registerPlugin(ScrollTrigger, Flip);
-
-    const landing = document.getElementById('landing');
-    const title = document.getElementById('landing-title');
-    const navSlot = document.getElementById('nav-brand-slot');
-    const content = document.getElementById('content-reveal');
-
-    // Create a timeline for the scroll-triggered sequence
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: landing,
-        start: "top top",
-        end: "+=100%", // Scroll distance
-        scrub: 1,
-        pin: true,
-        anticipatePin: 1
-      }
-    });
-
-    // Capture first state (Hero)
-    const state = Flip.getState(title);
-
-    // Move element to Nav Slot (Last state)
-    navSlot.appendChild(title);
-
-    // Create the Flip animation
-    const flip = Flip.from(state, {
-      duration: 1,
-      ease: "none",
-      absolute: true,
-      scale: true
-    });
-
-    // Add to timeline
-    tl.add(flip);
-
-    // Parallel: Reveal content and fade landing indicator
-    tl.to('.scroll-hint', { opacity: 0, duration: 0.2 }, 0);
-    tl.to(content, { 
-      opacity: 1, 
-      visibility: 'visible',
-      duration: 0.5,
-      ease: "power2.out"
-    }, 0.5);
-
-    // Background color of landing should fade if needed, 
-    // but here we keep it clean.
-  }
-
   // --- Start ---
   initTheme();
   fetchData();
-  initAnimations();
 
 })();
