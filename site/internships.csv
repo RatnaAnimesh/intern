@@ -11,10 +11,6 @@ IISc Bangalore,Summer Fellowship / IASc-INSA-NASI Program,Bengaluru (On-campus),
 Google Summer of Code (GSoC),Open Source Contributor,Remote (Worldwide),"$1,500-$6,600 (based on country/project size)",10-22 Weeks (Summer),Open to all. Contribute to real open-source projects mentored by established orgs. No prior OSS experience needed — just willingness to learn.,https://summerofcode.withgoogle.com/,Open Source
 MLH Fellowship,MLH Fellowship (Open Source / SWE Track),Remote (Worldwide),"$5,000 (for 12 weeks)",12 Weeks,For students and recent grads. Build real software with an engineering pod. Beginner-friendly tracks available.,https://fellowship.mlh.io/,Open Source
 Linux Foundation (LFX),LFX Mentorship Program,Remote (Worldwide),"$3,000-$6,600",12 Weeks,"Contribute to CNCF, Kubernetes, Hyperledger, and other Linux Foundation projects. Great for building a public engineering portfolio.",https://mentorship.lfx.linuxfoundation.org/,Open Source
-BodhX AI,Software Development,Work from home,"₹ 10,000 - 17,000 /month",TBD,"1. Understand the platform and its features, functionalities, and workflows.
-2. Learn about client onboarding processes and assist in onboarding new clients.
-3. Understand the integration of Meta Business Pages and support setup and management activities.
-4. Learn how to use AI agents and assist in implementing AI-driven workflows and solutions.",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-ankur-sawhney1781199686,Startup
 Hammer Brand Communications Private Limited,3D Artist,"Navi Mumbai, Mumbai (Hybrid)","₹ 5,000 - 10,000 /month",TBD,"1. Creating high-quality 3D models, textures, and environments based on concept art and design specifications.
 2. Assisting in the rigging, lighting, and rendering of 3D assets for various platforms.
 3. Implementing and optimizing 3D assets within our production pipeline.
@@ -24,6 +20,14 @@ Sanskritech Smart Solutions Private Limited,Flutter Development,"Navi Mumbai, Mu
 1. Collaborating with the development team to design, develop, and implement mobile applications using Flutter.
 2. Writing clean, maintainable, and efficient code in Dart language.
 3. Integrating RES",https://internshala.com/internship/detail/flutter-development-internship-in-multiple-locations-at-sanskritech-smart-solutions-private-limited1780650052,Startup
+AppVersal,Golang Developer,Noida,"₹ 15,000 - 25,000 /month",TBD,"1. Design and implement backend services using Go (Golang)
+2. Build scalable, high-performance, and secure RESTful and/or gRPC APIs
+3. Collaborate with cross-functional teams to define, design, and ship new features
+4. Optimize and refactor existing systems for performance and scalability
+5. Write clean, testable, and maintainable code
+6. Participate in code reviews and maintain code quality standards
+7. Troubleshoot, debug, and resolve production issues
+8. Contribute to architectural dec",https://internshala.com/internship/detail/golang-developer-internship-in-noida-at-appversal1781174718,Startup
 Arakoo,Reinforcement Learning Research,Noida,"₹ 25,000 - 35,000 /month",TBD,"1. Develop our Chromium based RL framework using C++, Rust, Java
 2. Troubleshoot and resolve issues related to Chromium and other areas of our software stack
 4. Stay up-to-date with the latest developments in reinforcement learning, harbor, skyrl and tinker, and apply this knowledge to our products",https://internshala.com/internship/detail/reinforcement-learning-research-internship-in-noida-at-arakoo1781190223,Startup
@@ -34,22 +38,45 @@ FynTune Solution Private Limited,Junior PHP Developer,"Thane, Navi Mumbai, Mumba
 3. Ensuring HTML, CSS, and shared JavaScript are valid and consistent across applications.
 4. Preparing and maintaining all applications using standard development tools.
 5. Utilizing backend data services an",https://internshala.com/internship/detail/junior-php-developer-internship-in-multiple-locations-at-fyntune-solution-private-limited1781086723,Startup
-Logix Infotech LLP,ERP Technical Support,Noida,"₹ 12,000 - 13,000 /month",TBD,"1. Provide end-to-end ERP support across all manufacturing and accounts modules
-2. Including requirement analysis, system design, customization, testing, and implementation
-3. Conduct onsite/online client demonstrations, deliver functional training, and oversee implementation activities",https://internshala.com/internship/detail/erp-technical-support-internship-in-noida-at-logix-infotech-llp1781151856,Startup
-AppVersal,Golang Developer,Noida,"₹ 15,000 - 25,000 /month",TBD,"1. Design and implement backend services using Go (Golang)
-2. Build scalable, high-performance, and secure RESTful and/or gRPC APIs
-3. Collaborate with cross-functional teams to define, design, and ship new features
-4. Optimize and refactor existing systems for performance and scalability
-5. Write clean, testable, and maintainable code
-6. Participate in code reviews and maintain code quality standards
-7. Troubleshoot, debug, and resolve production issues
-8. Contribute to architectural dec",https://internshala.com/internship/detail/golang-developer-internship-in-noida-at-appversal1781174718,Startup
+Maxgen Technologies Private Limited,Flutter Development,Ahmedabad,"₹ 5,000 - 12,000 /month",TBD,"As a Flutter Development intern at Maxgen Technologies Private Limited, you will have the exciting opportunity to work with cutting-edge technologies and contribute to real-world projects. You will be responsible for developing and maintaining mobile applications using Flutter, iOS, and Android platforms. Your expertise in REST API integration and Dart programming language will play a crucial role in delivering high-quality solutions. 
+
+Key Responsibilities:
+1. Collaborate with the developmen",https://internshala.com/internship/detail/flutter-development-internship-in-ahmedabad-at-maxgen-technologies-private-limited1781280870,Startup
 Svatantra Microfin Private Limited,Java Development,Bangalore,"₹ 15,000 - 18,000 /month",TBD,"1.Develop and maintain Java-based applications following best practices.
 2.Write clean, efficient, reusable, and testable code.
 3.Participate in the design and architecture of new features and system enhancements.
 4.Implement RESTful APIs and integrate with external systems.
 5.Produce technical documentation as required.",https://internshala.com/internship/detail/java-development-internship-in-bangalore-at-svatantra-microfin-private-limited1778674025,Startup
+Infoaxen Solutions OPC Private Limited,Web Design And Development,Delhi (Hybrid),"₹ 6,000 - 10,000 /month",TBD,"1. Complete and publish the homepage redesign using Elementor
+2. Build landing pages for lead generation and agent recruitment
+3. Ensure mobile responsiveness and clean design
+4. Basic on-page SEO (meta tags, image alt text)
+5. Make content updates as directed",https://internshala.com/internship/detail/web-design-and-development-internship-in-delhi-at-infoaxen-solutions-opc-private-limited1781259076,Startup
+Neurasys,Java Development,Work from home,"₹ 7,500 - 20,000 /month",TBD,"Are you a talented Java developer looking to gain hands-on experience in a fast-paced environment? Neurasys is seeking a Java Development intern to join our dynamic team. If you have a strong knowledge of Java, MySQL, JSP, J2EE, Hibernate ORM, and Spring MVC, this is the perfect opportunity for you to enhance your skills and contribute to cutting-edge projects.
+
+Key responsibilities:
+1. Collaborate with senior developers to design and implement Java-based solutions
+2. Develop and maintain we",https://internshala.com/internship/detail/work-from-home-java-development-internship-at-neurasys1781241669,Startup
+Neurasys,Python Development,Work from home,"₹ 7,500 - 15,000 /month",TBD,"As a Python Development Intern at Neurasys, you will have the opportunity to work on cutting-edge projects that leverage your skills in HTML, CSS, Python, Django, Machine Learning, REST API, and Flask. You will be part of a dynamic team that is dedicated to pushing the boundaries of technology and innovation.
+
+
+
+1. Assist in the development and maintenance of web applications using Python and Django.
+2. Collaborate with team members to implement machine learning algorithms and models.
+3. D",https://internshala.com/internship/detail/work-from-home-python-development-internship-at-neurasys1781241640,Startup
+Internshala,Software Development Engineering (Web),Gurgaon,"₹ 18,000 /month",TBD,"At Internshala, we are making this dream a reality! This role is for those who love solving meaningful problems through modular and functional code. Our SDEs (web) work with our product team to deliver high quality, high impact products. The learning curve for engineers at Internshala is huge. Our team works on several products (we have 2 main websites and an app along with several minor websites in parallel). We work on some of the most advanced technologies, using languages like HTML, CSS, JS,",https://internshala.com/internship/detail/software-development-engineering-web-internship-in-gurgaon-at-internshala1781241534,Startup
+Meru Technosoft Private Limited,MERN Stack cum Python Developer (AI ML),Ahmedabad,"₹ 5,000 /month",TBD,"1. Build and ship features across our React front-end and Node.js back-end services
+2. Turn UI designs into responsive, accessible screens used daily by customers
+3. Integrate REST/gRPC APIs and work with MongoDB/PostgreSQL data models
+4. Pair with the core team on live SaaS modules (accounting, HR, CRM)
+5. Debug production issues, add test coverage, and optimize performance",https://internshala.com/internship/detail/mern-stack-cum-python-developer-ai-ml-internship-in-ahmedabad-at-meru-technosoft-private-limited1781239918,Startup
+Namaah Pvt Ltd,Unreal Engine Developer,Work from home,"₹ 6,000 - 10,000 /month",TBD,"1. Develop and maintain Unreal Engine-based real-time 3D projects.
+2. Work on Blueprint scripting and assist with C++ programming tasks.
+3. Build interactive systems, gameplay mechanics, and level designs.
+4. Set up lighting, materials, rendering workflows, and scene optimization.
+5. Work with Unreal Engine 5 tools such as Sequencer, Niagara VFX, MetaHuman, and Quixel Mega scans.
+6. Optimize project performance, assets, and interactive elements.
+7. Integrate animations, UI elements, cinema",https://internshala.com/internship/detail/work-from-home-part-time-unreal-engine-developer-internship-at-namaah-pvt-ltd1781239830,Startup
 AyLark Technologies,Software Development Engineering (Web),Nagpur,"₹ 5,000 - 6,000 /month",TBD,"1. Build and maintain features for AyLark's SaaS platform.
 2. Develop scalable frontend and backend systems.
 3. Work with React, Java, Spring Boot, and databases.
@@ -62,6 +89,9 @@ Maxgen Technologies Private Limited,MERN Stack,Ahmedabad,"₹ 5,000 - 12,000 /mo
 2. Work on creating responsive and user-friendly interfaces using React.
 3. Utilize Node.js for building backend services and APIs.
 4. Assist in debugging and trouble",https://internshala.com/internship/detail/mern-stack-internship-in-ahmedabad-at-maxgen-technologies-private-limited1781160270,Startup
+Logix Infotech LLP,ERP Technical Support,Noida,"₹ 12,000 - 13,000 /month",TBD,"1. Provide end-to-end ERP support across all manufacturing and accounts modules
+2. Including requirement analysis, system design, customization, testing, and implementation
+3. Conduct onsite/online client demonstrations, deliver functional training, and oversee implementation activities",https://internshala.com/internship/detail/erp-technical-support-internship-in-noida-at-logix-infotech-llp1781151856,Startup
 DevInDays Technologies,Mobile Application Developer (flutter),Work from home,"₹ 15,000 - 35,000 /month",TBD,"1. Translating high-fidelity Figma designs into pixel-perfect, highly responsive mobile application screens.
 2. Integrating backend services (Firebase/Supabase) and third-party APIs using clean, maintainable architecture.
 3. Collaborating directly with our Lead Developer to manage version control (GitHub), submit clean pull requests, and debug production code.
@@ -79,18 +109,6 @@ Maxgen Technologies Private Limited,Python Development,Rajkot,"₹ 5,000 - 12,00
 
 1. Collaborate with the development team to design and implement software solutions using Python and Django.
 2. Work on projects involving Machine Learning algorithms and data ana",https://internshala.com/internship/detail/python-development-internship-in-rajkot-at-maxgen-technologies-private-limited1781084646,Startup
-Neurasys,Python Development,Work from home,"₹ 7,500 - 15,000 /month",TBD,"As a Python Development Intern at Neurasys, you will have the opportunity to work on cutting-edge projects that leverage your skills in HTML, CSS, Python, Django, Machine Learning, REST API, and Flask. You will be part of a dynamic team that is dedicated to pushing the boundaries of technology and innovation.
-
-
-
-1. Assist in the development and maintenance of web applications using Python and Django.
-2. Collaborate with team members to implement machine learning algorithms and models.
-3. D",https://internshala.com/internship/detail/work-from-home-python-development-internship-at-neurasys1781063689,Startup
-Neurasys,Java Development,Work from home,"₹ 7,500 - 20,000 /month",TBD,"Are you a talented Java developer looking to gain hands-on experience in a fast-paced environment? Neurasys is seeking a Java Development intern to join our dynamic team. If you have a strong knowledge of Java, MySQL, JSP, J2EE, Hibernate ORM, and Spring MVC, this is the perfect opportunity for you to enhance your skills and contribute to cutting-edge projects.
-
-Key responsibilities:
-1. Collaborate with senior developers to design and implement Java-based solutions
-2. Develop and maintain we",https://internshala.com/internship/detail/work-from-home-java-development-internship-at-neurasys1781063666,Startup
 Polaris School Of Technology,The Polaris Fellowship - Software Development,Bangalore,"₹ 1,00,000 /month",TBD,"1. Own and ship production-grade code using AI-native workflows - from architecture decisions to live deployment
 2. Embedded inside partner teams, you will close real technical gaps, optimise live systems, and contribute to core IP
 3. Prototype agent workflows and AI integrations at speed - brief to demo in under 72 hours
@@ -230,11 +248,6 @@ Technode,Embedded Systems,Vasai-Virar,"₹ 6,000 - 10,000 /month",TBD,"1. PCB De
 Nivoryx Systems Private Limited,Software Development,"Delhi, Ghaziabad, Gurgaon, Noida (Hybrid)","₹ 10,000 - 1,50,000 /month",TBD,"1. Mobile App Development (Android and iOS)
 2. Web Development
 3. Testing",https://internshala.com/internship/detail/software-development-internship-in-multiple-locations-at-nivoryx-systems-private-limited1780582830,Startup
-Xenotix Tech,Flutter Development,Noida,"₹ 20,000 - 30,000 /month",TBD,"As a Flutter Development intern at Xenotix Tech, you will have the opportunity to work with a dynamic team and gain hands-on experience in developing cutting-edge mobile applications. We are looking for someone who is knowledgeable in Flutter, Android, iOS, REST API, and Next.js, and who is eager to learn and grow in the fast-paced tech industry.
-
-Key responsibilities:
-1. Collaborate with our development team to design and implement new features for mobile applications using Flutter.
-2. Assi",https://internshala.com/internship/detail/flutter-development-internship-in-noida-at-xenotix-tech1780575119,Startup
 Inorbvict Healthcare India Private Limited,AI Agent Development,Pune,"₹ 6,000 - 6,001 /month",TBD,"Key Responsibilities
 1. Design and build automation workflows using n8n or similar automation platforms.
 2. Create AI-powered automation pipelines to reduce manual and repetitive tasks.
@@ -339,12 +352,6 @@ TSTEPS PRIVATE LIMITED,Software Development,"Chennai, Bangalore (Hybrid)","₹ 1
 Write clean, efficient, and well-documented code following established coding standards and best practices.
 Collaborate with developers, designers, and product teams to implement new features and enhancements.
 Participate in code reviews and incorporate feedback to improve code quality and performance.",https://internshala.com/internship/detail/software-development-internship-in-multiple-locations-at-tsteps-private-limited1780394589,Startup
-Starpublicity,Game Development,Ludhiana,"₹ 5,000 - 10,000 /month",TBD,"1.) Assist in developing interactive applications using Unity
-2.) Support in designing and implementing AR/VR experiences
-3.) Help optimize applications for performance and responsiveness
-4.) Debug and troubleshoot basic issues in applications
-5.) Collaborate with designers and developers on ongoing projects
-6.) Stay updated with the latest trends in AR/VR technologies",https://internshala.com/internship/detail/game-development-internship-in-ludhiana-at-starpublicity1780377144,Startup
 TSTEPS PRIVATE LIMITED,SAP Functional Consultant,"Delhi, Bangalore","₹ 10,000 - 15,000 /month",TBD,"1. Gather and analyze business requirements to design SAP solutions.
 2. Configure SAP modules to support business processes and operational needs.
 3. Conduct system testing and validate solutions with end users.
@@ -642,49 +649,6 @@ X1 Race LLP,Game Design & Level Design,Work from home,"₹ 20,000 - 30,000 /mont
 X1 Race LLP,Unity Game Development,Work from home,"₹ 20,000 - 35,000 /month",TBD,"1. Develop core gameplay systems for an arcade-style 3D mobile game in Unity, including player movement, camera setup, obstacle mechanics, collectables, scoring, collisions, level flow and game-over/restart logic.
 2. Create clean Unity scenes, prefabs, reusable C# scripts, UI screens, gameplay loops and organised project folders while maintaining regular project updates and version-control discipline.
 3. Test gameplay builds, fix bugs, improve controls and performance, document the setup clear",https://internshala.com/internship/detail/work-from-home-unity-game-development-internship-at-x1-race-llp1779164332,Startup
-OBLYTECH INDIA PRIVATE LIMITED,Software Development,Work from home,"₹ 10,000 /month",TBD,"Are you a tech-savvy individual with a passion for software development? Look no further!  is seeking a talented Software Development intern to join our dynamic team. If you have a strong knowledge of Python, HTML, MySQL, and Artificial Intelligence Markup Language (AIML), we want to hear from you!
-
-Key Responsibilities:
-1. Collaborate with our experienced developers to design and implement new software features
-2. Write clean, efficient, and well-documented code to enhance our existing appl",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-oblytech-india-private-limited1779115973,Startup
-Gharpayy,Full Stack Development,Bangalore,"₹ 10,000 - 15,000 /month",TBD,"Key responsibilities:
-1. Collaborate with our development team to design and implement innovative solutions for our platform
-2. Develop and maintain front-end and back-end features using Node.js and Next.js
-3. Write clean, efficient, and well-documented code to ensure optimal performance
-4. Conduct thorough testing and debugging to identify and fix any issues
-5. Stay up-to-date on industry trends and emerging technologies to continuously improve our products
-6. Assist with project planning",https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-gharpayy1779043845,Startup
-Cognitive Squad Private Limited,Full Stack Development,Patna,"₹ 5,000 - 10,000 /month",TBD,"1. Design, develop, and maintain RESTful APIs and WebSocket endpoints using Express.js (Node.js) for core super-app modules including user authentication, food ordering, cab booking, real-time driver/delivery tracking, and payment integration with Razorpay — ensuring APIs are scalable, secure, and well-documented.
-2. Build and maintain cross-platform mobile application screens and components using React Native, including but not limited to — onboarding & login flow, home feed, restaurant/menu l",https://internshala.com/internship/detail/full-stack-development-internship-in-patna-at-cognitive-squad-private-limited1778944287,Startup
-Mple AI,Software Development (Full Stack),"Thane, Navi Mumbai, Mumbai","₹ 10,000 - 15,000 /month",TBD,"1. Work with senior developers to design, build, and maintain MERN-based web applications.
-2. Integrate AI models into production systems using Python and Flask.
-3. Collaborate with the product team to translate business requirements into technical features.
-4. Debug, test, and optimize applications for performance and scalability.
-5. Write clean, maintainable, and well-documented code.
-6. Take ownership of small features/modules and deliver them end-to-end.",https://internshala.com/internship/detail/software-development-full-stack-internship-in-multiple-locations-at-mple-ai1778935176,Startup
-Antiworld,Game Development,Hyderabad,"₹ 5,000 - 30,000 /month",TBD,"Key Responsibilities:
-
-Design and develop real-time simulation systems and architectures.
-Build aircraft and system simulation logic.
-Develop physics-driven behaviors and interaction systems.
-Create and manage terrain and environment workflows.
-Work on VR/XR-based immersive simulation experiences.
-Implement event-driven systems and real-time state management.
-Develop and optimize real-time data communication pipelines.
-Work with vector math, transforms, and 3D coordinate systems.
-Optim",https://internshala.com/internship/detail/game-development-internship-in-hyderabad-at-antiworld1778931486,Startup
-Adfinity Global Solutions P Limited,Full Stack Development,Kochi,"₹ 10,000 - 12,000 /month",TBD,"Are you a passionate Full Stack Development intern looking to gain hands-on experience with cutting-edge technologies? Adfinity Global Solutions P Limited is seeking an enthusiastic individual who is proficient in Python and React to join our dynamic team. As an intern, you will have the opportunity to work on exciting projects and contribute to the development of innovative solutions. 
-
-1. Collaborate with team members to design and develop web applications
-2. Write clean, maintainable, and ",https://internshala.com/internship/detail/full-stack-development-internship-in-kochi-at-adfinity-global-solutions-p-limited1778902280,Startup
-Imagitime,Image Editor & Quality Assurance Analyst,Work from home,"₹ 30,000 /month",TBD,"This is an internship that will convert into a job based on performance, so please only apply if you will be able to take up the full-time job after the completion of the internship.
-
- 
-
-1. Analyze and enhance given images for personalized book projects
-2. Create and refine image components using tools like Canva and Stable Diffusion
-3. Perform quality control on generated images, identifying and resolving any issues
-4. Collaborate with the illustration team to improve base images when ne",https://internshala.com/internship/detail/work-from-home-image-editor-quality-assurance-analyst-internship-at-imagitime1778845507,Startup
 NirmanIQ Private Limited,QA & Field Support Engineer,Hyderabad,"₹ 10,000 - 15,000 /month",TBD,"NirmanIQ is building India's first visual progress intelligence platform for high-rise construction. We're looking for a hands-on QA & field support engineer who will be the bridge between our product team and construction sites- testing features, visiting sites, and ensuring our mobile + web platform works flawlessly in real-world conditions.
 
 
@@ -693,13 +657,10 @@ NirmanIQ Private Limited,QA & Field Support Engineer,Hyderabad,"₹ 10,000 - 15,
 Respirit Healthcare Private Limited,Full Stack Development,Guwahati,"₹ 10,000 - 15,000 /month",TBD,"1.Flutter mobile app development (Android/iOS) for our spirometry device
 2.BLE (Bluetooth Low Energy) integration between mobile app and ESP32 hardware
 3.API integration and backend communication",https://internshala.com/internship/detail/full-stack-development-internship-in-guwahati-at-respirit-healthcare-private-limited1780586378,Startup
-Karma Infratech,Artificial Intelligence (AI),Kanpur,"₹ 10,000 /month",TBD,"1. Build AI chatbots and automation solutions for business use cases.
-2. Work with WhatsApp API integrations and chatbot deployment.
-3. Develop websites using Vibe Coding, no-code, and low-code tools.
-4. Design, develop, and deliver client websites from concept to deployment.
-5. Perform SEO activities including on-page and off-page optimization.
-6. Manage and optimize Google Business Profile (Google My BusiBusiness) Listings.
-7. Work with Meta Developer tools, APIs, and business integratio",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-kanpur-at-karma-infratech1781073908,Startup
+EGYANAM Technologies Private Limited,Blockchain Development,Pune,"₹ 5,000 - 15,000 /month",TBD,"1.Participate in Design Reviews as Blockchain Project Team Member
+2. Testing of developed code 
+3.Coding
+4. Front end application development using React.js",https://internshala.com/internship/detail/blockchain-development-internship-in-pune-at-egyanam-technologies-private-limited1780989954,Startup
 LeadNexus LLP,WordPress & Shopify Expert,Pune,"₹ 10,000 - 12,000 /month",TBD,"1. Developing and customizing business and e-commerce websites on WordPress (WooCommerce) and Shopify.
 2. Creating content for these websites using AI.
 3. Setting up product listings, variants, filters, and category structures.
@@ -708,9 +669,42 @@ LeadNexus LLP,WordPress & Shopify Expert,Pune,"₹ 10,000 - 12,000 /month",TBD,"
 6. Optimizing website speed, mobile responsiveness, and UX for conversions.
 7. Coordinating with design, content, and marketing teams.
 8. P",https://internshala.com/internship/detail/wordpress-shopify-expert-internship-in-pune-at-leadnexus-llp1777630492,Startup
+Karma Infratech,Artificial Intelligence (AI),Kanpur,"₹ 10,000 /month",TBD,"1. Build AI chatbots and automation solutions for business use cases.
+2. Work with WhatsApp API integrations and chatbot deployment.
+3. Develop websites using Vibe Coding, no-code, and low-code tools.
+4. Design, develop, and deliver client websites from concept to deployment.
+5. Perform SEO activities including on-page and off-page optimization.
+6. Manage and optimize Google Business Profile (Google My BusiBusiness) Listings.
+7. Work with Meta Developer tools, APIs, and business integratio",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-kanpur-at-karma-infratech1781073908,Startup
 Delkon Technologies,Web Development,Bareilly,"₹ 6,000 - 13,000 /month",TBD,"1.Need to develop the website
 2. Need to deliver the project on time
 3.Need to communicate with the clients about their requirements",https://internshala.com/internship/detail/web-development-internship-in-bareilly-at-delkon-technologies1780312453,Startup
+VFinite,Web Systems & Automation,"Dhanbad, Dumka, Deoghar, Giridih, Bokaro","₹ 10,000 - 20,000 /month",TBD,"1. Assisting in the development and maintenance of responsive web pages.
+2. Working with React-based frontend components and UI improvements.
+3. Collaborating on website optimization, testing, and deployment tasks.
+4. Documenting development progress and project updates.
+5. Supporting basic automation and workflow improvement initiatives.",https://internshala.com/internship/detail/web-systems-automation-internship-in-multiple-locations-at-vfinite1780395022,Startup
+PropCheckup,Web Development,Mumbai,"₹ 10,000 - 12,000 /month",TBD,"As a Web Development intern at PropCheckup, you will have the opportunity to work on cutting-edge projects and gain hands-on experience in a fast-paced tech environment. You will be responsible for assisting our development team in building and maintaining our website and applications. 
+
+
+
+1. Collaborate with team members to design and develop user-friendly interfaces using JavaScript, React, CSS, and Bootstrap.
+2. Assist in implementing new features and functionalities to enhance user expe",https://internshala.com/internship/detail/web-development-internship-in-mumbai-at-propcheckup1781286659,Startup
+Inquisitive Consultancy Private Limited,IT Admin,Bhopal,"₹ 7,500 - 15,000 /month",TBD,"1. Managing our ideal techno app backend, data and creating profiles according to the company needs
+2. Managing data in Excel, Word or required format
+3. Coordinating with team lead",https://internshala.com/internship/detail/it-admin-internship-in-bhopal-at-inquisitive-consultancy-private-limited1781260832,Startup
+Enlace Solutions,Web Development,Pune,"₹ 5,000 - 12,000 /month",TBD,"1. Develop the website
+2. Check the SEO if it's working properly
+3. Use WordPress to create a website",https://internshala.com/internship/detail/web-development-internship-in-pune-at-enlace-solutions1781258727,Startup
+Neurasys,Web Development,Work from home,"₹ 7,500 - 15,000 /month",TBD,"Are you a skilled web development intern looking for an exciting opportunity to enhance your skills at Neurasys? We are seeking a talented individual who is proficient in PHP, MySQL, HTML, CSS, JavaScript, jQuery, WordPress, Bootstrap, and Node.js. As a member of our team, you will have the chance to work on cutting-edge projects and collaborate with experienced developers to create innovative solutions. 
+
+
+
+1. Develop and maintain websites using PHP, MySQL, HTML, CSS, and JavaScript.
+2. Im",https://internshala.com/internship/detail/work-from-home-web-development-internship-at-neurasys1781241961,Startup
+"Livesitter (Atlanta, United States)",AI Full Stack Developer,Work from home,"₹ 20,000 - 25,000 /month",TBD,"We’re looking for an AI full-stack developer intern who’s eager to build real-world, AI-powered products from the ground up. This is not just a “watch and learn” role  you’ll be directly contributing to live projects, working with AI models, building scalable web applications, and integrating intelligent automation into our core platform. If you’re passionate about coding, curious about AI, and excited to work in a fast-paced startup environment, we’d love to meet you.
+
+Please apply only if yo",https://internshala.com/internship/detail/work-from-home-ai-full-stack-developer-internship-at-livesitter1781237739,Startup
 Prosync Consulting Private Limited,Full Stack Development,Hyderabad,"₹ 5,000 /month",TBD,"Develop and maintain web applications using modern frontend and backend technologies.
 Design and optimize databases for project, customer, and document management.
 Build secure user authentication and role-based access systems.
@@ -719,11 +713,6 @@ Integrate AI-powered features and automation tools.
 Build APIs and connect third-party services.
 Optimize application performance, scalability, and security.
 Collaborate directly with founders on product strateg",https://internshala.com/internship/detail/full-stack-development-internship-in-hyderabad-at-prosync-consulting-private-limited1781178527,Startup
-VFinite,Web Systems & Automation,"Dhanbad, Dumka, Deoghar, Giridih, Bokaro","₹ 10,000 - 20,000 /month",TBD,"1. Assisting in the development and maintenance of responsive web pages.
-2. Working with React-based frontend components and UI improvements.
-3. Collaborating on website optimization, testing, and deployment tasks.
-4. Documenting development progress and project updates.
-5. Supporting basic automation and workflow improvement initiatives.",https://internshala.com/internship/detail/web-systems-automation-internship-in-multiple-locations-at-vfinite1780395022,Startup
 Besick,Web Development,Mumbai,"₹ 8,000 - 10,000 /month",TBD,"Selected intern’s day‑to‑day responsibilities include:
 
 1. Develop and maintain the website using modern web technologies and best practices 
@@ -769,23 +758,11 @@ Selected intern’s day-to-day responsibilities include:
 1. Collaborate with the development team to design, develop, and implement new features for AI applications.
 2. Develop backend functionalities using Python 
 3. Deploy and manage applications on AWS for optimal performance and re",https://internshala.com/internship/detail/ai-python-developer-internship-in-multiple-locations-at-acumensa-technologies1781090985,Startup
-House Of Couton Private Limited,Subject Matter Expert (SME) - AI/ML,Work from home,"₹ 12,000 - 35,000 /month",TBD,"1. Review and analyze research papers, ensuring quality checks and providing improvement suggestions
-2. Work on coding and conducting research in AI/ML, assisting as needed
-3. Define and refine project scope, ensuring clarity and feasibility
-4. Write reports and code, co-authoring as per requirement
-
-Note: This involves a large portion of report preparation and academic paper preparation",https://internshala.com/internship/detail/work-from-home-subject-matter-expert-sme-ai-ml-internship-at-house-of-couton-private-limited1781084353,Startup
 Build Fast With AI,AI Engineer,Work from home,"₹ 7,500 /month",TBD,"1. Build and ship AI-powered features using OpenAI API, Gemini, and LangChain from prompt design to production integration.
 2. Develop full-stack AI applications using Next.js and the MERN stack with seamless front-to-back AI functionality.
 3. Design and implement agentic workflows, RAG pipelines, and multistep AI chains for real-world use cases.
 4. Write clean, production-quality Python and TypeScript/JavaScript code for AI model integration and API development.
 5. Collaborate with senior e",https://internshala.com/internship/detail/work-from-home-part-time-ai-engineer-internship-at-build-fast-with-ai1781077836,Startup
-Neurasys,Web Development,Work from home,"₹ 7,500 - 15,000 /month",TBD,"Are you a skilled web development intern looking for an exciting opportunity to enhance your skills at Neurasys? We are seeking a talented individual who is proficient in PHP, MySQL, HTML, CSS, JavaScript, jQuery, WordPress, Bootstrap, and Node.js. As a member of our team, you will have the chance to work on cutting-edge projects and collaborate with experienced developers to create innovative solutions. 
-
-
-
-1. Develop and maintain websites using PHP, MySQL, HTML, CSS, and JavaScript.
-2. Im",https://internshala.com/internship/detail/work-from-home-web-development-internship-at-neurasys1781063576,Startup
 Trackzio Mobile Application Private Limited,Node.js Development,Work from home,"₹ 15,000 - 25,000 /month",TBD,"Responsibilities
 
 1. Develop and maintain backend APIs and services using Node.js.
@@ -796,18 +773,6 @@ Trackzio Mobile Application Private Limited,Node.js Development,Work from home,"
 6. Collaborate with mobile developers, designers, and product team members.
 7. Participate in testing, code reviews, and technical discussions.
 8. Research and evaluate",https://internshala.com/internship/detail/work-from-home-nodejs-development-internship-at-trackzio-mobile-application-private-limited1780998548,Startup
-EGYANAM Technologies Private Limited,Blockchain Development,Pune,"₹ 5,000 - 15,000 /month",TBD,"1.Participate in Design Reviews as Blockchain Project Team Member
-2. Testing of developed code 
-3.Coding
-4. Front end application development using React.js",https://internshala.com/internship/detail/blockchain-development-internship-in-pune-at-egyanam-technologies-private-limited1780989954,Startup
-Saregama India Limited,Data Analysis,Mumbai,"₹ 7,000 - 10,000 /month",TBD,"We are looking for a detail-oriented intern to join our business planning team. In this role, you will support customer segmentation, data analysis, and WhatsApp campaign execution by transforming raw data into actionable insights.
-
-
-
-
-1. Clean, organise, and maintain customer and transaction data using Excel.
-2. Identify and resolve data quality issues, including duplicates and inconsistencies.
-3. Segment customers using predefined tagging logic and analyse behavioural patterns through p",https://internshala.com/internship/detail/data-analysis-internship-in-mumbai-at-saregama-india-limited1780982642,Startup
 The Affordable Organic Store,Full Stack Developer,Work from home,"₹ 12,000 - 15,000 /month",TBD,"1. Build and improve website pages and features
 2. Work on frontend using HTML, CSS, JavaScript, and frameworks like React
 3. Support backend development using Node.js, Express, PHP, Python, or similar technologies
@@ -833,9 +798,6 @@ Key responsibilities:
 2. Collaborate with the team to design, implement, a",https://internshala.com/internship/detail/work-from-home-web-development-internship-at-winzonesoftech1780922875,Startup
 Logic Square Technologies,WordPress Development,Kolkata (Hybrid),"₹ 10,000 - 12,000 /month",TBD,"1. Building modern CMS websites
 2. Maintaining these websites",https://internshala.com/internship/detail/wordpress-development-internship-in-kolkata-at-logic-square-technologies1780916766,Startup
-Global Groupware Solutions Limited,Full Stack Development,Work from home,"₹ 25,000 - 30,000 /month",TBD,"1. Fixing issues in existing module code developed in MVC architecture using Java JSPs and Jakarta Servlet
-2. Working on the migration of old MVC code to the new Spring Boot framework
-3. Developing new functionality using serverless tech platforms like AWS Lambda",https://internshala.com/internship/detail/work-from-home-full-stack-development-internship-at-global-groupware-solutions-limited1780900678,Startup
 Trijotech Software Consulting Private Limited,Full Stack Development,"Greater Noida, Delhi, Noida, Ghaziabad","₹ 10,000 - 15,000 /month",TBD,"Selected intern’s day-to-day responsibilities include:
 
 1. Develop and maintain web applications using frontend and backend technologies.
@@ -950,183 +912,135 @@ Ramyoz,Front End Development,Noida,"₹ 7,000 - 12,000 /month",TBD,"1. Develop a
 6. Ensure website performance, speed, and responsiveness.
 7. Conduct testing and quality checks before deployment.
 8. Collaborate with designers, developers, and project man",https://internshala.com/internship/detail/front-end-development-internship-in-noida-at-ramyoz1780305061,Startup
-Trams,Front End Development,Work from home,"₹ 5,000 - 8,000 /month",TBD,"As a Front End Development intern at Trams company, you will have the opportunity to work with cutting-edge technologies like Next.js and React to enhance the user experience of our web applications. You will collaborate with our team of experienced developers to create responsive and visually appealing interfaces that will drive engagement and conversion rates. 
-
-Key Responsibilities:
-1. Develop and maintain front end features using Next.js and React
-2. Optimize website performance for spee",https://internshala.com/internship/detail/work-from-home-front-end-development-internship-at-trams1780294381,Startup
-CareerNest,Web Development,Work from home,"₹ 20,000 /month",TBD,"1. Developing and maintaining responsive web applications.
-2. Enhancing the company website with interactive UI/UX features.
-3. Working with front-end technologies like HTML, CSS, JavaScript, and React.js.
-4. Building and optimizing backend APIs using Node.js, Django, or Flask.
-5. Integrating databases (MySQL, MongoDB, or PostgreSQL) for dynamic content.
-6. Ensuring website security, performance, and SEO optimization.
-7. Collaborating with designers and business teams to improve user exper",https://internshala.com/internship/detail/work-from-home-web-development-internship-at-careernest1780201224,Startup
-Alstenia,WordPress Development,Work from home,"₹ 10,000 - 11,000 /month",TBD,"1. Creating WordPress landing pages
-2. Working directly with Canadian clients
-3. Creating landing pages using AI
-4. Designing complete websites using vibe coding",https://internshala.com/internship/detail/work-from-home-wordpress-development-internship-at-alstenia1780197157,Startup
-ATS Studio,Web Development,Jaipur,"₹ 5,000 - 10,000 /month",TBD,"1. Assist in designing and developing responsive WordPress or Shopify websites and Flutter applications.
-2. Customize themes, templates, and plugins and Flutter UI components to meet client specifications.
-3. Update website content, including text, images, and videos.
-4. Set up and maintain e-commerce functionalities, such as product listings and payment gateways and others.
-5. Optimize website performance and implement basic on-page SEO techniques.
-6. Identify and resolve technical issues ",https://internshala.com/internship/detail/web-development-internship-in-jaipur-at-ats-studio1780130385,Startup
-Aureva Wealth Advisors Private Limited,Full Stack Development,Mumbai,"₹ 10,000 - 11,000 /month",TBD,"Aureva Capital Private Limited is a Mumbai-based wealth management and financial advisory firm dedicated to helping individuals and families achieve their financial goals through personalized advice, technology-driven insights, and a comprehensive range of investment solutions. The company is developing a next-generation mutual fund investment platform aimed at simplifying investing while offering transparency and greater control over the wealth journey for an underserved segment of the Indian m",https://internshala.com/internship/detail/full-stack-development-internship-in-mumbai-at-aureva-wealth-advisors-private-limited1780120621,Startup
-Plexmato,Quality Control,Work from home,"₹ 10,000 - 25,000 /month",TBD,"Are you a detail-oriented individual with a passion for data analysis and quality control? Plexmato is seeking a quality control intern to join our dynamic team! 
+KANI SOLUTIONS PVT LTD,AWS DevOps Engineer,Work from home,"₹ 12,000 - 15,000 /month",TBD,"As an AWS DevOps Engineer intern at KANI SOLUTIONS PVT LTD, you will have the opportunity to work with cutting-edge technologies and gain hands-on experience in the field of cloud computing. Your role will involve collaborating with our team of experienced engineers to build and maintain scalable infrastructure on AWS using CloudFormation.
 
 
 
-1. Conduct thorough data analysis to identify trends and patterns in product quality.
-2. Utilize analytical thinking to develop and implement quality control procedures.
-3. Collaborate with cross-functional teams to ensure compliance with industry standards and regulations.
-4. Use critical thinking skills to troubleshoot and ",https://internshala.com/internship/detail/work-from-home-part-time-quality-control-internship-at-plexmato1781091559,Startup
-Attento Technologies Pvt Ltd,Full Stack Development (MERN),"Pune, Pimpri-Chinchwad (Hybrid)","₹ 13,500 - 15,000 /month",TBD,"1. Develop front-end website architecture using React and Next.js to create user-friendly interfaces.
-2. Build scalable back-end services using Node.js / NestJs and MongoDB for efficient data management.
-3. Implement REST APIs for seamless communication between front-end and back-end systems.
-4. Utilize Shadcn for secure authentication and authorization processes.
-5. Collaborate with cross-functional teams to design and implement innovative solutions.
-6. Test and debug code to ensure high p",https://internshala.com/internship/detail/full-stack-development-mern-internship-in-multiple-locations-at-attento-technologies-pvt-ltd1775027572,Startup
-LeadNexus LLP,Website Developer (WordPress & Shopify),Work from home,"₹ 5,000 /month",TBD,"1. Design and develop websites using WordPress and/or Shopify
-2. Customize themes and layouts as per brand requirements
-3. Create responsive designs for mobile and desktop
-4. Assist in building e-commerce websites (product pages, collections, etc.)
-5. Optimize websites for basic SEO and performance
-6. Make updates, edits, and improvements as required
-7. Ensure websites are user-friendly and visually appealing
-8. Coordinate with the team for design and content integration",https://internshala.com/internship/detail/work-from-home-part-time-website-developer-wordpress-shopify-internship-at-leadnexus-llp1777704452,Startup
-Betatest Solutions Private Limited,"PERN Stack (PostgreSQL/SQL, Express.js, React.js, Node.js)",Work from home,"₹ 9,000 - 10,000 /month",TBD,"1. Assist in developing responsive web applications using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) 
-2. Collaborate with UI/UX designers and backend teams for seamless functionality 
-3. Write clean, reusable, and maintainable code 
-4. Develop and integrate RESTful APIs for smooth communication between frontend and backend 
-5. Design and manage relational databases using PostgreSQL 
-6. Participate in code reviews and contribute to improvements 
-7. Troubleshoot, debug, and o",https://internshala.com/internship/detail/work-from-home-pern-stack-postgresql-sql-expressjs-reactjs-nodejs-internship-at-betatest-solutions-private-limited1779163334,Startup
-Shunya Research Labs Private Limited,Web Development,Gurgaon,"₹ 15,000 /month",TBD,"1. Develop and update website pages as per business and design requirements
-2. Work on frontend development tasks, including UI updates, page optimization, and responsiveness
-3. Implement on-page SEO recommendations provided by the SEO consultant
-4. Coordinate with internal teams to ensure the timely execution of the website and SEO update
-5. Support ongoing website improvements, content updates, and optimization initiatives
-6. Work on multiple tasks simultaneously and deliver quickly withi",https://internshala.com/internship/detail/web-development-internship-in-gurgaon-at-shunya-research-labs-private-limited1778932676,Startup
-HUNCHBITE TECHNOLOGIES PRIVATE LIMITED,Full Stack Development,Bangalore (Hybrid),"₹ 10,000 - 20,000 /month",TBD,"1. Build and ship end-to-end features across live client projects using Next.js, React, TypeScript, TailwindCSS, and Node.js — from Figma to deployed production.
-2. Develop backend APIs, scrapers, and data pipelines in Node.js and Python (FastAPI); integrate AI/LLM features using OpenAI, Claude, and LangChain where relevant.
-3. Work directly with the founder on architecture, code review, and client demos. Use modern AI coding tools (Cursor, Codex, Claude Code) — we expect this, not penalize it",https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-hunchbite-technologies-private-limited1778946365,Startup
-FynTune Solution Private Limited,Quality Analyst,"Thane, Navi Mumbai, Mumbai","₹ 10,000 - 14,000 /month",TBD,"Candidate's day-to-day responsibilities include:
+1. Assist in the design, implementation, and maintenance of AWS cloud infrastructure.
+2. Develop and automate deployment processes using AWS CloudForm",https://internshala.com/internship/detail/work-from-home-aws-devops-engineer-internship-at-kani-solutions-pvt-ltd1778761373,Startup
+SoberBuddy,Mobile App Development,Work from home,"₹ 10,000 - 20,000 /month",TBD,"1. Fix bugs and improve existing features on the live app.
+2. Build and test new features as the platform scales, including driver matching, notifications, and UI improvements.
+3. Work directly with the founder with real ownership and not just ticket-based work.
+4. Test the app across Android devices and report or resolve issues.
+5. Help improve app performance and user experience.",https://internshala.com/internship/detail/work-from-home-part-time-mobile-app-development-internship-at-soberbuddy1778761653,Startup
+Adfinity Global Solutions P Limited,Full Stack Development,Kochi,"₹ 10,000 - 12,000 /month",TBD,"Are you a passionate Full Stack Development intern looking to gain hands-on experience with cutting-edge technologies? Adfinity Global Solutions P Limited is seeking an enthusiastic individual who is proficient in Python and React to join our dynamic team. As an intern, you will have the opportunity to work on exciting projects and contribute to the development of innovative solutions. 
 
-1. Assessing the product journey of the insurance platform through manual testing
-2. Reviewing and analyzing system specifications
-3. Executing test cases (only manual) and analyzing results
-4. Reporting bugs and errors to development teams
-5. Helping troubleshoot issues
-6. Conducting post-release/post-implementation testing
-7. Working with cross-functional teams to ensure quality throughout the software development lifecycle
-8. Perform ",https://internshala.com/internship/detail/quality-analyst-internship-in-multiple-locations-at-fyntune-solution-private-limited1779112308,Startup
-SVAYA,Software Development,Bangalore,"₹ 5,000 - 15,000 /month",TBD,"We are looking for a highly driven software intern to join us at Svaya and work closely on building our early product and digital experiences. This role is ideal for someone who enjoys taking ownership, figuring things out independently, and building from scratch in a fast-moving environment. Since we are still in the early stages, we care far more about problem-solving, execution, and curiosity than specific tech stacks or degrees.
-
-
-
-1. Work on building and improving our app and web experi",https://internshala.com/internship/detail/software-development-internship-in-bangalore-at-svaya1779184666,Startup
-InstaWeb Labs Private Limited,Automation Testing,Mumbai,"₹ 10,000 - 15,000 /month",TBD,"1. Write and execute manual test cases based on product requirements
-2. Perform functional, UI, regression, and cross-browser testing
-3. Create and run basic automation scripts using Selenium
-4. Identify and report bugs clearly using tools like JIRA
-5. Collaborate with developers to reproduce and resolve issues
-6. Maintain test reports and documentation throughout the test cycle
-7. Ensure product quality with a sharp eye for detail and consistent testing",https://internshala.com/internship/detail/automation-testing-internship-in-mumbai-at-instaweb-labs-private-limited1779106661,Startup
-Megaminds IT Services,Content Writing (Research Associate In Computer Science),Work from home,"₹ 8,000 - 15,000 /month",TBD,"1. Researching the article and writing research articles like Scopus Indexed, SCI, and IEEE conference papers for computer science related 
-2. Proofreading research content related to computer science
-3. Building algorithms for research papers
-4. Evaluating research content in computer science",https://internshala.com/internship/detail/work-from-home-content-writing-research-associate-in-computer-science-internship-at-megaminds-it-services1779101288,Startup
-DEVSOMEWARE PRIVATE LIMITED,Software Engineering,Work from home,"₹ 15,000 - 35,000 /month",TBD,"1. Develop and maintain scalable web applications using MERN Stack technologies.
-2. Build responsive frontend interfaces using React.js and Next.js while developing backend APIs using Node.js and Express.js.
-3. Work with MongoDB databases, REST APIs, authentication systems, and optimize application performance.
-4. Collaborate with the engineering team on real-world software projects and contribute to feature development.
-5. Assist in deployment workflows using Docker, AWS, and basic DevOps p",https://internshala.com/internship/detail/work-from-home-software-engineering-internship-at-devsomeware-private-limited1779190252,Startup
-LearningShala,Web Development,Noida,"₹ 10,000 - 20,000 /month",TBD,"As a Website Development Intern, you will work at the intersection of technology and education. You will be responsible for maintaining, optimizing, and building new features for the LearningShala platform. Your work will directly impact how thousands of students interact with university data and career resources.
-
-
-
-1. Web Maintenance: Assist in the day-to-day management and technical updates of the LearningShala website.
-2. Feature Development: Work on building responsive web pages and UI",https://internshala.com/internship/detail/web-development-internship-in-noida-at-learningshala1779095447,Startup
-Learnova,Web Development,Work from home,"₹ 5,000 - 10,000 /month",TBD,"We are looking for a talented Web Development intern to join our team at Learnova. If you are passionate about coding and have a strong foundation in HTML, CSS, PHP, MySQL, JavaScript, jQuery, Node.js, and React, then we want to hear from you!
-
-
-
-1. Collaborate with our development team to create and maintain websites and web applications
-2. Implement responsive design and ensure cross-browser compatibility
-3. Assist in optimizing website performance and speed
-4. Troubleshoot and debug co",https://internshala.com/internship/detail/work-from-home-part-time-web-development-internship-at-nihal-vadiya1778920252,Startup
-Bathxpertz,AI Product Engineering,Gurgaon,"₹ 20,000 - 30,000 /month",TBD,"We are looking for an AI Product Engineering Intern who thrives in a fast-moving startup environment and enjoys building 0→1 experimental products. This role is ideal for someone who loves rapid prototyping, testing new ideas, shipping quickly, and learning directly from user feedback. 
-
-You’ll work at the intersection of AI, product engineering, and immersive web technologies to help build next-generation experiences. 
-
-
-
-1. Build and launch rapid prototypes and MVPs
-2. Develop AI-enable",https://internshala.com/internship/detail/ai-product-engineering-internship-in-gurgaon-at-bathxpertz1779089485,Startup
-Neonimble.ai,Software Development,Work from home,"₹ 9,000 - 25,000 /month",TBD,"1. Study exercise biomechanics, including joint movements, posture alignment, and range of motion.
-2. Analyze exercise videos and identify key movement phases and common form mistakes.
-3. Create and maintain structured exercise data and validation rules.
-4. Test exercise logic to ensure accurate and consistent feedback.
-5. Collaborate with the product and engineering teams to improve exercise quality and user experience.
-6. Learn and apply basic concepts of geometry, kinematics, and softwar",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-neonimbleai1779078084,Startup
-MALOO FINANCE COMPANY,Tech Lead,Nagpur,"₹ 10,000 - 20,000 /month",TBD,"1. Build a credit decision engine using rule-based systems and ML scoring models for used vehicle loan applications.
-2. Develop backend infrastructure, including APIs, databases, and authentication systems.
-3. Analyze and understand lending operations by collaborating with the operations team and studying the end-to-end loan disbursal process.
-4. Create a dealer-facing dashboard for loan application submission, status tracking, and portfolio management.
-5. Integrate AI and LLM technologies f",https://internshala.com/internship/detail/tech-lead-internship-in-nagpur-at-maloo-finance-company1779169748,Startup
-FynTune Solution Private Limited,React JS Developer,"Thane, Navi Mumbai, Panvel","₹ 18,000 - 20,000 /month",TBD,"1. Develop responsive user interfaces using React.js and Tailwind CSS.
-2. Integrate front-end components with RESTful APIs and external data sources.
-3. Write clean, scalable, and maintainable code following development best practices.
-4. Assist with debugging, troubleshooting, and performance optimization activities.
-5. Collaborate with designers, back-end developers, and stakeholders to deliver seamless user experiences.
-6. Identify, troubleshoot, and resolve UI/UX issues and front-end bu",https://internshala.com/internship/detail/react-js-developer-internship-in-multiple-locations-at-fyntune-solution-private-limited1779089113,Startup
-Lambency Information Technology LLC,Technical Support Executive,"Ghaziabad, Noida, South East","₹ 5,000 - 15,000 /month",TBD,"1. Provide basic technical assistance to clients/users
-2. Troubleshoot software and system-related issues
-3. Coordinate with the technical team for issue resolution",https://internshala.com/internship/detail/technical-support-executive-internship-in-multiple-locations-at-lambency-information-technology-llc1779079015,Startup
-High Beam Global,Web Development,Gurgaon,"₹ 10,000 - 15,000 /month",TBD,"1. Develop and maintain web applications using PHP and related technologies.
-2. Collaborate with the development team to design, develop, and deploy scalable solutions.
-3. Write clean, well-structured, and efficient code following best practices.
-4. Troubleshoot and debug issues to ensure the smooth functioning of web applications.
-5. Assist in database design and optimization using MySQL or other database systems.
-6. Stay updated with emerging trends and technologies in PHP development.
-7",https://internshala.com/internship/detail/web-development-internship-in-gurgaon-at-high-beam-global1778744838,Startup
-Smalt AI Solutions Private Limited,Full Stack Development,Pune,"₹ 20,000 - 25,000 /month",TBD,"1. Preferred: AI-Native & Vibe Engineers
-2. Build and ship features on a live SaaS product used by tradespeople in Europe 
-3. Work closely with engineers across backend, frontend, and infrastructure 
-4. Contribute to AI/automation features and internal tooling 
-5. Get real ownership — not just bug fixes and docs",https://internshala.com/internship/detail/full-stack-development-internship-in-pune-at-smalt-ai-solutions-private-limited1778763392,Startup
-SwitchYourVendor,Machine Learning - Python,Work from home,"₹ 20,000 - 35,000 /month",TBD,"As a Machine Learning - Internship - Python intern at SwitchYourVendor, you will have the exciting opportunity to work with cutting-edge technology and help develop innovative solutions for our platform. We are seeking a talented individual who is proficient in Python and eager to learn and grow in the field of machine learning.
-
-
-
-1. Collaborate with our team of data scientists and engineers to develop and implement machine learning algorithms.
-2. Assist in collecting, cleaning, and analyz",https://internshala.com/internship/detail/work-from-home-machine-learning-python-internship-at-switchyourvendor1778830112,Startup
-ROI 10X,Shopify & WordPress Developer,Faridabad,"₹ 5,000 - 10,000 /month",TBD,"1. Develop and maintain Shopify and WordPress websites
-2. Customize Shopify themes and WordPress templates
-3. Build landing pages for marketing campaigns
-4. Improve website speed and responsiveness
-5. Install and configure plugins/apps
-6. Work on bug fixing and website maintenance
-7. Coordinate with the design and marketing team
-8. Optimize websites for SEO basics and conversions",https://internshala.com/internship/detail/shopify-wordpress-developer-internship-in-faridabad-at-roi-10x1778826688,Startup
+1. Collaborate with team members to design and develop web applications
+2. Write clean, maintainable, and ",https://internshala.com/internship/detail/full-stack-development-internship-in-kochi-at-adfinity-global-solutions-p-limited1778902280,Startup
+Billion Engineers Private Limited,Quality Analyst,Manesar,"₹ 6,000 - 8,000 /month",TBD,"1. Checking parts using vernier, height gauge, etc
+2. Verify manufactured parts are ok.
+3. Analyze defects during the manufacturing process",https://internshala.com/internship/detail/quality-analyst-internship-in-manesar-at-billion-engineers-private-limited1778866320,Startup
 VANS & Co,Full Stack Development,"Mumbai, Virar, Vasai-Virar (Hybrid)","₹ 15,000 - 22,000 /month",TBD,"1. Developing and contributing to software modules and features
 2. Writing clean, scalable, and efficient code
 3. Debugging, testing, and optimizing existing systems.
 4. · Collaborating with internal teams to solve technical challenges
 5. Documenting development work and maintaining progress logs
 6. · Meeting task deadlines and maintaining accountability for deliverables",https://internshala.com/internship/detail/part-time-full-stack-development-internship-in-multiple-locations-at-vans-co1778762212,Startup
+Smalt AI Solutions Private Limited,Full Stack Development,Pune,"₹ 20,000 - 25,000 /month",TBD,"1. Preferred: AI-Native & Vibe Engineers
+2. Build and ship features on a live SaaS product used by tradespeople in Europe 
+3. Work closely with engineers across backend, frontend, and infrastructure 
+4. Contribute to AI/automation features and internal tooling 
+5. Get real ownership — not just bug fixes and docs",https://internshala.com/internship/detail/full-stack-development-internship-in-pune-at-smalt-ai-solutions-private-limited1778763392,Startup
 Stumpmic AI,AI Agent Development,Work from home,"₹ 20,000 - 30,000 /month",TBD,"Are you a Python wizard with a passion for AI development? Stumpmic AI is seeking a talented intern to join our team and work on cutting-edge AI Agent Development projects. As an intern with us, you will have the opportunity to work with Google Cloud Platforms (GCP), Next.js, Vector DB, FAST API, GitHub, etc to create innovative solutions that will revolutionize the way users interact with AI technology. 
 
 
 
 1. Collaborate with the development team to design and implement AI agents using Pyt",https://internshala.com/internship/detail/work-from-home-ai-agent-development-internship-at-stumpmic-ai1778764726,Startup
+Synergius Tech,Backend Development,"Indore, Pune, Mumbai, Nagpur, Nashik, Maharashtra (Hybrid)","₹ 7,000 - 15,000 /month",TBD,"About Job
+
+Website: https://synergius.ai
+
+Synergius AI is a platform to automate and orchestrate enterprise workflows with AI-powered intelligence.
+
+ 
+
+1. AI, Workflow framework development (python)
+2. Feature integration - build new modules and enhancing existing features.
+3. Test verification - perform unit, integration testing
+4. Technical Documentation",https://internshala.com/internship/detail/backend-development-internship-in-multiple-locations-at-synergius-tech1776949864,Startup
+HumbleWalking,Tech Operations - (Only For Students Planning To Study Abroad),Mumbai (Hybrid),"₹ 5,000 - 7,000 /month",TBD,"HumbleWalking is offering a 1-month Tech Operations & EdTech Innovation Internship for students interested in technology, website management, AI tools, and digital product building. This internship is designed for students who want hands-on exposure to real startup tech operations, including managing live platforms, identifying system issues, improving user experience, and contributing to innovative edtech projects.
+
+
+
+1. Manage and optimize company websites to ensure smooth performance and ",https://internshala.com/internship/detail/tech-operations-only-for-students-planning-to-study-abroad-internship-in-mumbai-at-humblewalking1776917348,Startup
+Infomaths,Python Development,Chandigarh,"₹ 10,000 - 15,000 /month",TBD,"1. Conduct daily stand-up meetings to track progress, identify blockers, and align on daily objectives.
+2. Review Python scripts to ensure PEP 8 compliance, modularity, and code efficiency.
+3. Troubleshoot complex machine learning pipelines with a focus on data preprocessing and model training scripts.
+4. Guide trainees on code optimization techniques, including the effective use of NumPy vectorization to improve performance.",https://internshala.com/internship/detail/python-development-internship-in-chandigarh-at-infomaths1778733472,Startup
+TSTEPS PRIVATE LIMITED,Node.js Development,"Chennai, Hyderabad (Hybrid)","₹ 10,000 - 15,000 /month",TBD,"Assisting in building and maintaining backend services using Node.js
+Writing server-side code using JavaScript
+Developing and testing REST APIs for web or mobile applications
+Working with backend frameworks like Express.js",https://internshala.com/internship/detail/nodejs-development-internship-in-multiple-locations-at-tsteps-private-limited1778739911,Startup
+NoKasa,Full Stack Development,Work from home,"₹ 5,000 - 15,000 /month",TBD,"Building and shipping features on our Flutter mobile apps (customer collection app and B2B seller app)
+Developing and maintaining Node.js backend services that power our operations, bookings, and inventory
+Designing REST APIs and integrating them across mobile and web clients
+Working on real problems across collection logistics, warehouse processing, and B2B distribution
+Collaborating on architecture decisions — your input shapes what we build",https://internshala.com/internship/detail/work-from-home-full-stack-development-internship-at-nokasa1778729955,Startup
+FiftySeven,Full Stack Development,Work from home,"₹ 5,000 /month",TBD,"As an intern, you'll have the opportunity to work on exciting projects, gain hands-on experience, and contribute to developing cutting-edge web applications. If you're a problem-solver, a quick learner, and passionate about coding, this internship is perfect for you!
+
+PlayTheory Labs, & we build useful data products for the web. We're a small but cool squad making useful web stuff. We fix real problems, love learning from what we do, and enjoy finding new, fun ways to work together. We're smal",https://internshala.com/internship/detail/work-from-home-full-stack-development-internship-at-fiftyseven1777283237,Startup
+Procter & Gamble (P&G),P&G Spotlight 2026 | IT,Mumbai,Competitive stipend,TBD,"1. Be accountable and create measurable business value.
+2. Search for improved ways to run business processes and/or applications.
+3. Build collaborative relationships while you interact with teams. 
+4. Understand and communicate effectively with internal and external business partners.
+5. Build your skills and knowledge through the job experience, coaching & training.",https://internshala.com/internship/detail/p-g-spotlight-2026--it-internship-in-mumbai-at-procter-gamble-p-g1778504610,Startup
+SkillLevel,AWS Cloud Management,Work from home,"₹ 11,000 - 14,000 /month",TBD,"Assisting in managing and monitoring cloud infrastructure on Amazon Web Services (AWS)
+Supporting deployment, configuration, and maintenance of cloud-based applications
+Working with services like EC2, S3, IAM, and Lambda for various use cases
+Monitoring system performance and ensuring high availability and scalability
+Helping troubleshoot cloud-related issues and implementing solutions
+Assisting in cost optimization and resource utilization of AWS services
+Maintaining documentation for clo",https://internshala.com/internship/detail/work-from-home-aws-cloud-management-internship-at-skilllevel1778506538,Startup
+Positronix Tech Private Limited,ServiceNow Technical,Work from home,"₹ 5,000 - 10,000 /month",TBD,"1. Learn and work on ServiceNow platform fundamentals and ITSM workflows
+2. Assist in creating catalog items, forms, workflows, and Flow Designer automations
+3. Support configuration, testing, documentation, and basic scripting activities on the ServiceNow platform",https://internshala.com/internship/detail/work-from-home-servicenow-technical-internship-at-positronix-tech-private-limited1778760821,Startup
 Integrated Tech9labs Private Limited,Information Technology,Work from home,"₹ 12,000 - 15,000 /month",TBD,"1. Monitor network systems, servers and applications for performance and availability.
 2. Identify, log and escalate incidents or alerts to the appropriate teams.
 3. Perform basic troubleshooting and follow standard operating procedures.
 4. Maintain logs and prepare reports on system performance and incidents.
 5. Coordinate with internal teams to ensure timely resolution of issues.
 6. Ensure adherence to defined processes and service level agreements.",https://internshala.com/internship/detail/work-from-home-information-technology-internship-at-integrated-tech9labs-private-limited1778756367,Startup
+Wo Health Pvt Ltd,React Native Development,Delhi (Hybrid),"₹ 20,000 - 40,000 /month",TBD,"Key Responsibilities:
+
+1. Build and maintain the mobile app using React Native (Expo) and TypeScript, and convert Figma designs into responsive UI
+2. Develop core features such as onboarding, daily check-ins, AI food logging, partner sync, and step tracking
+3. Take end-to-end ownership of features from planning to development, testing, and deployment
+4. Develop backend logic using Firebase Cloud Functions and design scalable Firestore database structures
+5. Build APIs and integrate Firebas",https://internshala.com/internship/detail/react-native-development-internship-in-delhi-at-wo-health-pvt-ltd1778737515,Startup
+Intelli Genesis Global,NOC Engineer,Mumbai,"₹ 5,000 /month",TBD,"1. Monitor network and server performance to ensure smooth system operations.
+2. Perform basic troubleshooting to identify and resolve technical issues.
+3. Escalate identified problems to the appropriate teams for further resolution.",https://internshala.com/internship/detail/noc-engineer-internship-in-mumbai-at-intelli-genesis-global1778826395,Startup
+Antiworld,Network Engineering,Hyderabad,"₹ 5,000 - 30,000 /month",TBD,"Key Responsibilities:
+Design and develop real-time networking systems for simulation platforms.
+Build and maintain TCP/UDP/WebSockets communication pipelines.
+Develop low-latency real-time streaming systems.
+Implement multi-device and multi-system communication workflows.
+Develop input normalization and device abstraction pipelines.
+Handle communication between hardware devices, simulators, and distributed software systems.
+Work on distributed communication architectures and data routing ",https://internshala.com/internship/detail/network-engineering-internship-in-hyderabad-at-antiworld1778934236,Startup
+Neonflake Enterprises (OPC) Private Limited,Embedded C,"Secunderabad, Hyderabad","₹ 12,000 /month",TBD,"Selected Intern's day-to-day responsibilities include:
+
+1. Write embedded C-based source code compliant with the coding standards defined in the organization
+2. Work on Arduino, ESP32, Raspberry Pi
+3. Analyze product requirements and designing & developing specific software modules
+4. Create software design documents",https://internshala.com/internship/detail/embedded-c-internship-in-multiple-locations-at-neonflake-enterprises-opc-private-limited1778935289,Startup
+Findoc Financial Services Group,Network Engineering,Gurgaon,"₹ 15,000 - 20,000 /month",TBD,"Assisted in configuring and maintaining network devices such as routers, switches, and firewalls.
+Supported WAN, and Wi-Fi network operations.
+Assisted in IP addressing, VLAN configuration, and basic network troubleshooting.
+Supported installation and configuration of access points and network peripherals.
+Cisco Switches/Routers
+Fortinet / Sophos Firewall
+VLAN, DHCP, DNS
+TCP/IP, VPN",https://internshala.com/internship/detail/network-engineering-internship-in-gurgaon-at-findoc-financial-services-group1778758017,Startup
+Maxgen Technologies Private Limited,Web Development,Ahmedabad,"₹ 5,000 - 12,000 /month",TBD,"We are looking for a talented Web Development intern to join our team at Maxgen Technologies Private Limited. If you are passionate about PHP, HTML, CSS, Node.js, React, and JavaScript, then this is the perfect opportunity for you to enhance your skills and gain real-world experience. 
+
+Key Responsibilities:
+1. Collaborate with our team to design and develop websites and web applications.
+2. Write clean, efficient, and maintainable code using the latest technologies.
+3. Assist in troublesho",https://internshala.com/internship/detail/web-development-internship-in-ahmedabad-at-maxgen-technologies-private-limited1778868569,Startup
+Cognitive Squad Private Limited,Full Stack Development,Patna,"₹ 5,000 - 10,000 /month",TBD,"1. Design, develop, and maintain RESTful APIs and WebSocket endpoints using Express.js (Node.js) for core super-app modules including user authentication, food ordering, cab booking, real-time driver/delivery tracking, and payment integration with Razorpay — ensuring APIs are scalable, secure, and well-documented.
+2. Build and maintain cross-platform mobile application screens and components using React Native, including but not limited to — onboarding & login flow, home feed, restaurant/menu l",https://internshala.com/internship/detail/full-stack-development-internship-in-patna-at-cognitive-squad-private-limited1778944287,Startup
+Aureva Wealth Advisors Private Limited,Full Stack Development,Mumbai,"₹ 10,000 - 11,000 /month",TBD,"Aureva Capital Private Limited is a Mumbai-based wealth management and financial advisory firm dedicated to helping individuals and families achieve their financial goals through personalized advice, technology-driven insights, and a comprehensive range of investment solutions. The company is developing a next-generation mutual fund investment platform aimed at simplifying investing while offering transparency and greater control over the wealth journey for an underserved segment of the Indian m",https://internshala.com/internship/detail/full-stack-development-internship-in-mumbai-at-aureva-wealth-advisors-private-limited1780120621,Startup
 InstaWeb Labs Private Limited,Full Stack Development,Mumbai,"₹ 10,000 - 20,000 /month",TBD,"1. Participate in feature planning, development, and testing activities.
 2. Develop and maintain frontend application features.
 3. Build and support backend APIs and database integrations.
@@ -1199,12 +1113,32 @@ Zdminds,Web Development,Work from home,"₹ 10,000 - 20,000 /month",TBD,"We are 
 TUNGSTEN FITNESS CLUB PRIVATE LIMITED,Web Development,"Thane, Navi Mumbai, Mumbai","₹ 5,000 - 6,000 /month",TBD,"1. Conduct research and support development tasks.
 2. Prepare regular reports and documentation.
 3. Test website features and identify bugs or issues.",https://internshala.com/internship/detail/web-development-internship-in-multiple-locations-at-tungsten-fitness-club-private-limited1779217503,Startup
+Betatest Solutions Private Limited,"PERN Stack (PostgreSQL/SQL, Express.js, React.js, Node.js)",Work from home,"₹ 9,000 - 10,000 /month",TBD,"1. Assist in developing responsive web applications using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) 
+2. Collaborate with UI/UX designers and backend teams for seamless functionality 
+3. Write clean, reusable, and maintainable code 
+4. Develop and integrate RESTful APIs for smooth communication between frontend and backend 
+5. Design and manage relational databases using PostgreSQL 
+6. Participate in code reviews and contribute to improvements 
+7. Troubleshoot, debug, and o",https://internshala.com/internship/detail/work-from-home-pern-stack-postgresql-sql-expressjs-reactjs-nodejs-internship-at-betatest-solutions-private-limited1779163334,Startup
+Gharpayy,Full Stack Development,Bangalore,"₹ 10,000 - 15,000 /month",TBD,"Key responsibilities:
+1. Collaborate with our development team to design and implement innovative solutions for our platform
+2. Develop and maintain front-end and back-end features using Node.js and Next.js
+3. Write clean, efficient, and well-documented code to ensure optimal performance
+4. Conduct thorough testing and debugging to identify and fix any issues
+5. Stay up-to-date on industry trends and emerging technologies to continuously improve our products
+6. Assist with project planning",https://internshala.com/internship/detail/full-stack-development-internship-in-bangalore-at-gharpayy1779043845,Startup
 Enginova Technologies Private Limited,Full Stack Development,Work from home,"₹ 5,000 /month",TBD,"As a Full Stack Development intern at Explified, you will have the opportunity to work with cutting-edge technologies such as AngularJS, Bubble.io, CSS, HTML, JavaScript, MongoDB, MySQL, Node.js, and React. You will be an integral part of our dynamic team, developing innovative solutions and pushing boundaries in the digital space. 
 
 
 
 1. Collaborate with the development team to design, develop, and implement web applications using AngularJS, React, Node.js, and other technologies.
 2. Assis",https://internshala.com/internship/detail/work-from-home-part-time-full-stack-development-internship-at-enginova-technologies-private-limited1778950816,Startup
+Mple AI,Software Development (Full Stack),"Thane, Navi Mumbai, Mumbai","₹ 10,000 - 15,000 /month",TBD,"1. Work with senior developers to design, build, and maintain MERN-based web applications.
+2. Integrate AI models into production systems using Python and Flask.
+3. Collaborate with the product team to translate business requirements into technical features.
+4. Debug, test, and optimize applications for performance and scalability.
+5. Write clean, maintainable, and well-documented code.
+6. Take ownership of small features/modules and deliver them end-to-end.",https://internshala.com/internship/detail/software-development-full-stack-internship-in-multiple-locations-at-mple-ai1778935176,Startup
 Experience My India,Full Stack Development,Noida,"₹ 17,000 - 35,000 /month",TBD,"As a Full Stack Development intern at Experience My India, you will have the opportunity to work on exciting projects that showcase the rich culture and beauty of India. Join our dynamic team and enhance your skills in MongoDB, AngularJS, React, CSS, and HTML while gaining valuable hands-on experience in the field.
 
 Key Responsibilities:
@@ -1223,12 +1157,6 @@ GrowthGear,Full Stack Development,Gurgaon (Hybrid),"₹ 10,000 - 15,000 /month",
 We are looking for a Full Stack Developer Intern who can work across both frontend and backend to help us build product features end-to-end.
 Our frontend is built in React JS and our backend stack is primarily Python, including LangGraph-based AI workflows. This role is ideal for someone who enjoys building polished interfaces as well as working on APIs, backend logic, and AI-powered application flows.
 You will get hands-on exposure to real product development in a fast-moving",https://internshala.com/internship/detail/full-stack-development-internship-in-gurgaon-at-growthgear1778876120,Startup
-Maxgen Technologies Private Limited,Web Development,Ahmedabad,"₹ 5,000 - 12,000 /month",TBD,"We are looking for a talented Web Development intern to join our team at Maxgen Technologies Private Limited. If you are passionate about PHP, HTML, CSS, Node.js, React, and JavaScript, then this is the perfect opportunity for you to enhance your skills and gain real-world experience. 
-
-Key Responsibilities:
-1. Collaborate with our team to design and develop websites and web applications.
-2. Write clean, efficient, and maintainable code using the latest technologies.
-3. Assist in troublesho",https://internshala.com/internship/detail/web-development-internship-in-ahmedabad-at-maxgen-technologies-private-limited1778868569,Startup
 FIDE LABS (OPC) PRIVATE LIMITED,Full Stack Development,Work from home,"₹ 10,000 - 12,000 /month",TBD,"1. Build and ship features for a live Shopify app used by B2B merchants globally — your code goes to real users.
 2. Own the development of application features end to end — from understanding the requirement to building, testing, and delivering it independently without hand-holding.
 3. Build responsive and clean user interfaces using React, HTML, CSS, and JavaScript — ensuring every screen matches the designer’s Figma file accurately.
@@ -1243,24 +1171,6 @@ Hairdramaco India Private Limited,Full Stack Development,Ahmedabad,"₹ 9,000 - 
 Key Responsibilities:
 1. Collaborate with the development team to design, build, and maintain efficient, reusable, and reliable code.
 2. Implement new features and enhancements on our web application using the latest technologies and best practices",https://internshala.com/internship/detail/full-stack-development-internship-in-ahmedabad-at-hairdramaco-india-private-limited1778735266,Startup
-Bourne Cloud India Private Limited,Software Development,Chennai (Hybrid),"₹ 15,000 - 25,000 /month",TBD,"1. Assisting in designing, developing, and deploying applications on the AWS platform.
-2. Contributing to full-stack development across front-end, back-end, and cloud infrastructure.
-3. Working with modern frameworks, tools, and services to build scalable applications.
-4. Collaborating with cross-functional teams to deliver solutions that solve real business problems.",https://internshala.com/internship/detail/software-development-internship-in-chennai-at-bourne-cloud-india-private-limited1778672349,Startup
-ServiceHive,Software Development,Work from home,"₹ 8,000 - 14,000 /month",TBD,"As a 'Software Development' intern at ServiceHive, you will have the opportunity to work with cutting-edge technologies such as MERN stack, Node.js, React, Elasticsearch, JavaScript, HTML, CSS, Python, MySQL, and SQL. 
-
-Selected intern's day-to-day responsibilites include:
-
-1. Collaborating with our development team to design and implement new features for our software platform.
-2. Writing clean, efficient, and maintainable code using best practices.
-3. Participating in code reviews and pr",https://internshala.com/internship/detail/work-from-home-software-development-internship-at-servicehive1778655668,Startup
-Techsolv IT Service,Full Stack AI Engineer,Work from home,"₹ 60,000 - 80,000 /month",TBD,"As a Full Stack AI Engineer intern at Techsolv IT Service, you will have the opportunity to work with cutting-edge technology and contribute to innovative projects. We are looking for a talented individual who is passionate about AI, Data Structures, Algorithms, Model fine-tuning, Backend development, and Frontend development. 
-
-
-
-1. Collaborate with team members to design and develop AI solutions that meet the needs of our clients.
-2. Implement data structures and algorithms to optimize th",https://internshala.com/internship/detail/work-from-home-full-stack-ai-engineer-internship-at-techsolv-it-service1778648610,Startup
-Xmark Solution Pvt Ltd,Product Engineer,Work from home,"₹ 5,000 - 18,000 /month",TBD,"Xmark Solution Pvt Ltd is focused on building intelligent software solutions that combine product innovation, full-stack engineering, AI integrations, and scalable infrastructure. The company works on creating technology-driven platforms and workflow systems that improve user experiences through automation, smart integrations, and modern cloud-based architectures. The team operates in a fast-paced product environment where collaboration, innovation, and end-to-end execution play a key role in de",https://internshala.com/internship/detail/work-from-home-product-engineer-internship-at-xmark-solution-pvt-ltd1778645182,Startup
 NDL Power Limited,Full Stack Development,Work from home,"₹ 25,000 - 35,000 /month",TBD,"1. Developing and maintaining responsive web applications using React.js and TypeScript.
 2. Integrating AI APIs (OpenAI, Claude, and Gemini) into live web services and automation workflows.
 3. Designing workflow automations using n8n or Make.com (Integromat).
@@ -1285,14 +1195,13 @@ Arishti CyberTech Private Limited,Full Stack Development,Pune (Hybrid),"₹ 10,0
 3. Troubleshooting and debugging issues to enhance performance and user experience.
 4. Participating in team meetings and brainstorming sessions to contribute innovative ideas.
 5. Assisting with project planning an",https://internshala.com/internship/detail/full-stack-development-internship-in-pune-at-arishti-cybertech-private-limited1777478308,Startup
-FiftySeven,Full Stack Development,Work from home,"₹ 5,000 /month",TBD,"As an intern, you'll have the opportunity to work on exciting projects, gain hands-on experience, and contribute to developing cutting-edge web applications. If you're a problem-solver, a quick learner, and passionate about coding, this internship is perfect for you!
-
-PlayTheory Labs, & we build useful data products for the web. We're a small but cool squad making useful web stuff. We fix real problems, love learning from what we do, and enjoy finding new, fun ways to work together. We're smal",https://internshala.com/internship/detail/work-from-home-full-stack-development-internship-at-fiftyseven1777283237,Startup
 SreeMedhas Software Technologies,Software Development Engineering (Web),Hyderabad,"₹ 9,000 - 10,000 /month",TBD,"We are hiring an AI/Full stack developer intern to work on AI-powered web applications and intelligent product features. The role involves frontend development, backend API development, database integration, and implementing AI workflows using OpenAI APIs/SDK. The ideal candidate should have strong problem-solving skills, good software development fundamentals, and the ability to build end-to-end features across web and AI systems.
 
 
 
 1. Build and maintain REST APIs using Node.js (Express/Fa",https://internshala.com/internship/detail/software-development-engineering-web-internship-in-hyderabad-at-sreemedhas-software-technologies1777024962,Startup
+Mitrah Technology,Mobile App Development,Bhayander (Hybrid),"₹ 8,000 - 10,000 /month",TBD,"1. Develop a user-friendly app with backend connectivity using APIs
+2. Provide regular updates",https://internshala.com/internship/detail/mobile-app-development-internship-in-bhayander-at-mitrah-technology1778740684,Startup
 Fusion Engineering,Mobile App Development,Ernakulam,"₹ 15,000 - 15,001 /month",TBD,"We're looking for people who want to put in the effort to learn and build unique user interfaces. People who aren't interested in a corporate big company job. 
 
 
@@ -1300,8 +1209,15 @@ Fusion Engineering,Mobile App Development,Ernakulam,"₹ 15,000 - 15,001 /month"
 1. Learning iOS development
 2. Working on creating prototypes in UIKit
 3. Working on the final app",https://internshala.com/internship/detail/mobile-app-development-internship-in-ernakulam-at-fusion-engineering1780544710,Startup
-Mitrah Technology,Mobile App Development,Bhayander (Hybrid),"₹ 8,000 - 10,000 /month",TBD,"1. Develop a user-friendly app with backend connectivity using APIs
-2. Provide regular updates",https://internshala.com/internship/detail/mobile-app-development-internship-in-bhayander-at-mitrah-technology1778740684,Startup
+Shwasam Ecom Private Limited,Mobile App Development,Mumbai (Hybrid),"₹ 10,000 - 15,000 /month",TBD,"Full-Stack AI Intern — Astrology & Palmistry Platform built with Claude
+
+What you'll build
+A web and mobile astrology platform combining Vedic Astrology, Western Astrology, Numerology, and AI Palmistry into one intelligent report engine — where Claude does the heavy lifting across the entire product.
+
+
+
+1. Write a concise PRD and map the Claude prompt architecture covering all four astrology modules and the cross-validation synthesis layer.
+2. Engineer Claude API prompts for birth data a",https://internshala.com/internship/detail/part-time-mobile-app-development-internship-in-mumbai-at-shwasam-ecom-private-limited1781283896,Startup
 Meru Technosoft Private Limited,Mobile App Development,Ahmedabad,"₹ 5,000 - 10,000 /month",TBD,"1. Develop and maintain mobile applications using Flutter
 2. Work closely with designers, backend developers, and product teams
 3. Implement UI/UX designs into clean, responsive, and efficient code
@@ -1313,6 +1229,11 @@ Meru Technosoft Private Limited,Mobile App Development,Ahmedabad,"₹ 5,000 - 10
 Healthcare Global Enterprises Limited,Android App Development,Bangalore (Hybrid),"₹ 15,000 - 20,000 /month",TBD,"1.working with doctors on app development 
 2.cloud storage 
 3.continous iteration",https://internshala.com/internship/detail/android-app-development-internship-in-bangalore-at-healthcare-global-enterprises-limited1780751002,Startup
+Kranti Innovations,Android App Development,Work from home,"₹ 8,000 - 15,000 /month",TBD,"1.Develop and maintain Android applications using Kotlin and XML.
+2.Convert Figma designs into responsive and production-ready Android screens while following modern UI/UX principles.
+3.Integrate REST APIs, parse JSON data, and implement Firebase and AdMob features where required.
+4.Write clean, reusable, and maintainable code using MVVM architecture and Android best practices.
+5.Collaborate with the team through GitHub, submit regular progress updates, and participate in code reviews.",https://internshala.com/internship/detail/work-from-home-android-app-development-internship-at-kranti-innovations1781255387,Startup
 ProxMaq,Android App Development,Work from home,"₹ 5,000 /month",TBD,"1. Contribute to the ongoing development and improvement of the ProxVision app.
 2. Work on UI/UX enhancements to improve accessibility and ease of use.
 3. Help integrate new AI features and improve performance.
@@ -1396,13 +1317,6 @@ NovaFocus Private Limited,Android App Development,Bangalore,"₹ 20,000 - 22,000
 Key Responsibilities:
 1. Develop and maintain Android applications using Kotlin and XML.
 2. Im",https://internshala.com/internship/detail/android-app-development-internship-in-bangalore-at-novafocus-private-limited1778780359,Startup
-Wo Health Pvt Ltd,React Native Development,Delhi (Hybrid),"₹ 20,000 - 40,000 /month",TBD,"Key Responsibilities:
-
-1. Build and maintain the mobile app using React Native (Expo) and TypeScript, and convert Figma designs into responsive UI
-2. Develop core features such as onboarding, daily check-ins, AI food logging, partner sync, and step tracking
-3. Take end-to-end ownership of features from planning to development, testing, and deployment
-4. Develop backend logic using Firebase Cloud Functions and design scalable Firestore database structures
-5. Build APIs and integrate Firebas",https://internshala.com/internship/detail/react-native-development-internship-in-delhi-at-wo-health-pvt-ltd1778737515,Startup
 Meru Technosoft Private Limited,Flutter Development,Work from home,"₹ 5,000 - 10,000 /month",TBD,"1. Develop and maintain mobile applications using Flutter
 2. Work closely with designers, backend developers, and product teams
 3. Implement UI/UX designs into clean, responsive, and efficient code
@@ -1422,29 +1336,6 @@ AimLarger,Artificial Intelligence (AI),Hisar,"₹ 5,000 - 8,000 /month",TBD,"1. 
 5. Updated Intern’s responsibilities:
 Develop and maintain backend APIs using Python and Fast API.
 6. Test applications, validate outputs, debug issues, and",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-hisar-at-aimlarger1779737657,Startup
-The Product Folks,Artificial Intelligence (AI),Ahmedabad,"₹ 5,000 - 12,000 /month",TBD,"AI Intern (Generalist) –  Internship
-
-About the Role
-We’re looking for an AI Intern (Generalist) who loves exploring, experimenting, and building with AI tools. This role is ideal for someone who has recently graduated (or is about to), is deeply curious about AI, and wants to apply it to real business problems, not just demos.
-
-You’ll work closely with multiple teams to automate manual workflows, improve efficiency, and build lightweight AI-powered systems that save time and scale impact.",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-ahmedabad-at-the-product-folks1780487978,Startup
-The Affordable Organic Store,Data Analytics,Kompally,"₹ 6,000 - 8,000 /month",TBD,"As a Data Analytics intern at The Affordable Organic Store, you will have the opportunity to apply your skills in Python, data Analytics, MS Excel, SQL and Power BI, to drive business insights and support decision-making processes. You will work closely with our data team to analyze and interpret data, identify trends, and communicate findings to key stakeholders. Your contributions will directly impact strategic initiatives and help optimize our operations.
-
-
-
-1. Clean and preprocess large ",https://internshala.com/internship/detail/data-analytics-internship-in-kompally-at-the-affordable-organic-store1780315342,Startup
-Calipers Consulting Private Limited,Data Analytics,"Secunderabad, Hyderabad (Hybrid)","₹ 20,000 - 40,000 /month",TBD,"1. Enter and update data accurately into software systems and spreadsheets
-2. Verify and review data for errors or inconsistencies
-3. Maintain confidentiality of sensitive information
-4. Prepare and sort documents for data entry
-5. Generate reports and maintain records as required
-6. Coordinate with internal teams for data verification
-7. Ensure timely completion of assigned tasks
-8. Maintain proper filing and documentation of records",https://internshala.com/internship/detail/part-time-data-analytics-internship-in-multiple-locations-at-calipers-consulting-private-limited1781071531,Startup
-Pelvaan (UltimaLabs Private Limited),Artificial Intelligence (AI),Work from home,"₹ 7,000 - 15,000 /month",TBD,"1. Research newly launched AI models, frameworks, tools, and startups
-2. Test and experiment with AI tools (LLMs, agents, image/video generation, coding tools, etc.)
-3. Compare features, strengths, weaknesses, and practical applications
-4. Write articles and reports related to the research.",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-pelvaan-ultimalabs-private-limited1781200332,Startup
 Simit Bhagat Studios,Founders Office,Mumbai,"₹ 9,000 - 10,000 /month",TBD,"A. Managing the founder's schedule and assistance:
 1. Coordinate and manage the founder’s inbox and calendar, including meetings, appointments, and travel arrangements. 
 2. Prioritise and schedule meetings, ensuring efficient use of the Founder’s time. 
@@ -1452,19 +1343,35 @@ Simit Bhagat Studios,Founders Office,Mumbai,"₹ 9,000 - 10,000 /month",TBD,"A. 
 
 B. Communication and correspondence management:
 1. Prioritise and schedule meetings, ensuring efficient use of the",https://internshala.com/internship/detail/founders-office-internship-in-mumbai-at-simit-bhagat-studios1781027639,Startup
-Trade Brains,Technical Analyst,Bangalore,"₹ 12,000 - 15,000 /month",TBD,"We are seeking a motivated and analytical Technical Analyst Intern to support our research analyst team. This internship offers hands-on exposure to financial markets, technical analysis, market research, and financial content creation. The ideal candidate should have a keen interest in stock markets, trading strategies, and data-driven investment analysis.
+The Affordable Organic Store,Data Analytics,Kompally,"₹ 6,000 - 8,000 /month",TBD,"As a Data Analytics intern at The Affordable Organic Store, you will have the opportunity to apply your skills in Python, data Analytics, MS Excel, SQL and Power BI, to drive business insights and support decision-making processes. You will work closely with our data team to analyze and interpret data, identify trends, and communicate findings to key stakeholders. Your contributions will directly impact strategic initiatives and help optimize our operations.
 
 
 
-1. Assist in conducting technical analysis of equities, indices, commodities, and other financial instruments.
-2. Monitor price move",https://internshala.com/internship/detail/technical-analyst-internship-in-bangalore-at-trade-brains1781087321,Startup
-Markytics,Artificial Intelligence (AI),Pune,"₹ 5,000 - 8,000 /month",TBD,"1. Conduct research on the latest advancements in artificial intelligence, machine learning, and generative AI.
-2. Assist in designing, developing, and training AI/ML models.
-3. Collect, clean, and preprocess datasets for model training.
-4. Evaluate model performance and suggest improvements.
-5. Work on LLMs, NLP, computer vision, and predictive analytics projects as required.
-6. Experiment with different algorithms and techniques to improve model accuracy and efficiency.
-7. Collaborate wi",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-pune-at-markytics1781175340,Startup
+1. Clean and preprocess large ",https://internshala.com/internship/detail/data-analytics-internship-in-kompally-at-the-affordable-organic-store1780315342,Startup
+MANA AND KIAS INFRASTRUCTURES LIMITED,Data Analytics,Bangalore,"₹ 10,000 - 18,000 /month",TBD,"As a data analytics intern at Mana and Kias Infrastructures Limited, you will have the opportunity to work on cutting-edge projects and gain valuable hands-on experience in the field. If you are proficient in Python, SQL, Data Analytics, MS-Excel, Data Science, and Power BI, this is the perfect opportunity for you to showcase your skills and further develop your expertise.
+
+
+
+1. Utilize Python and SQL to extract, clean, and analyze data from various sources
+2. Develop and maintain data visu",https://internshala.com/internship/detail/data-analytics-internship-in-bangalore-at-mana-and-kias-infrastructures-limited1781249712,Startup
+Ailaysa  Ailaysa,Market Research,Chennai,"₹ 15,000 - 16,000 /month",TBD,"A. Research & data:
+1. Gather, validate, and synthesise data from global sources — industry databases, institutional reports, and primary outreach where needed.
+2. Maintain structured research logs with clear source attribution and data provenance.
+
+B. Market analysis & intelligence:
+1. Analyze market trends across geographies and industry verticals relevant to Ailaysa's business.
+2. Map competitive landscapes, emerging technologies, and ecosystem players.
+3. Translate quantitative and qu",https://internshala.com/internship/detail/market-research-internship-in-chennai-at-ailaysa-ailaysa1781280978,Startup
+BNM Business Solutions LLP,MIS- Operations (Campaign And Lead),"Thane, Navi Mumbai, Kalyan, Mumbai, Vashi","₹ 9,000 /month",TBD,"1. Support the planning, coordination, and execution of marketing campaigns across multiple communication channels.
+2. Set up campaign configurations, audience segments, communication templates, and targeting criteria to ensure accurate and effective campaign deployment.
+3. Monitor campaign performance and execution, ensuring timely delivery while addressing and resolving operational issues as they arise.
+4. Prepare, validate, and manage lead databases prior to campaign launches to ensure dat",https://internshala.com/internship/detail/mis-operations-campaign-and-lead-internship-in-multiple-locations-at-bnm-business-solutions-llp1781256003,Startup
+Praxis Home Retail Limited,Business Analytics,Mumbai,"₹ 7,000 - 10,000 /month",TBD,"1. Store Performance Analytics
+2. Category & Assortment Analytics
+3. Space & Display Optimization
+4. Inventory & Replenishment Insights
+5. Pricing & Margin Analytics
+6. MIS & Reporting",https://internshala.com/internship/detail/business-analytics-internship-in-mumbai-at-praxis-home-retail-limited1781243712,Startup
 "Montfort Technology Incorporation (Toronto, Canada)",Business Research & Strategy Analyst,Work from home,"₹ 15,000 - 25,000 /month",TBD,"1. Conduct detailed market, industry, and company research across various sectors.
 2. Analyze market trends, competitive landscapes, and emerging business opportunities.
 3. Assist in preparing industry reports, business intelligence briefs, and strategic research documents.
@@ -1500,24 +1407,63 @@ Greater Than Educational Technologies,Generative AI Content Creator (Intern),Hyd
 Kalvium,Instructional Designer (Technical Courses - Curriculum Design),Bangalore,"₹ 20,000 /month",TBD,"Kalvium is on a mission to redefine computer science education for a generation. We’re building India’s most engaging, work-integrated B.Tech CS program — already live at 20+ top universities and scaling fast. Backed by leaders from Google, Microsoft, Flipkart, and more, we believe great education should ignite curiosity, bridge real gaps, and launch careers that matter.
 
 As an instructional designer intern, you’ll directly shape how thousands of students across India learn and fall in love wi",https://internshala.com/internship/detail/instructional-designer-technical-courses-curriculum-design-internship-in-bangalore-at-kalvium1781172553,Startup
+VsnapU,Artificial Intelligence (AI),Raipur,"₹ 5,000 - 10,000 /month",TBD,".Create AI-generated content and scripts for founders’ LinkedIn profiles
+.Assist in generating engaging posts, captions, and content ideas using AI tools
+.Research trending topics and industry-related content
+.Optimize content tone, structure, and engagement
+.Support personal branding strategies for founders on LinkedIn and Twitter/X
+.Coordinate with the marketing/content team for approvals and execution
+.Stay updated with the latest AI content and automation tools",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-raipur-at-vsnapu1781268455,Startup
 Neobhi,Marketing Automation Associate,Bangalore,"₹ 5,000 - 10,000 /month",TBD,"1. Planning, executing, and optimizing AI-powered marketing campaigns across social media, email, content, and paid advertising channels.
 2. Creating and managing marketing automation workflows using AI, no-code, and low-code tools to improve efficiency and lead generation.
 3. Monitoring campaign performance, analyzing data, preparing reports, and identifying opportunities to improve marketing outcomes and customer engagement.",https://internshala.com/internship/detail/marketing-automation-associate-internship-in-bangalore-at-neobhi1780983659,Startup
-ZED,Artificial Intelligence (AI),Work from home,"₹ 12,000 - 25,000 /month",TBD,"1. Collaborate with various internal teams to understand operational workflows and identify opportunities for AI integration, product building, or automation.
-2. Design, prototype, and develop AI-powered tools, custom chatbots, or internal applications using LLM APIs, prompt engineering, or low-code/no-code AI automation platforms.
-3. Help build AI solutions that can support smart data analysis, automated report generation, and efficient knowledge management across our programs.
-4. Conduct re",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-zed1781200313,Startup
-Attributics,Business Analytics,Pune,"₹ 10,000 - 20,000 /month",TBD,"Company Description
+Daalchini Technologies,Operations MIS & Data,Noida,"₹ 13,000 - 15,000 /month",TBD,"1. Prepare daily, weekly, and monthly MIS reports for operations.
+2. Perform data analysis using Advanced Excel (pivot tables, VLOOKUP, macros, and conditional formatting).
+3. Create and maintain dashboards in Metabase for real-time operations tracking.
+4. Carry out follow-ups with internal/external stakeholders on pending tasks.
+5. Support in basic coding tasks (Python/SQL) for data automation.
+6. Utilize AI tools for Excel, presentations, and report generation.
+7. Assist in maintaining d",https://internshala.com/internship/detail/operations-mis-data-internship-in-noida-at-daalchini-technologies1781265925,Startup
+AKS Tech,Data Analytics,Work from home,"₹ 26,000 - 27,500 /month",TBD,"As a Data Analytics intern, you will have the exciting opportunity to apply your Python, SQL, Data Analytics, MS Excel, data science, power bi, tableau, data analysis, data cleaning, data manipulation, data preparation, data interpretation, and data extraction skills in a real-world business setting. Your role will involve working closely with our data team to extract, clean, manipulate, and interpret data to drive key business decisions. 
 
-At Attributics, we help brands leverage data, marketing, and technology to create meaningful customer experiences and drive measurable business outcomes. Working across leading MarTech platforms, we partner with organizations to design, execute, and optimize customer engagement programs.
 
-Google form to apply (compulsory)- https://docs.google.com/forms/d/1bNRWdtFY48uq56UHhudmEn4Npzjtw0rM9EqkBxRdeB8/edit
 
-Location: Pune
+1. Use Python and SQL to extract and manipulate l",https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-aks-tech1781256036,Startup
+Tercept Incorporation,Business Analytics,Bangalore,"₹ 20,000 - 25,000 /month",TBD,"1. Analyze programmatic advertising in-depth, understand the market, ideate & define product features, & work closely with the engineering team to roll out the product features
+2. Analyze the advertising performance data from Google/Facebook/AppNexus/InMobi, etc.
+3. Understand customer requirements, use-cases for the product, technologies driving the product, analyse customer's data & support the company growth
+4. Derive insights from real-time log-level data sets in BigQuery & Athena",https://internshala.com/internship/detail/business-analytics-internship-in-bangalore-at-tercept-incorporation1781253232,Startup
+Liquide,Growth,Bangalore,"₹ 20,000 - 25,000 /month",TBD,"1. Assist in creating and optimizing marketing campaigns using MS Excel to track performance metrics.
+2. Conduct market research and competitor analysis to identify growth opportunities.
+3. Write compelling content for digital platforms to enhance brand visibility and engagement.
+4. Collaborate with the team to brainstorm and implement growth strategies.
+5. Utilize analytical thinking to analyze data and identify trends to improve marketing initiatives.",https://internshala.com/internship/detail/growth-internship-in-bangalore-at-liquide1781252789,Startup
+Wobot Intelligence Private Limited,Artificial Intelligence (AI),Work from home,"₹ 9,999 - 10,000 /month",TBD,"A. Build Dashboards That Drive Decisions 
+1. Design and build dashboards that help teams track key metrics and make better decisions. 
+2. Transform data into intuitive and actionable insights. 
+3. Create internal tools that improve visibility, productivity, and decision making. 
 
-Duration: 6 months
+B. Leverage AI to Build Smarter Solutions 
+1. Use Large Language Models and AI powered tools to develop smarter workflows and applications. 
+2. Explore new AI capabilities and identify opportunities where they ca",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-wobot-intelligence-private-limited1781252586,Startup
+Neurasys,Machine Learning,Work from home,"₹ 7,500 - 15,000 /month",TBD,"We are looking for a driven and enthusiastic Machine Learning intern to join our innovative team at Neurasys! As a Machine Learning intern, you will have the opportunity to work on cutting-edge projects and gain hands-on experience in the field of artificial intelligence.
 
-PPO Opportunity: Based on",https://internshala.com/internship/detail/business-analytics-internship-in-pune-at-attributics1781164251,Startup
+1. Assist in developing and implementing machine learning algorithms.
+2. Analyze and interpret complex data sets to identify trends and patterns.
+3. Collaborate with team members to design and optimize machine learning mod",https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-neurasys1781241615,Startup
+Neurasys,Data Analytics,Work from home,"₹ 10,000 - 22,000 /month",TBD,"We are looking for a talented Data Analytics intern to join our dynamic team at Neurasys. If you have a strong background in Python, SQL, Data Analytics, MS-Excel, Data Science, Power BI, and Tableau, then we want to hear from you! 
+
+Key responsibilities:
+1. Assist in collecting, organizing, and analyzing data to provide valuable insights for decision-making.
+2. Develop and maintain data visualization dashboards using Power BI and Tableau.
+3. Collaborate with team members to identify trends",https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-neurasys1781241595,Startup
+Markytics,Artificial Intelligence (AI),Pune,"₹ 5,000 - 8,000 /month",TBD,"1. Conduct research on the latest advancements in artificial intelligence, machine learning, and generative AI.
+2. Assist in designing, developing, and training AI/ML models.
+3. Collect, clean, and preprocess datasets for model training.
+4. Evaluate model performance and suggest improvements.
+5. Work on LLMs, NLP, computer vision, and predictive analytics projects as required.
+6. Experiment with different algorithms and techniques to improve model accuracy and efficiency.
+7. Collaborate wi",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-pune-at-markytics1781175340,Startup
 Astrotalk,AI Video Editor,Noida,"₹ 15,000 - 20,000 /month",TBD,"1. Use AI and editing tools to produce both short and long-form video content
 2. Craft clear, effective, and creative prompts for video generation
 3. Develop video ideas from the ground up and turn concepts into finished content
@@ -1587,6 +1533,20 @@ Namaah Pvt Ltd,AI Visual Content Creator,Work from home,"₹ 6,000 - 10,000 /mon
 4. Support design research, visual experimentation, and rapid creative prototyping
 5. Work with the internal team to produce motion graphics, visual assets, and creative concepts
 ",https://internshala.com/internship/detail/work-from-home-ai-visual-content-creator-internship-at-namaah-pvt-ltd1781093547,Startup
+Plexmato,Quality Control,Work from home,"₹ 10,000 - 25,000 /month",TBD,"Are you a detail-oriented individual with a passion for data analysis and quality control? Plexmato is seeking a quality control intern to join our dynamic team! 
+
+
+
+1. Conduct thorough data analysis to identify trends and patterns in product quality.
+2. Utilize analytical thinking to develop and implement quality control procedures.
+3. Collaborate with cross-functional teams to ensure compliance with industry standards and regulations.
+4. Use critical thinking skills to troubleshoot and ",https://internshala.com/internship/detail/work-from-home-part-time-quality-control-internship-at-plexmato1781091559,Startup
+Trade Brains,Technical Analyst,Bangalore,"₹ 12,000 - 15,000 /month",TBD,"We are seeking a motivated and analytical Technical Analyst Intern to support our research analyst team. This internship offers hands-on exposure to financial markets, technical analysis, market research, and financial content creation. The ideal candidate should have a keen interest in stock markets, trading strategies, and data-driven investment analysis.
+
+
+
+1. Assist in conducting technical analysis of equities, indices, commodities, and other financial instruments.
+2. Monitor price move",https://internshala.com/internship/detail/technical-analyst-internship-in-bangalore-at-trade-brains1781087321,Startup
 Soulstarr AI,AI Video Creator,Work from home,"₹ 5,000 /month",TBD,"We are looking for a creative AI video creator & editor to produce engaging short-form reels, YouTube Shorts, Instagram Reels, and social media video content using AI tools.
 
 
@@ -1619,6 +1579,14 @@ Jampacked,Founders Office (Analytics & Operations),Delhi (Hybrid),"₹ 10,000 - 
 
 1. Analyze client data to identify growth opportunities and performance issues
 2. Track key metrics, flag anomalies",https://internshala.com/internship/detail/founders-office-analytics-operations-internship-in-delhi-at-jampacked1781073575,Startup
+Calipers Consulting Private Limited,Data Analytics,"Secunderabad, Hyderabad (Hybrid)","₹ 40,000 - 60,000 /month",TBD,"1. Enter and update data accurately into software systems and spreadsheets
+2. Verify and review data for errors or inconsistencies
+3. Maintain confidentiality of sensitive information
+4. Prepare and sort documents for data entry
+5. Generate reports and maintain records as required
+6. Coordinate with internal teams for data verification
+7. Ensure timely completion of assigned tasks
+8. Maintain proper filing and documentation of records",https://internshala.com/internship/detail/part-time-data-analytics-internship-in-multiple-locations-at-calipers-consulting-private-limited1781071531,Startup
 Cloudlead Technologies Private Limited,Data Analytics,Pune,"₹ 5,000 /month",TBD,"1. Learning development in Python and running scripts in Python, Shell, PHP, etc. to structure & organize data
 2. Learning Mongo DB, MySQL, etc. to perform different query operations
 3. Getting trained on Web Scraping/Data mining code development
@@ -1626,22 +1594,7 @@ Cloudlead Technologies Private Limited,Data Analytics,Pune,"₹ 5,000 /month",TB
 5. Working on data files & analyzing results in Ms-Excel
 6. Running validation script in R, Tableau, and Python for manual or automation testing
 7. Capt",https://internshala.com/internship/detail/data-analytics-internship-in-pune-at-cloudlead-technologies-private-limited1781066848,Startup
-Neurasys,Data Analytics,Work from home,"₹ 10,000 - 22,000 /month",TBD,"We are looking for a talented Data Analytics intern to join our dynamic team at Neurasys. If you have a strong background in Python, SQL, Data Analytics, MS-Excel, Data Science, Power BI, and Tableau, then we want to hear from you! 
-
-Key responsibilities:
-1. Assist in collecting, organizing, and analyzing data to provide valuable insights for decision-making.
-2. Develop and maintain data visualization dashboards using Power BI and Tableau.
-3. Collaborate with team members to identify trends",https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-neurasys1781063756,Startup
-Neurasys,Machine Learning,Work from home,"₹ 7,500 - 15,000 /month",TBD,"We are looking for a driven and enthusiastic Machine Learning intern to join our innovative team at Neurasys! As a Machine Learning intern, you will have the opportunity to work on cutting-edge projects and gain hands-on experience in the field of artificial intelligence.
-
-1. Assist in developing and implementing machine learning algorithms.
-2. Analyze and interpret complex data sets to identify trends and patterns.
-3. Collaborate with team members to design and optimize machine learning mod",https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-neurasys1781063724,Startup
 Seven Seas Hospitality,Artificial Intelligence (AI),Delhi,"₹ 10,000 - 15,000 /month",TBD,"Are you a tech-savvy marketing enthusiast looking to dive into the world of Artificial Intelligence? Seven Seas Hospitality is seeking an AI intern to join our dynamic team. As an AI intern with us, you will have the opportunity to leverage your knowledge of Marketing, Market Research, and Marketing Automation to explore cutting-edge AI technologies such as Claude, AI Image Generation, AI Video Generation, AI Voiceover, Generative AI Tools, and Gemini. If you're passionate about the intersection",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-delhi-at-seven-seas-hospitality1781011555,Startup
-Falcon Business Solutions LLC,AI Automation,Work from home,"₹ 5,000 - 10,000 /month",TBD,"1. Build AI-powered workflows and automations
-2. Create lead generation and customer engagement automations
-3. Test and improve AI agents and chatbot systems
-4. Assist in client automation projects",https://internshala.com/internship/detail/work-from-home-part-time-ai-automation-internship-at-falcon-business-solutions-llc1781004538,Startup
 Peppergami Food Labs Private Limited,Market Research,Chennai,"₹ 10,000 - 20,000 /month",TBD,"1. Conduct retail store surveys to gather insights.
 2. Execute end consumer surveys to understand customer preferences, buying behaviour, and brand perception.
 3. Collect basic market intelligence data from the assigned location to support marketing decision-making.
@@ -1777,6 +1730,12 @@ This internship offers hands-on exposure to marketing technology, campaign manag
 
 
 1. Assist in the creation, scheduling, and execution of marketing campaigns across multiple communicat",https://internshala.com/internship/detail/campaign-operations-internship-in-multiple-locations-at-bnm-business-solutions-llp1780488052,Startup
+The Product Folks,Artificial Intelligence (AI),Ahmedabad,"₹ 5,000 - 12,000 /month",TBD,"AI Intern (Generalist) –  Internship
+
+About the Role
+We’re looking for an AI Intern (Generalist) who loves exploring, experimenting, and building with AI tools. This role is ideal for someone who has recently graduated (or is about to), is deeply curious about AI, and wants to apply it to real business problems, not just demos.
+
+You’ll work closely with multiple teams to automate manual workflows, improve efficiency, and build lightweight AI-powered systems that save time and scale impact.",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-ahmedabad-at-the-product-folks1780487978,Startup
 QuickHyre,Artificial Intelligence (AI),Work from home,"₹ 10,000 - 18,000 /month",TBD,"We’re looking for a passionate artificial intelligence Intern to join our growing team remotely. As an intern, you’ll contribute to building and optimizing AI and machine learning models, analyzing datasets, and developing intelligent solutions that power real-world applications.
 
 
@@ -1890,11 +1849,6 @@ Achieve Point Private Limited,Video Annotation Expert,Work from home,"₹ 7,000 
 4. Maintain consistency and accuracy across assigned tasks.
 5. Complete assigned work within specified timelines.
 6. Rework files and implement corrections as required by the quality team.",https://internshala.com/internship/detail/work-from-home-video-annotation-expert-internship-at-achieve-point-private-limited1779948959,Startup
-HEADFOX INNOVATIONS PRIVATE LIMITED,AI Prompt Engineer,Jaipur,"₹ 10,000 - 15,000 /month",TBD,"1. Creating AI-generated videos, posts, and creative content for social media
-2. Writing effective prompts for AI tools to generate quality outputs
-3. Exploring and testing different AI platforms and tools
-4. Assisting the marketing team with AI-based content ideas and campaigns
-5. Staying updated with the latest AI trends and technologies",https://internshala.com/internship/detail/ai-prompt-engineer-internship-in-jaipur-at-headfox-innovations-private-limited1779946712,Startup
 TwiLearn EduTech Private Limited,Machine Learning,Work from home,"₹ 10,000 - 22,000 /month",TBD,"We are looking for a talented Machine Learning intern to join our team at TwiLearn EduTech Private Limited! If you have a strong background in Python, Data Analytics, Machine Learning, Data Science, Natural Language Processing (NLP), Deep Learning, and Artificial intelligence, we want to hear from you. 
 
 
@@ -1987,24 +1941,6 @@ Quantazone,AI Tech,Work from home,"₹ 5,000 /month",TBD,"We are looking for an 
 1. Work with Generative AI tools for content creation, research, productivity, and automation
 2. Create AI-assisted marketing content, presentations, reports, and campaign assets
 3. Assist in w",https://internshala.com/internship/detail/work-from-home-part-time-ai-tech-internship-at-quantazone1779855403,Startup
-Monkhub,Business Analytics,Gurgaon,"₹ 10,000 /month",TBD,"A. Pre-sales & business support:
-1. Assist senior business analysts and the sales team during client discussions to understand basic business requirements.
-2. Support in preparing requirement summaries, feature lists, and proposal documentation.
-3. Help gather inputs for feasibility analysis under the guidance of technical and delivery teams across AI, XR, and Web3 projects.
-
-B. Requirements & documentation:
-1. Learn to convert business discussions into basic requirement documents such as ",https://internshala.com/internship/detail/business-analytics-internship-in-gurgaon-at-monkhub1779797333,Startup
-Sunstone,Management Trainee,Work from home,"₹ 10,000 - 15,000 /month",TBD,"1. Attend live hands-on sessions every Mon/Wed/Fri and work on your AI project daily.
-2. Learn and apply AI tools through practical tasks, prompt writing, content creation, research, and automation.
-3. Build and improve a Job Application AI Agent step-by-step.
-4. Automate simple workflows like emails, data sorting, and basic task management.
-5. Take mentor feedback and use it to solve real-world challenges.
-6. Present your final project at the end of the internship.",https://internshala.com/internship/detail/work-from-home-management-trainee-internship-at-sunstone1779709782,Startup
-Novus Life Sciences Private Limited,Q-com Ads Executive,Work from home,"₹ 12,000 - 15,000 /month",TBD,"1. Plan, execute, and manage advertising campaigns across quick commerce platforms such as Careem and Noon Minutes.
-2. Handle campaign setup, budgeting, targeting, and ad management for different SKUs and product categories.
-3. Monitor and optimize campaign performance using metrics such as CTR, ROAS, ACOS, and sales uplift.
-4. Adjust bids, placements, creatives, and budget allocations to maximize campaign ROI and visibility.
-5. Maintain weekly dashboards, campaign reports, and performance s",https://internshala.com/internship/detail/work-from-home-q-com-ads-executive-internship-at-novus-life-sciences-private-limited1779706684,Startup
 PadosiAgent ServTech Pvt Ltd,AI/ML Devloper,Ahmedabad,"₹ 5,000 - 10,000 /month",TBD,"Are you ready to dive into the world of Artificial Intelligence and Machine Learning? PadosiAgent ServTech Pvt Ltd is seeking a talented AI/ML Developer Intern to join our dynamic team. As an intern, you will have the opportunity to work on cutting-edge projects, develop your skills, and contribute to innovative solutions in the tech industry.
 
 
@@ -2098,6 +2034,10 @@ Innovfix Private Limited,Artificial Intelligence (AI),Bangalore,"₹ 10,000 /mon
 4. Support project teams by utilizing AI tools to improve efficiency and productivity.
 5. Prepare reports, presentations, and case studies related to AI applications and workflows.
 6. Explore practical applications of AI to",https://internshala.com/internship/detail/part-time-artificial-intelligence-ai-internship-in-bangalore-at-innovfix-private-limited1779101892,Startup
+Megaminds IT Services,Content Writing (Research Associate In Computer Science),Work from home,"₹ 8,000 - 15,000 /month",TBD,"1. Researching the article and writing research articles like Scopus Indexed, SCI, and IEEE conference papers for computer science related 
+2. Proofreading research content related to computer science
+3. Building algorithms for research papers
+4. Evaluating research content in computer science",https://internshala.com/internship/detail/work-from-home-content-writing-research-associate-in-computer-science-internship-at-megaminds-it-services1779101288,Startup
 J D Jones & Company Private Limited,AI And Coding,Kolkata,"₹ 12,000 - 12,001 /month",TBD,"1. Identify manual, repetitive, or broken processes and automate them
 2. Build internal tools, dashboards, scripts, and AI systems that solve real problems
 3. Work with databases, APIs, and backend systems
@@ -2143,23 +2083,6 @@ TSTEPS PRIVATE LIMITED,AI Engineer,"Chennai, Hyderabad (Hybrid)","₹ 10,000 - 1
 2. Documenting workflows, results, and technical findings
 3. Researching new AI techniques, papers, and tools
 4. Helping deploy models using tools like Docker or cloud services",https://internshala.com/internship/detail/ai-engineer-internship-in-multiple-locations-at-tsteps-private-limited1778735727,Startup
-"HighScores (Atlanta, United States)",Artificial Intelligence (AI),Work from home,"₹ 12,000 - 15,000 /month",TBD,"You will be working on cutting-edge technology using Cursor, GenAI, ML algorithms. We are building next generation tools in HighScores.ai such as building a personalized learning plan for a student, adaptive assessments, AI-based practice test generation system, personalized practice and many more.  
-
- 
-
-1. Research AI solutions using AI tools
-2. Develop and unit tests technology solutions
-3. Document requirements, solutions for maintainability
-4. Code review and optimization for maintain",https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-highscores1778678098,Startup
-iTech Mission Private Limited,Python Development,"Delhi, Gurgaon, Noida","₹ 15,000 /month",TBD,"Internship includes
-* Hands-on working on the development of Backend and Frontend Architecture, Database Structure, APIs, Code
-* Working understanding of the MVC framework with hands-on development in Python, Java and Angular using Frameworks such as Django, Spring boot, Hibernate.
-* Hands-on practical experience of creating database structures, excellent knowledge of SQL and NoSQL queries, database tuning, optimization and backup processes.
-* Basic knowledge of Big Data tools and implementa",https://internshala.com/internship/detail/python-development-internship-in-multiple-locations-at-itech-mission-private-limited1778669065,Startup
-Property First Realty LLP,AI & Automation Engineering,Bangalore,"₹ 10,000 - 15,000 /month",TBD,"1. Work on omnichannel bot development
-2. Work on voice AI integration
-3. Work on system design & API orchestration
-4. Work on workflow automation",https://internshala.com/internship/detail/ai-automation-engineering-internship-in-bangalore-at-property-first-realty-llp1778666653,Startup
 Generation Virtual,Artificial Intelligence (AI),Work from home,"₹ 25,000 - 40,000 /month",TBD,"As a Generative AI intern at our  company, you will have the exciting opportunity to work with cutting-edge technology in the field of Artificial Intelligence. If you are a skilled individual with expertise in AI Image/video Generation, Generative AI Tools, and Video Editing, we want you to join our team!
 
 Key responsibilities:
@@ -2215,6 +2138,11 @@ HumbleWalking,AI Generalist (For Students Who Are Planning To Study Abroad),Mumb
 
 1. Research, test, and implement AI tools for content creation, automation, and",https://internshala.com/internship/detail/part-time-ai-generalist-for-students-who-are-planning-to-study-abroad-internship-in-mumbai-at-humblewalking1776917894,Startup
 Hireginie,Founder's Office Intern  Technology & Product Developement,Work from home,Not provided,TBD,"About HireginieHireginie Talent Cloud Pvt Ltd is a bootstrapped, technology-first startup on a mission to reshape how the world hires  using cutting-edge AI, smart automation, and a radically inclusive approach to talent.We are building a next-gen AI-powered Talent Aggregator Platform that simplifies hiring by integrating and matching top-tier talent from across multiple sources, communities, and channels  all in one place. Think of us as the meta-layer for hiring  bridging recruiters, platforms",https://internshala.com/internship/detail/work-from-home-founders-office-intern-technology-product-developement-internship-at-hireginie1780300386,Startup
+Defence Research And Development Organisation (DRDO),Computer Science Engineering / Information Technology / Artificial Intelligence / Computer Engineering,Kanpur,"₹ 5,000 /month",TBD,"1. Participate in research and development projects related to computer science, information technology, artificial intelligence, and computer engineering.
+2. Assist scientists and engineers in developing innovative defence technologies and software solutions.
+3. Support the design, testing, and implementation of technical solutions for ongoing research projects.
+4. Conduct technical analysis, data processing, and experimentation under the guidance of project mentors.
+5. Contribute to projec",https://internshala.com/internship/detail/computer-science-engineering-information-technology-artificial-intelligence-computer-engineering-internship-in-kanpur-at-drdo1781256107,Startup
 Uber,PhD Research Intern,Hyderabad,"₹ 1,20,000 - 1,60,000 /month",TBD,"1. Driving core research in specialized areas, including LLM post-training (RLHF, GRPO, instruction tuning) and data efficiency framework design.
 
 2. Formulating and constructing domain-specific evaluation benchmarks to test LLM capabilities across security, reasoning, and safety thresholds.
@@ -2234,6 +2162,19 @@ Microsoft,PhD Research Sciences Intern,"Hyderabad, Noida, Bangalore",Competitive
 3. Building and implementing working prototypes of scalable systems in artificial intelligence (AI) applications.
 
 4. Gaining ",https://internshala.com/internship/detail/phd-research-sciences-intern-internship-in-multiple-locations-at-microsoft1780914124,Startup
+Monkhub,Business Analytics,Gurgaon,"₹ 10,000 /month",TBD,"A. Pre-sales & business support:
+1. Assist senior business analysts and the sales team during client discussions to understand basic business requirements.
+2. Support in preparing requirement summaries, feature lists, and proposal documentation.
+3. Help gather inputs for feasibility analysis under the guidance of technical and delivery teams across AI, XR, and Web3 projects.
+
+B. Requirements & documentation:
+1. Learn to convert business discussions into basic requirement documents such as ",https://internshala.com/internship/detail/business-analytics-internship-in-gurgaon-at-monkhub1779797333,Startup
+Sunstone,Management Trainee,Work from home,"₹ 10,000 - 15,000 /month",TBD,"1. Attend live hands-on sessions every Mon/Wed/Fri and work on your AI project daily.
+2. Learn and apply AI tools through practical tasks, prompt writing, content creation, research, and automation.
+3. Build and improve a Job Application AI Agent step-by-step.
+4. Automate simple workflows like emails, data sorting, and basic task management.
+5. Take mentor feedback and use it to solve real-world challenges.
+6. Present your final project at the end of the internship.",https://internshala.com/internship/detail/work-from-home-management-trainee-internship-at-sunstone1779709782,Startup
 Wizfactory,AI Creative Content Creator,Work from home,"₹ 10,000 /month",TBD,"We’re looking for a creative and fast-moving AI content intern to help build content for two growing brands: 
 
  
@@ -2314,14 +2255,9 @@ CogniAI Private Limited,AI Video Editor,"Delhi, Gurgaon, Noida (Hybrid)","₹ 15
 3. Engage the community, build relationships with local business clients, and ensure their needs are met.
 4. Plan and organize content calendars, ensuring methodical, self-driven execution.
 5. Ensure quality assurance across all published content.",https://internshala.com/internship/detail/work-from-home-ai-driven-community-content-internship-at-myfundraiser1778819530,Startup
-StoryBizz Media Private Limited,Artificial Intelligence (AI),Kolkata,"₹ 10,000 - 25,000 /month",TBD,"As an AI intern at Storybizz, you will have the exciting opportunity to work at the intersection of branding, social media marketing, and artificial intelligence. We are looking for someone with a knack for creative thinking, writing, and storytelling to help us drive innovation and engagement in the digital landscape. Your role will involve collaborating with our marketing and AI teams to develop cutting-edge strategies that elevate our brand presence and captivate our audience. 
-
-Key respons",https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-kolkata-at-storybizz-media-private-limited1778673791,Startup
 PracVerse Private Limited,AI & Drone Instructor | Teaching + AI Projects,Ahmedabad,"₹ 15,000 /month",TBD,"1. Deliver hands-on sessions on drones, coding, and STEM concepts in partner schools as per scheduled plans.
 2. Teach and engage students through interactive and practical learning experiences.
 3. Execute structured curriculum plans and classroom session activities effectively.
 4. Demonstrate real-world applications of drone technology and emerging tech concepts.
 5. Collaborate with founding and operations teams on AI and drone-related initiatives.
 6. Contribute to pilot programs, technolog",https://internshala.com/internship/detail/part-time-ai-drone-instructor--teaching-ai-projects-internship-in-ahmedabad-at-pracverse-private-limited1778654750,Startup
-Dashtoon,AI Filmmaker,Bangalore,"₹ 10,000 - 15,000 /month",TBD,"1. Create microdrama episodes using the Frameo.ai tool.
-2. Generate AI-based video clips through effective prompting and content generation techniques.",https://internshala.com/internship/detail/ai-filmmaker-internship-in-bangalore-at-dashtoon1778651646,Startup
